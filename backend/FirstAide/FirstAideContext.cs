@@ -22,12 +22,47 @@ namespace FirstAide
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            
+            modelBuilder.Entity<AgeGroup>().HasData(
+                
+                new AgeGroup()
+                {
+                    AgeGroupId = 1,
+                    Name = "INFANT"
+                },
 
-            modelBuilder.Entity<AgeGroup>().HasData();
+                 new AgeGroup()
+                 {
+                     AgeGroupId = 2,
+                     Name = "CHILD"
+                 },
+                  new AgeGroup()
+                  {
+                      AgeGroupId = 3,
+                      Name = "ADULT"
+                  }
+                );
 
+            modelBuilder.Entity<Emergency>().HasData(
 
+               new Emergency()
+               {
+                   EmergencyId = 1,
+                   Name = "CHOKING"
+               },
 
+               new Emergency()
+               {
+                   EmergencyId = 2,
+                   Name = "BLEEDING"
+               },
 
+               new Emergency()
+               {
+                   EmergencyId = 3,
+                   Name = "CPR"
+               }
+              );
 
             base.OnModelCreating(modelBuilder);
         }
