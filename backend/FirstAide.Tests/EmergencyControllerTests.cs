@@ -3,7 +3,7 @@ using Xunit;
 
 namespace FirstAide.Tests
 {
-    public class UnitTest1
+    public class EmergencyControllerTests
     {
         [Fact]
         public void Test1()

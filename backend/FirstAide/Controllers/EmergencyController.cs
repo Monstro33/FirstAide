@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace FirstAide.Controllers
 {
-    public class Emergency
+    public class EmergencyController
     {
     }
 }

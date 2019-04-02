@@ -7,5 +7,7 @@ namespace FirstAide.Models
 {
     public class Emergency
     {
+        public string Name { get; set; }
+        public int EmergencyId { get; set; }
     }
 }
