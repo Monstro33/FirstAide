@@ -63,6 +63,16 @@ namespace FirstAide
                    Name = "CPR"
                }
               );
+            modelBuilder.Entity<Instructions>().HasData(
+
+               new Instructions()
+               {
+                   InstructionsId = 1,
+                   AgeGroupId = 2,
+                   EmergencyId = 1,
+                   Details = "public/markdown/chokingChild.md"
+               }               
+              );
 
             base.OnModelCreating(modelBuilder);
         }
