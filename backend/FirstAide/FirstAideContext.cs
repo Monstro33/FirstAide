@@ -10,6 +10,9 @@ namespace FirstAide
     public class FirstAideContext : DbContext
     {
         public DbSet<AgeGroup> AgeGroups { get; set; }
+        public DbSet<Instructions> Instructions { get; set; }
+
+        public DbSet<Emergency> Emergency { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

@@ -31,6 +31,8 @@ namespace FirstAide
             services.AddDbContext<FirstAideContext>();
 
             services.AddScoped<IAgeGroupRepository, AgeGroupRepository>();
+            services.AddScoped<IInstructionsRepository, InstructionsRepository>();
+            services.AddScoped<IEmergencyRepository, EmergencyRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
