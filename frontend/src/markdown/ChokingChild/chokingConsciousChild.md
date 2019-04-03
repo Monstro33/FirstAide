@@ -1,11 +1,14 @@
 # STEP 1: GIVE 5 BACK BLOWS
 
+- Stand or kneel behind the child            depending on his or her size.
 - Bend the child forward at the waist and
   give 5 back blows between the shoulder
   blades with the heel of one hand.
 
 # STEP 2: GIVE 5 ABDOMINAL THRUSTS
+![Alt text](C:\Users\WeCanCodeIT\source\repos\FirstAide\frontend\public\Images\childChoking2.jpg)
 
+- Stand or kneel behind the child,           depending on his or her size.
 - Place a fist with the thumb side against
   the middle of the child’s abdomen, just
   above the navel.
@@ -14,8 +17,8 @@
 
 # STEP 3: CONTINUE CARE
 
-Continue sets of 5 back blows and 5
-abdominal thrusts until the:
+- Continue sets of 5 back blows and 5
+  abdominal thrusts until the:
 
 - Object is forced out.
 - Child can cough forcefully or breathe.
@@ -23,6 +26,4 @@ abdominal thrusts until the:
 
 # STEP 4: WHAT TO DO NEXT
 
-- IF CHILD BECOMES UNCONSCIOUS—CALL 9-1-1, if not already done. Carefully
-  lower the child to the ground and give CARE for an unconscious choking child,
-  beginning with looking for an object (PANEL 6, Step 3).
+- IF CHILD BECOMES UNCONSCIOUS, CALL         9-1-1. Carefully lower the child to the    ground and give CPR.

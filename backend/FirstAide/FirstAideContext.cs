@@ -73,7 +73,7 @@ namespace FirstAide
                    InstructionsId = 1,
                    AgeGroupId = 2,
                    EmergencyId = 1,
-                   Details = "public/markdown/chokingChild.md"
+                   Details = "public/markdown/chokingChild.md",                             
                }               
               );
 
