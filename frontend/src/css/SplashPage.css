@@ -1,0 +1,41 @@
+.splash-page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: #f5f7fa;
+  color: #1f2933;
+  font-family: "Roboto";
+  padding: 1rem;
+  font-size: 8vw;
+}
+
+.splash-page h1 {
+  text-align: center;
+}
+
+.splash-buttons {
+  margin: auto;
+  color: white;
+}
+
+.yes,
+.no {
+  padding: 1.5rem 6rem;
+  margin: 5rem;
+  border-radius: 5%;
+  font-size: 3rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.yes {
+  background: #cf1124;
+}
+
+.no {
+  background: #52606d;
+}

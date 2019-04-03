@@ -3,12 +3,15 @@ import "./css/App.css";
 import Markdown from "react-markdown";
 import ChokingChild from "./markdown/chokingChild.md";
 import Instructions from "./components/Instructions";
+import SplashPage from "./components/SplashPage";
 
 class App extends Component {
-
   render() {
     return (
-      <Instructions />
+      <div>
+        <SplashPage />
+        {/* <Instructions /> */}
+      </div>
     );
   }
 }
