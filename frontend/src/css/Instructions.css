@@ -1,0 +1,49 @@
+.instructions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  font-family: "Roboto";
+  font-size: 5vw;
+  background: #f5f7fa;
+  color: #1f2933;
+}
+
+.instructions h2 {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.instructions h2::before {
+  display: inline-block;
+  content: "1";
+  /* border-radius: 50%; */
+  border: solid 2px black;
+  height: 1.3em;
+  width: 1.3em;
+  margin-right: 1rem;
+}
+
+.instructions h2:nth-of-type(2)::before {
+  content: "2";
+}
+
+.instructions h2:nth-of-type(3)::before {
+  content: "3";
+}
+
+.instructions h2:nth-of-type(4)::before {
+  content: "4";
+}
+
+.instructions img {
+  width: 90vw;
+}
+
+.instructions li,
+p {
+  margin: 2rem;
+  font-size: 5.5vw;
+  list-style: inside;
+}

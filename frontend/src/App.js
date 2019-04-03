@@ -1,9 +1,18 @@
 import React, { Component } from "react";
-import "./App.css";
+import "./css/App.css";
+import Markdown from "react-markdown";
+import ChokingChild from "./markdown/ChokingChild/chokingConsciousChild.md";
+import Instructions from "./components/Instructions";
+import SplashPage from "./components/SplashPage";
 
 class App extends Component {
   render() {
-    return;
+    return (
+      <div>
+        {/* <SplashPage /> */}
+        <Instructions />
+      </div>
+    );
   }
 }
 
