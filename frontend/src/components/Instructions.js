@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Markdown from "react-markdown";
-import ChokingChild from "../markdown/chokingChild.md";
+import ChokingChild from "../markdown/ChokingChild/chokingConsciousChild.md";
+import "../css/Instructions.css";
 
 class Instructions extends Component {
   constructor() {
@@ -16,7 +17,7 @@ class Instructions extends Component {
 
   render() {
     const { markdown } = this.state;
-    return <Markdown source={markdown} />;
+    return <Markdown source={markdown} className="instructions" />;
   }
 }
 
