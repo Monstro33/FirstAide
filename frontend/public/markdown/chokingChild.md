@@ -23,6 +23,4 @@ abdominal thrusts until the:
 
 # STEP 4: WHAT TO DO NEXT
 
-- IF CHILD BECOMES UNCONSCIOUS—CALL 9-1-1, if not already done. Carefully
-  lower the child to the ground and give CARE for an unconscious choking child,
-  beginning with looking for an object (PANEL 6, Step 3).
+- IF CHILD BECOMES UNCONSCIOUS—CALL 9-1-1, if not already done.
