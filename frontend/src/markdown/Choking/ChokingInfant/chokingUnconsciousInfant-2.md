@@ -28,6 +28,6 @@ chest clearly rise.
 - Give another rescue breath, ensuring you give 2 complete unobstructed breaths. 
 
 # STEP 5: REPEAT
-![Alt text](C:\Users\WeCanCodeIT\source\repos\FirstAide\frontend\public\Images\InfantChoking\infantCPR11.jpg)
+![Alt text](C:\Users\WeCanCodeIT\source\repos\FirstAide\frontend\public\Images\InfantChoking\infantChoking12.jpg)
 
 - IF BREATHS DO NOT MAKE THE CHEST       RISE, Repeat steps 2 through 4. 

@@ -15,6 +15,7 @@
 - Push about 2 inches deep.
 
 # STEP 3: LOOK FOR AND REMOVE OBJECT IF SEEN
+![Alt text](C:\Users\WeCanCodeIT\source\repos\FirstAide\frontend\public\Images\ChildChoking\childChoking3.jpg)
 
 - DO NOT PERFORM A BLIND SWEEP FOR THE       OBJECT.
 
@@ -30,5 +31,6 @@
 - Give another rescue breath, ensuring you   give 2 complete unobstructed breaths. 
 
 # STEP 5: REPEAT
+![Alt text](C:\Users\WeCanCodeIT\source\repos\FirstAide\frontend\public\Images\ChildChoking\childChoking15.jpg)
 
 - IF BREATHS DO NOT MAKE THE CHEST           RISE, Repeat steps 2 through 4. 

@@ -19,6 +19,7 @@
 - Tilt head back slightly, lift chin.
 
 # STEP 4: CHECK FOR BREATHING
+![Alt text](C:\Users\WeCanCodeIT\source\repos\FirstAide\frontend\public\Images\InfantCPR\infantCPR12.jpg)
 
 - CHECK quickly for no more than 10 seconds.
 
@@ -28,6 +29,7 @@
 in breathing pattern are normal for infants.
 
 # STEP 5: GIVE 2 RESCUE BREATHS
+![Alt text](C:\Users\WeCanCodeIT\source\repos\FirstAide\frontend\public\Images\InfantCPR\infantCPR10.jpg)
 
 - If no breathing, tilt the head back and    lift the chin up.
 - Make complete seal over infant’s
