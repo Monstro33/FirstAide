@@ -1,11 +1,12 @@
 # STEP 1: GIVE 5 BACK BLOWS
+![Alt text](C:\Users\WeCanCodeIT\source\repos\FirstAide\frontend\public\Images\InfantChoking\infantChoking5.jpg)
 
 - Support the head and neck securely when
 giving back blows. Keep the head lower than the chest.
 - Give firm back blows with the heel of one hand between the infant’s shoulder blades.
 
 # STEP 2: GIVE 5 CHEST THRUSTS
-![Alt text](C:\Users\WeCanCodeIT\source\repos\FirstAide\frontend\public\Images\childChoking2.jpg)
+![Alt text](C:\Users\WeCanCodeIT\source\repos\FirstAide\frontend\public\Images\InfantChoking\infantChoking7.jpg)
 
 - Support the head and neck securely when
 giving chest thrusts. Keep the head lower than the chest.
