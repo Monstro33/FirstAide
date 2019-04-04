@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Markdown from "react-markdown";
-import ChokingChild from "../markdown/ChokingChild/chokingConsciousChild.md";
+import ChokingChild from "../markdown/Choking/ChokingChild/chokingConsciousChild.md";
 import "../css/Instructions.css";
 
 class Instructions extends Component {
