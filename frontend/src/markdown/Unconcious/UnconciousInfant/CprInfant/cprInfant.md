@@ -1,4 +1,5 @@
 # STEP 1: GIVE 30 CHEST COMPRESSIONS
+![Alt text](C:\Users\WeCanCodeIT\source\repos\FirstAide\frontend\public\Images\InfantCPR\infantCPR19.jpg)
 
 -  Place the infant on a firm, flat surface. 
 
@@ -11,6 +12,7 @@ deep.
 compressions per minute.
 
 # STEP 2: GIVE 2 RESCUE BREATHS
+![Alt text](C:\Users\WeCanCodeIT\source\repos\FirstAide\frontend\public\Images\InfantCPR\infantCPR20.jpg)
 
 - Tilt the head back and lift the chin up.
 
@@ -24,6 +26,7 @@ compressions per minute.
   the other.
 
 # STEP 3: DO NOT STOP
+![Alt text](C:\Users\WeCanCodeIT\source\repos\FirstAide\frontend\public\Images\InfantCPR\infantCPR21.jpg)
 
 - Continue cycles of CPR. Do not stop CPR unless:
     -   You find an obvious sign of life,

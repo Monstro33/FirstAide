@@ -1,13 +1,12 @@
 ## GIVE 5 BACK BLOWS
+![Alt text](C:\Users\WeCanCodeIT\source\repos\FirstAide\frontend\public\Images\ChildChoking\childChoking13.jpg)
 
 - Stand or kneel behind the child depending on his or her size.
-- Bend the child forward at the waist and
-  give 5 back blows between the shoulder
-  blades with the heel of one hand.
+
+- Bend the child forward at the waist and give 5 back blows between the shoulder blades with the heel of one hand.
 
 ## GIVE 5 ABDOMINAL THRUSTS
-
-![](/Images/ChildChoking/childChoking2.jpg)
+![Alt text](C:\Users\WeCanCodeIT\source\repos\FirstAide\frontend\public\Images\ChildChoking\childChoking14.jpg)
 
 - Stand or kneel behind the child, depending on his or her size.
 - Place a fist with the thumb side against
