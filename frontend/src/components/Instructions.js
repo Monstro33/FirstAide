@@ -17,7 +17,14 @@ class Instructions extends Component {
 
   render() {
     const { markdown } = this.state;
-    return <Markdown source={markdown} className="instructions" />;
+    return (
+      <div className="instructions">
+        <video controls="controls">
+          <source src="/Videos/childChoking.mp4" type="video/mp4" />
+        </video>
+        <Markdown source={markdown} />
+      </div>
+    );
   }
 }
 

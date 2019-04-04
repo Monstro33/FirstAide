@@ -2,11 +2,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5px;
   font-family: "Roboto";
   font-size: 5vw;
   background: #f5f7fa;
   color: #1f2933;
+}
+
+.instructions video {
+  width: 100vw;
+  margin-bottom: 3rem;
 }
 
 .instructions h2 {

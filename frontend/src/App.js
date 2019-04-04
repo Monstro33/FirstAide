@@ -4,18 +4,20 @@ import "./css/App.css";
 import Markdown from "react-markdown";
 import Instructions from "./components/Instructions";
 import SplashPage from "./components/SplashPage";
+import Prompts from "./components/Prompts";
 
 class App extends Component {
   render() {
     return (
       <div className="app">
-        <div className="header">
-        
-        </div>
-        <div className="content">
-        {/* <SplashPage /> */}
-        <Instructions />
-        </div>
+        <Router>
+          <div className="header" />
+          <div className="content">
+            <Route path="/" exact component={SplashPage} />
+            <Route path="/instructions" exact component={Instructions} />
+            <Route path="/prompts" exact component={Prompts} />
+          </div>
+        </Router>
       </div>
     );
   }

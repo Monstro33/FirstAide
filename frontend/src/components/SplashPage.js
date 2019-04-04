@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../css/SplashPage.css";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class SplashPage extends Component {
   render() {
@@ -7,7 +8,9 @@ class SplashPage extends Component {
       <div className="splash-page">
         <h1>Is this an emergency?</h1>
         <div className="splash-buttons">
-          <div className="yes">Yes</div>
+          <Link to="/prompts" className="yes">
+            Yes
+          </Link>
           <div className="no">No</div>
         </div>
       </div>
