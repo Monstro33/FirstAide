@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+a,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
 html {
   font-size: 10px;
 }
