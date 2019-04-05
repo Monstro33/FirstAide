@@ -22,29 +22,44 @@ class Prompts extends Component {
       .then(json => this.setState({ ageGroups: json }));
   }
 
-  emergencyClick = (emergencyId) => {
+  emergencyClick = emergencyId => {
     const emergencyElements = document.querySelectorAll(".emergency");
     const ageGroupElements = document.querySelectorAll(".age-group");
 
-    this.setState({ emergencyId: emergencyId});
-    emergencyElements.forEach(function(item){item.style.display = "none";});
-    ageGroupElements.forEach(function(item){item.style.display = "block";});
-  }
+    this.setState({ emergencyId: emergencyId });
+    emergencyElements.forEach(function(item) {
+      item.style.display = "none";
+    });
+    ageGroupElements.forEach(function(item) {
+      item.style.display = "block";
+    });
+  };
 
   render() {
     const emergencyItems = this.state.emergencies.map(item => (
-      <div className="prompt-button" onClick={() => this.emergencyClick(item.emergencyId)}>{item.name}</div>
+      <div
+        className="prompt-button"
+        onClick={() => this.emergencyClick(item.emergencyId)}
+        key={item.emergencyId}
+      >
+        {item.name}
+      </div>
     ));
 
     const ageGroupItems = this.state.ageGroups.map(item => (
       <div className="prompt-button">
-      <Link to={{
-        pathname: "/instructions",
-        state: {
-          emergencyId: this.state.emergencyId,
-          ageGroupId: item.ageGroupId
-        }
-      }}>{item.name}</Link>
+        <Link
+          to={{
+            pathname: "/instructions",
+            state: {
+              emergencyId: this.state.emergencyId,
+              ageGroupId: item.ageGroupId
+            }
+          }}
+          key={item.ageGroupId}
+        >
+          {item.name}
+        </Link>
       </div>
     ));
 

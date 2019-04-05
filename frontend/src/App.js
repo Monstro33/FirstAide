@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./css/App.css";
-import Markdown from "react-markdown";
 import Instructions from "./components/Instructions";
 import SplashPage from "./components/SplashPage";
 import Prompts from "./components/Prompts";

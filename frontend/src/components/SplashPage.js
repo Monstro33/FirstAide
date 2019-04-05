@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../css/SplashPage.css";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class SplashPage extends Component {
   render() {
