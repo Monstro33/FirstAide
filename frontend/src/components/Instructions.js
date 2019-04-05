@@ -9,7 +9,9 @@ class Instructions extends Component {
     this.state = { markdown: "" };
   }
 
-  componentWillMount() {
+  componentDidMount() {
+    const { emergencyId, ageGroupId } = this.props.location.state;
+    console.log(emergencyId, ageGroupId);
     fetch(ChokingChild)
       .then(res => res.text())
       .then(text => this.setState({ markdown: text }));

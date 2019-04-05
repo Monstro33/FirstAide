@@ -18,7 +18,7 @@
   text-align: center;
 }
 
-.prompts-buttons {
+.emergency-buttons {
   margin: auto;
   color: white;
 }
@@ -26,9 +26,17 @@
 .prompt-button {
   padding: 1.5rem 6rem;
   margin: 5rem;
-  border-radius: 5%;
+  border-radius: 15px;
   font-size: 3rem;
   text-align: center;
   cursor: pointer;
   background: #cf1124;
+}
+
+.emergency {
+  display: block;
+}
+
+.age-group {
+  display: none;
 }
