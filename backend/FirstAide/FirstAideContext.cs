@@ -31,18 +31,18 @@ namespace FirstAide
                 new AgeGroup()
                 {
                     AgeGroupId = 1,
-                    Name = "INFANT"
+                    Name = "Infant"
                 },
 
                  new AgeGroup()
                  {
                      AgeGroupId = 2,
-                     Name = "CHILD"
+                     Name = "Child"
                  },
                   new AgeGroup()
                   {
                       AgeGroupId = 3,
-                      Name = "ADULT"
+                      Name = "Adult"
                   }
                 );
 
@@ -51,13 +51,13 @@ namespace FirstAide
                new Emergency()
                {
                    EmergencyId = 1,
-                   Name = "CHOKING"
+                   Name = "Choking"
                },
 
                new Emergency()
                {
                    EmergencyId = 2,
-                   Name = "BLEEDING"
+                   Name = "Allergic Reaction"
                },
 
                new Emergency()
@@ -73,7 +73,7 @@ namespace FirstAide
                    InstructionsId = 1,
                    AgeGroupId = 2,
                    EmergencyId = 1,
-                   Details = "public/markdown/chokingChild.md",                             
+                   Details = "/markdown/Choking/ChokingChild/chokingConsciousChild.md",                             
                }               
               );
 
