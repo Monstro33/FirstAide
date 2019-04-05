@@ -1,4 +1,4 @@
-.splash-page {
+.prompts {
   position: absolute;
   top: 0;
   display: flex;
@@ -14,29 +14,29 @@
   font-size: 8vw;
 }
 
-.splash-page h1 {
+.prompts h1 {
   text-align: center;
 }
 
-.splash-buttons {
+.emergency-buttons {
   margin: auto;
   color: white;
 }
 
-.yes,
-.no {
+.prompt-button {
   padding: 1.5rem 6rem;
   margin: 5rem;
   border-radius: 15px;
   font-size: 3rem;
   text-align: center;
   cursor: pointer;
-}
-
-.yes {
   background: #cf1124;
 }
 
-.no {
-  background: #52606d;
+.emergency {
+  display: block;
+}
+
+.age-group {
+  display: none;
 }

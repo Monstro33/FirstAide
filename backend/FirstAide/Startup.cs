@@ -30,6 +30,13 @@ namespace FirstAide
 
             services.AddDbContext<FirstAideContext>();
 
+            services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
+            {
+                builder.AllowAnyOrigin()
+                       .AllowAnyMethod()
+                       .AllowAnyHeader();
+            }));
+
             services.AddScoped<IAgeGroupRepository, AgeGroupRepository>();
             services.AddScoped<IInstructionsRepository, InstructionsRepository>();
             services.AddScoped<IEmergencyRepository, EmergencyRepository>();
@@ -47,6 +54,7 @@ namespace FirstAide
                 app.UseHsts();
             }
 
+            app.UseCors("MyPolicy");
             app.UseHttpsRedirection();
             app.UseMvc();
         }
