@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Markdown from "react-markdown";
 import ChokingChild from "../markdown/Choking/ChokingChild/chokingConsciousChild.md";
 import "../css/Instructions.css";
+import "../Video.js";
 
 class Instructions extends Component {
   constructor() {
@@ -21,9 +22,22 @@ class Instructions extends Component {
     const { markdown } = this.state;
     return (
       <div className="instructions">
-        <video controls="controls">
+        <video id="video" controls="false">
           <source src="/Videos/childChoking.mp4" type="video/mp4" />
         </video>
+        <div id="controls">
+          <button id="playpause" title="play" onClick="togglePlayPause()">
+            Play
+          </button>
+          <input
+            id="volume"
+            min="0"
+            max="1"
+            step="0.1"
+            type="range"
+            onChange="setVolume()"
+          />
+        </div>
         <Markdown source={markdown} />
       </div>
     );
