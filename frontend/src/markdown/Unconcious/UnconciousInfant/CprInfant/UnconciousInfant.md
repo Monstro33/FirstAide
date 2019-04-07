@@ -1,10 +1,12 @@
 # STEP 1: CHECK FOR RESPONSIVENESS
-![Alt text](C:\Users\WeCanCodeIT\source\repos\FirstAide\frontend\public\Images\InfantCPR\infantCPR15.jpg)
 
-- Tap the shoulder or flick the bottom of the foot. 
+![Alt text](\Images\InfantCPR\infantCPR15.jpg)
+
+- Tap the shoulder or flick the bottom of the foot.
 
 # STEP 2: CALL 9-1-1
-![Alt text](C:\Users\WeCanCodeIT\source\repos\FirstAide\frontend\public\Images\InfantCPR\infantCPR16.jpg)
+
+![Alt text](\Images\InfantCPR\infantCPR16.jpg)
 
 - If an unconscious infant is face-down, roll face-up, supporting the head, neck, and back in a straight line.
 
@@ -14,34 +16,34 @@
 
 # STEP 3: OPEN THE AIRWAY
 
-
 - Tilt head back slightly, lift chin.
 
 # STEP 4: CHECK FOR BREATHING
-![Alt text](C:\Users\WeCanCodeIT\source\repos\FirstAide\frontend\public\Images\InfantChoking\infantChoking9.jpg)
+
+![Alt text](\Images\InfantChoking\infantChoking9.jpg)
 
 - CHECK quickly for no more than 10 seconds.
 
 - Occasional gasps are not breathing.
 
-- Infants have periodic breathing, so changes in breathing pattern are normal for infants. 
+- Infants have periodic breathing, so changes in breathing pattern are normal for infants.
 
 # STEP 5: GIVE 2 RESCUE BREATHS
-![Alt text](C:\Users\WeCanCodeIT\source\repos\FirstAide\frontend\public\Images\InfantCPR\infantCPR17.jpg)
+
+![Alt text](\Images\InfantCPR\infantCPR17.jpg)
 
 - If no breathing, tilt the head back and lift the chin up.
 
 - Make complete seal over infant’s
-mouth and nose.
+  mouth and nose.
 
 - Blow in for about 1 second to make the
-chest clearly rise.
+  chest clearly rise.
 
-- If the chest does not rise with rescue breaths, retilt the head and give     another rescue breath.
+- If the chest does not rise with rescue breaths, retilt the head and give another rescue breath.
 
 - Give another rescue breath, ensuring you give 2 complete unobstructed breaths.
 
 - If the child responds, CALL 9-1-1. CHECK the child from head to toe and ask questions to find out what happened.
 
 #STILL UNCONSCIOUS AND CHEST DOES NOT RISE?
-
