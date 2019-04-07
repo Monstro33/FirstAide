@@ -10,7 +10,7 @@
 
 - Find your radial artery by drawing a line with your finger from below your thumb to your wrist. Then feel for the spot between the wrist bone and tendon for a slight pumping motion.
 
-- Place the flat part of your finger on your wrist or neck to get the most accurate reading. Avoid using your fingertips or your thumb
+- Place the flat part of your finger on your wrist or neck to get the most accurate reading. Avoid using your fingertips or your thumb.
 
 # STEP 2: DETERMINE IF CPR IS NECESASARY
 
