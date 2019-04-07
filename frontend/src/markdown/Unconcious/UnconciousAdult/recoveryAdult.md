@@ -1,5 +1,5 @@
 # STEP 1: CHECK FOR PULSE
-![Alt text](\Images\AdultShock\adultShock7.jpg)
+![Alt text](\Images\Adult\adultShock7.jpg)
 
 -  Press firmly but not so hard that you can no longer feel the pulse. 
 
@@ -13,7 +13,7 @@
 
 # STEP 2: CHECK FOR BREATHING
 
-![Alt text](\Images\childShock\childShock1.jpg)
+![Alt text](\Images\AdultCPR\adultCPR3.jpg)
 
 - Check for breathing by placing your cheek near the nose and mouth of the person to feel his breath.
 
@@ -21,7 +21,7 @@
 
 # STEP 3: CHECK FOR CONSCIOUSNESS
 
-![Alt text](\Images\ChildShock\childShock3.jpg)
+![Alt text](\Images\AdultCPR\adultCPR5.jpg)
 
 - Check to see if the person is unconscious or semi-conscious.  other life-threatening conditions.
 
