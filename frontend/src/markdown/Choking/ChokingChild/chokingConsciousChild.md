@@ -18,7 +18,7 @@
 
 ## CONTINUE CARE
 
-![Alt text](\Images\InfantChoking\infantChoking13.jpg)
+![Alt text](/Images/InfantChoking/infantChoking13.jpg)
 
 Continue sets of 5 back blows and 5
 abdominal thrusts until the:
@@ -29,6 +29,6 @@ abdominal thrusts until the:
 
 ## WHAT TO DO NEXT
 
-![Alt text](\Images\ChokingChild\chokingChild8.jpg)
+![Alt text](/Images/ChokingChild/chokingChild8.jpg)
 
 - IF CHILD BECOMES UNCONSCIOUS, CALL 9-1-1. Carefully lower the child to the ground and give CPR.

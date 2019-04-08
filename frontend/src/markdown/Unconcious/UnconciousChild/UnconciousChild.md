@@ -16,13 +16,13 @@
 
 # STEP 3: OPEN THE AIRWAY
 
-![Alt text](\Images\ChildChoking\chokingChild10.jpg)
+![Alt text](/Images/ChildChoking/chokingChild10.jpg)
 
 - Tilt head back slightly, lift chin.
 
 # STEP 4: CHECK FOR BREATHING
 
-![Alt text](\Images\ChildChoking\chokingChild11.jpg)
+![Alt text](/Images/ChildChoking/chokingChild11.jpg)
 
 - CHECK quickly for no more than 10 seconds.
 
@@ -30,7 +30,7 @@
 
 # STEP 5: GIVE 2 RESCUE BREATHS
 
-![Alt text](\Images\ChildChoking\chokingChild12.jpg)
+![Alt text](/Images/ChildChoking/chokingChild12.jpg)
 
 - If no breathing, tilt the head back and lift the chin up.
 - Pinch the nose shut, then make a

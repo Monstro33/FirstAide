@@ -1,6 +1,6 @@
 # STEP 1: GIVE 5 BACK BLOWS
 
-![Alt text](\Images\InfantChoking\infantChoking5.jpg)
+![Alt text](/Images/InfantChoking/infantChoking5.jpg)
 
 - Support the head and neck securely when
   giving back blows. Keep the head lower than the chest.
@@ -8,7 +8,7 @@
 
 # STEP 2: GIVE 5 CHEST THRUSTS
 
-![Alt text](\Images\InfantChoking\infantChoking7.jpg)
+![Alt text](/Images/InfantChoking/infantChoking7.jpg)
 
 - Support the head and neck securely when
   giving chest thrusts. Keep the head lower than the chest.
