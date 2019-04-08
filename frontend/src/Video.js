@@ -1,5 +1,3 @@
-import "../Instructions.js";
-
 var video = document.getElementById("video");
 
 function togglePlayPause() {

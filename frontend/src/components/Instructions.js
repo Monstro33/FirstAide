@@ -22,21 +22,22 @@ class Instructions extends Component {
     const { markdown } = this.state;
     return (
       <div className="instructions">
-        <video id="video" controls="false">
-          <source src="/Videos/childChoking.mp4" type="video/mp4" />
-        </video>
-        <div id="controls">
-          <button id="playpause" title="play" onClick="togglePlayPause()">
-            Play
-          </button>
-          <input
-            id="volume"
-            min="0"
-            max="1"
-            step="0.1"
-            type="range"
-            onChange="setVolume()"
-          />
+        <div id="video_container">
+          <video id="video" controls="controls">
+            <source src="/Videos/childChoking.mp4" type="video/mp4" />
+          </video>
+          <div id="controls">
+            <button id="playpause" title="play" onClick="togglePlayPause()" />
+            &#x25BA;
+            <input
+              id="volume"
+              min="0"
+              max="1"
+              step="0.1"
+              type="range"
+              onChange="setVolume()"
+            />
+          </div>
         </div>
         <Markdown source={markdown} />
       </div>
