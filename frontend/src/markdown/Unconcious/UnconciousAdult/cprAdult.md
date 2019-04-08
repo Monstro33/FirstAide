@@ -2,9 +2,9 @@
 
 ![Alt text](\Images\AdultShock\adultShock7.jpg)
 
--  Press firmly but not so hard that you can no longer feel the pulse. 
+- Press firmly but not so hard that you can no longer feel the pulse.
 
--  Put your index and third finger on either side of the neck to the side of your windpipe to find the carotid artery.
+- Put your index and third finger on either side of the neck to the side of your windpipe to find the carotid artery.
 
 - If you’re measuring on the wrist, set two fingers between the bone and tendon over your radial artery.
 
@@ -26,7 +26,7 @@
 
 ![Alt text](\Images\AdultCPR\adultCPR15.jpg)
 
-- Interlace your fingers with one hand on top of the other. 
+- Interlace your fingers with one hand on top of the other.
 
 - Place the heel of your palm on the sternum directly between the victim’s nipples.
 
@@ -36,7 +36,7 @@
 
 ![Alt text](\Images\AdultCPR\adultCPR16.jpg)
 
-- Push hard, push fast in the middle of the chest at least 1-2 inches deep. 
+- Push hard, push fast in the middle of the chest at least 1-2 inches deep.
 
 - Push at a rate of 100 compressions per minute.
 
@@ -50,14 +50,14 @@
 
 # STEP 7: GIVE 2 RESCUE BREATHS
 
-![Alt text](\Images\AdultCPR\adultCPR9.jpg)
+![Alt text](/Images/AdultCPR/adultCPR9.jpg)
 
 - Tilt the head back and lift the chin up.
 
 - Pinch the nose shut then make a complete seal over the person’s mouth.
 
 - Blow in for about 1 second to make the
-chest clearly rise.
+  chest clearly rise.
 
 - Give rescue breaths, one after the other.
 
@@ -65,12 +65,12 @@ chest clearly rise.
 
 # STEP 7: DO NOT STOP
 
-![Alt text](\Images\AdultCPR\adultCPR12.jpg)
+![Alt text](/Images/AdultCPR/adultCPR12.jpg)
 
 - Continue cycles of CPR. Do not stop CPR except in one of these situations:
 
-    - You find an obvious sign of life,    such as breathing.
+  - You find an obvious sign of life, such as breathing.
 
-    - You are too exhausted to continue.
+  - You are too exhausted to continue.
 
-    - The scene becomes unsafe.
+  - The scene becomes unsafe.

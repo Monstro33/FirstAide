@@ -1,12 +1,12 @@
 # STEP 1: GIVE RESCUE BREATHS
 
-![Alt text](\Images\InfantCPR\infantCPR17.jpg)
+![Alt text](/Images/InfantCPR/infantCPR17.jpg)
 
 - Retilt the head and give another rescue breath.
 
 # STEP 2: GIVE CHEST COMPRESSIONS
 
-![Alt text](\Images\InfantCPR\infantCPR19.jpg)
+![Alt text](/Images/InfantCPR/infantCPR19.jpg)
 
 - If the chest still does not rise, ensure the child is on firm, flat surface.
 - Give 30 chest compressions.
@@ -15,7 +15,7 @@
 
 # STEP 3: LOOK FOR AND REMOVE OBJECT IF SEEN
 
-![Alt text](\Images\InfantChoking\infantChoking10.jpg)
+![Alt text](/Images/InfantChoking/infantChoking10.jpg)
 
 - DO NOT PERFORM A BLIND SWEEP FOR THE OBJECT.
 
