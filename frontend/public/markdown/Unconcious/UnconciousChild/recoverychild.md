@@ -1,9 +1,10 @@
 # STEP 1: CHECK FOR PULSE
-![Alt text](\Images\ChildShock\childShock2.jpg)
 
--  Press firmly but not so hard that you can no longer feel the pulse. 
+![Alt text](/Images/ChildShock/childShock2.jpg)
 
--  Put your index and third finger on either side of the neck to the side of your windpipe to find the carotid artery.
+- Press firmly but not so hard that you can no longer feel the pulse.
+
+- Put your index and third finger on either side of the neck to the side of your windpipe to find the carotid artery.
 
 - If you’re measuring on the wrist, set two fingers between the bone and tendon over your radial artery.
 
@@ -13,7 +14,7 @@
 
 # STEP 2: CHECK FOR BREATHING
 
-![Alt text](\Images\childShock\childShock1.jpg)
+![Alt text](/Images/childShock/childShock1.jpg)
 
 - Check for breathing by placing your cheek near the nose and mouth of the person to feel his breath.
 
@@ -21,17 +22,17 @@
 
 # STEP 3: CHECK FOR CONSCIOUSNESS
 
-![Alt text](\Images\ChildShock\childShock3.jpg)
+![Alt text](/Images/ChildShock/childShock3.jpg)
 
-- Check to see if the person is unconscious or semi-conscious.  other life-threatening conditions.
+- Check to see if the person is unconscious or semi-conscious. other life-threatening conditions.
 
 - Talk to the person to assess if he is responsive.
 
 # STEP 4: POSITION THE ARMS AND LEGS
 
-![Alt text](\Images\AdultShock\adultShock3.jpg)
+![Alt text](/Images/AdultShock/adultShock3.jpg)
 
-- Once you have established that it is safe to put him into the recovery position, kneel down to one side of him so you can position the arms. 
+- Once you have established that it is safe to put him into the recovery position, kneel down to one side of him so you can position the arms.
 
 - Place the arm nearest to you at a right angle to his body, so the elbow is towards you. The palm should be facing up and in front of the head.
 
@@ -41,7 +42,7 @@
 
 # STEP 5: ROLL THEM TOWARDS YOU
 
-![Alt text](\Images\AdultShock\adultShock4.jpg)
+![Alt text](/Images/AdultShock/adultShock4.jpg)
 
 - Take hold of the raised knee, and carefully pull it towards you and down.
 
@@ -53,7 +54,7 @@
 
 # STEP 6: OPEN THE AIRWAY
 
-![Alt text](\Images\AdultShock\adultShock5.jpg)
+![Alt text](/Images/AdultShock/adultShock5.jpg)
 
 - Gently tilt the head back and lift the chin. Check that the airway is clear of any blockages.
 
@@ -63,9 +64,8 @@
 
 # STEP 7: MONITOR AND KEEP WARM
 
-![Alt text](\Images\AdultShock\adultShock6.jpg)
+![Alt text](/Images/AdultShock/adultShock6.jpg)
 
 - Cover them with a blanket or coat to keep them warm.
 
 - Continue to monitor the pulse and breathing while you wait for help to arrive.
-

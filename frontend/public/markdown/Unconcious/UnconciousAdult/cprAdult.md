@@ -1,6 +1,6 @@
 # STEP 1: CHECK FOR PULSE
 
-![Alt text](\Images\AdultShock\adultShock7.jpg)
+![Alt text](/Images/AdultShock/adultShock7.jpg)
 
 - Press firmly but not so hard that you can no longer feel the pulse.
 
@@ -20,11 +20,11 @@
 
 # STEP 4: TILT THE HEAD BACK TO OPEN THE AIRWAY
 
-![Alt text](\Images\AdultCPR\adultCPR14.jpg)
+![Alt text](/Images/AdultCPR/adultCPR14.jpg)
 
 # STEP 5: INTERLACE FINGERS WITH ONE HAND ON TOP OF THE OTHER
 
-![Alt text](\Images\AdultCPR\adultCPR15.jpg)
+![Alt text](/Images/AdultCPR/adultCPR15.jpg)
 
 - Interlace your fingers with one hand on top of the other.
 
@@ -34,7 +34,7 @@
 
 #STEP 6: GIVE 30 CHEST COMPRESSIONS
 
-![Alt text](\Images\AdultCPR\adultCPR16.jpg)
+![Alt text](/Images/AdultCPR/adultCPR16.jpg)
 
 - Push hard, push fast in the middle of the chest at least 1-2 inches deep.
 

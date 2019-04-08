@@ -5,23 +5,26 @@ import "../css/Instructions.css";
 class Instructions extends Component {
   constructor() {
     super();
-    this.state = { 
+    this.state = {
       instructions: [],
-      markdown: "" 
+      markdown: ""
     };
   }
 
   setInstructions = () => {
     const { emergencyId, ageGroupId } = this.props.location.state;
 
-    for(let i = 0; i<this.state.instructions.length; i++ ){
-      if(emergencyId == this.state.instructions[i].emergencyId && ageGroupId == this.state.instructions[i].ageGroupId){
+    for (let i = 0; i < this.state.instructions.length; i++) {
+      if (
+        emergencyId === this.state.instructions[i].emergencyId &&
+        ageGroupId === this.state.instructions[i].ageGroupId
+      ) {
         fetch(this.state.instructions[i].details)
-          .then (res => res.text())
-          .then (text => this.setState({ markdown: text}));
+          .then(res => res.text())
+          .then(text => this.setState({ markdown: text }));
       }
     }
-  }
+  };
 
   componentDidMount() {
     fetch("https://localhost:44321/api/instructions")
