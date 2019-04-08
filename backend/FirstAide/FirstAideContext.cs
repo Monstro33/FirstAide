@@ -97,7 +97,7 @@ namespace FirstAide
                    InstructionsId = 4,
                    AgeGroupId = 1,
                    EmergencyId = 2,
-                   Details = ""
+                   Details = "/AllergicReactionInfant/allergicReactionInfant.md"
                },
 
                new Instructions()
@@ -105,7 +105,7 @@ namespace FirstAide
                    InstructionsId = 5,
                    AgeGroupId = 2,
                    EmergencyId = 2,
-                   Details = ""
+                   Details = "/AllergicReactionChild/allergicReactionChild.md"
                },
 
                new Instructions()
@@ -113,7 +113,7 @@ namespace FirstAide
                    InstructionsId = 6,
                    AgeGroupId = 3,
                    EmergencyId = 2,
-                   Details = ""
+                   Details = "/AllergicReactionAdult/allergicReactionAdult.md"
                },
 
                new Instructions()
