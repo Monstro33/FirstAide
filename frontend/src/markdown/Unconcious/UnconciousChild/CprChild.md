@@ -1,6 +1,6 @@
 # STEP 1: GIVE 30 CHEST COMPRESSIONS
 
-![Alt text](\Images\ChildCPR\childCPR10.jpg)
+![Alt text](/Images/ChildCPR/childCPR10.jpg)
 
 - Place the child on a firm, flat surface.
 
@@ -14,7 +14,7 @@
 
 # STEP 2: GIVE 2 RESCUE BREATHS
 
-![Alt text](\Images\ChildChoking\childChoking12.jpg)
+![Alt text](/Images/ChildChoking/childChoking12.jpg)
 
 - Tilt the head back and lift the chin up.
 
@@ -28,7 +28,7 @@
 
 # STEP 3: DO NOT STOP
 
-![Alt text](\Images\ChildCPR\childCPR9.jpg)
+![Alt text](/Images/ChildCPR/childCPR9.jpg)
 
 - Continue cycles of CPR. Do not stop CPR unless:
   - You find an obvious sign of life,

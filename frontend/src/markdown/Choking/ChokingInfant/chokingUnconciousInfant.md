@@ -1,12 +1,12 @@
 # STEP 1: CHECK FOR RESPONSIVENESS
 
-![Alt text](\Images\InfantChoking\infantChoking2.jpg)
+![Alt text](/Images/InfantChoking/infantChoking2.jpg)
 
 - Tap the shoulder or flick the bottom of the foot.
 
 # STEP 2: CALL 9-1-1
 
-![Alt text](\Images\InfantChoking\infantChoking3.jpg)
+![Alt text](/Images/InfantChoking/infantChoking3.jpg)
 
 - If the unconscious infant is face-down, roll face-up, supporting the head, neck, and back in a straight line.
 
@@ -16,13 +16,13 @@
 
 # STEP 3: OPEN THE AIRWAY
 
-![Alt text](\Images\InfantChoking\infantChoking9.jpg)
+![Alt text](/Images/InfantChoking/infantChoking9.jpg)
 
 - Tilt head back slightly, lift chin.
 
 # STEP 4: CHECK FOR BREATHING
 
-![Alt text](\Images\InfantCPR\infantCPR12.jpg)
+![Alt text](/Images/InfantCPR/infantCPR12.jpg)
 
 - CHECK quickly for no more than 10 seconds.
 
@@ -33,7 +33,7 @@
 
 # STEP 5: GIVE 2 RESCUE BREATHS
 
-![Alt text](C:\Users\WeCanCodeIT\source\repos\FirstAide\frontend\public\Images\InfantCPR\infantCPR10.jpg)
+![Alt text](/Images/InfantCPR/infantCPR10.jpg)
 
 - If no breathing, tilt the head back and lift the chin up.
 - Make complete seal over infant’s

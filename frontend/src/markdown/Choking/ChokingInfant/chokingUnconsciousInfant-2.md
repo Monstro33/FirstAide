@@ -21,7 +21,7 @@
 
 # STEP 4: GIVE 2 RESCUE BREATHS
 
-![Alt text](\Images\InfantCPR\infantCPR17.jpg)
+![Alt text](/Images/InfantCPR/infantCPR17.jpg)
 
 - Tilt the head back and lift the chin up.
 - Pinch the nose shut, then make a
@@ -33,6 +33,6 @@
 
 # STEP 5: REPEAT
 
-![Alt text](\Images\InfantChoking\infantChoking12.jpg)
+![Alt text](/Images/InfantChoking/infantChoking12.jpg)
 
 - IF BREATHS DO NOT MAKE THE CHEST RISE, Repeat steps 2 through 4.
