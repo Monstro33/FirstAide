@@ -4,11 +4,11 @@
 
 - BREATHING: A lump or tightness in the throat, or difficulty talking.
 
-- SKIN:  Itching, hives, flushing, rash, pale, or swelling.
+- SKIN: Itching, hives, flushing, rash, pale, or swelling.
 
 - STOMACH: Cramps, nausea, vomiting, and/or diarrhea.
 
-- MENTAL STATE: Sense of doom and/or anxiety, confusion, or dizziness. 
+- MENTAL STATE: Sense of doom and/or anxiety, confusion, or dizziness.
 
 # STEP 2: CALL 9-1-1
 
@@ -20,10 +20,10 @@
 
 - Ask the person if he or she is carrying an epinephrine autoinjector (EpiPen, Auvi-Q, others) to treat an allergic attack.
 
-- Ask whether you should help inject the medication. 
+- Ask whether you should help inject the medication.
 
-- If they do not have their own injector, send people to find one by asking all bystanders, going into a place of business and ask for the first aid kit or go to the closest pharmacy. 
-    - AND CLICK HERE
+- If they do not have their own injector, send people to find one by asking all bystanders, going into a place of business and ask for the first aid kit or go to the closest pharmacy.
+  - AND CLICK HERE
 
 # STEP 4: PREPARE EPINEPNRINE AUTO-INJECTOR
 
@@ -62,4 +62,4 @@
 - Remove the EpiPen and keep it with you so medical staff will know how large of a dose you received.
 
 - Massage the the injection site for 10 seconds to circulate the medication.
-If your EpiPen is expired, you can still use it. The potency may be reduced significantly.
+  If your EpiPen is expired, you can still use it. The potency may be reduced significantly.
