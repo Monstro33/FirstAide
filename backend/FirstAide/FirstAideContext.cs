@@ -63,7 +63,7 @@ namespace FirstAide
                new Emergency()
                {
                    EmergencyId = 3,
-                   Name = "CPR"
+                   Name = "Unconscious"
                }
               );
             modelBuilder.Entity<Instructions>().HasData(
@@ -71,10 +71,74 @@ namespace FirstAide
                new Instructions()
                {
                    InstructionsId = 1,
+                   AgeGroupId = 1,
+                   EmergencyId = 1,
+                   Details = "/markdown/Choking/ChokingInfant/chokingConsciousInfant.md"
+               },
+               
+               new Instructions()
+               {
+                   InstructionsId = 2,
                    AgeGroupId = 2,
                    EmergencyId = 1,
-                   Details = "/markdown/Choking/ChokingChild/chokingConsciousChild.md",                             
-               }               
+                   Details = "/markdown/Choking/ChokingChild/chokingConsciousChild.md"                            
+               },
+
+               new Instructions ()
+               {
+                   InstructionsId = 3,
+                   AgeGroupId = 3,
+                   EmergencyId = 1,
+                   Details = "/markdown/Choking/ChokingAdult/chokingAdult.md"
+               },
+
+               new Instructions ()
+               {
+                   InstructionsId = 4,
+                   AgeGroupId = 1,
+                   EmergencyId = 2,
+                   Details = ""
+               },
+
+               new Instructions()
+               {
+                   InstructionsId = 5,
+                   AgeGroupId = 2,
+                   EmergencyId = 2,
+                   Details = ""
+               },
+
+               new Instructions()
+               {
+                   InstructionsId = 6,
+                   AgeGroupId = 3,
+                   EmergencyId = 2,
+                   Details = ""
+               },
+
+               new Instructions()
+               {
+                   InstructionsId = 7,
+                   AgeGroupId = 1,
+                   EmergencyId = 3,
+                   Details = "/markdown/Unconcious/UnconciousInfant/CprInfant/UnconciousInfant.md"
+               },
+
+               new Instructions()
+               {
+                   InstructionsId = 8,
+                   AgeGroupId = 2,
+                   EmergencyId = 3,
+                   Details = "/markdown/Unconcious/UnconciousChild/UnconciousChild.md"
+               },
+
+               new Instructions()
+               {
+                   InstructionsId = 9,
+                   AgeGroupId = 3,
+                   EmergencyId = 3,
+                   Details = ""
+               }
               );
 
             base.OnModelCreating(modelBuilder);
