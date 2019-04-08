@@ -20,7 +20,17 @@
 
 - Observe the person's chest to see if it rises and falls.
 
-# STEP 3: CHECK FOR CONSCIOUSNESS
+# STEP 5: INTERLACE FINGERS WITH ONE HAND ON TOP OF THE OTHER
+
+![Alt text](/Images/AdultCPR/adultCPR15.jpg)
+
+- Interlace your fingers with one hand on top of the other.
+
+- Place the heel of your palm on the sternum directly between the victim’s nipples.
+
+- Orient yourself, elbows locked, directly above the victim.
+
+# STEP 6: CHECK FOR CONSCIOUSNESS
 
 ![Alt text](/Images/AdultCPR/adultCPR5.jpg)
 
@@ -28,7 +38,7 @@
 
 - Talk to the person to assess if he is responsive.
 
-# STEP 4: POSITION THE ARMS AND LEGS
+# STEP 7: POSITION THE ARMS AND LEGS
 
 ![Alt text](/Images/AdultShock/adultShock3.jpg)
 
@@ -40,7 +50,7 @@
 
 - After positioning the arms, you should bend the knee of the leg farthest away from you, so the foot is flat on the floor.
 
-# STEP 5: ROLL THEM TOWARDS YOU
+# STEP 8: ROLL THEM TOWARDS YOU
 
 ![Alt text](/Images/AdultShock/adultShock4.jpg)
 
@@ -52,7 +62,7 @@
 
 - You can also roll the person by grabbing her firmly by the hip — either by a belt or the waistband of her pants, or by a front pocket — and pulling, with one hand on the shoulder farthest from you for stabilization.
 
-# STEP 6: OPEN THE AIRWAY
+# STEP 9: OPEN THE AIRWAY
 
 ![Alt text](/Images/AdultShock/adultShock5.jpg)
 
@@ -62,7 +72,7 @@
 
 - Cover them with a blanket or coat to keep them warm.
 
-# STEP 7: MONITOR AND KEEP WARM
+# STEP 10: MONITOR AND KEEP WARM
 
 ![Alt text](/Images/AdultShock/adultShock6.jpg)
 
