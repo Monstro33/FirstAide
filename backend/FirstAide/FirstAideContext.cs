@@ -121,7 +121,7 @@ namespace FirstAide
                    InstructionsId = 7,
                    AgeGroupId = 1,
                    EmergencyId = 3,
-                   Details = "/markdown/Unconcious/UnconciousInfant/CprInfant/UnconciousInfant.md"
+                   Details = "/markdown/Unconcious/UnconciousInfant/cprInfant.md"
                },
 
                new Instructions()
@@ -137,7 +137,7 @@ namespace FirstAide
                    InstructionsId = 9,
                    AgeGroupId = 3,
                    EmergencyId = 3,
-                   Details = ""
+                   Details = "/markdown/Unconcious/UnconciousAdult/recoveryAdult.md"
                }
               );
 
