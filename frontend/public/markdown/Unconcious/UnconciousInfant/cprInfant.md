@@ -1,8 +1,8 @@
 # STEP 1: CHECK FOR PULSE
 
-![Alt text](\Images\InfantShock\infantShock5.jpg)
+![Alt text](/Images/InfantShock/nfantShock5.jpg)
 
--  Put your point and middle finger on the infant’s inner bend of the upper arm at the back of the elbow.
+- Put your point and middle finger on the infant’s inner bend of the upper arm at the back of the elbow.
 
 - Press your fingers firmly but gently against the baby’s skin to try to feel the pulse.
 
@@ -16,20 +16,20 @@
 
 # STEP 3: TILT THE HEAD BACK TO OPEN THE AIRWAY
 
-![Alt text](\Images\AdultCPR\adultCPR14.jpg)
+![Alt text](/Images/AdultCPR/adultCPR14.jpg)
 
 # STEP 4: GIVE 30 CHEST COMPRESSIONS
 
-![Alt text](\Images\InfantCPR\infantCPR19.jpg)
+![Alt text](/Images/InfantCPR/infantCPR19.jpg)
 
--  Place the infant on a firm, flat surface. 
+- Place the infant on a firm, flat surface.
 
 - Place two or three fingers near the middle of the chest below the nipple line.
 
 - Push hard, push fast in the middle of the chest.
 
 - Push straight down about 1-1½ inches
-deep.
+  deep.
 
 - The smaller body of a child needs less pressure.
 
@@ -44,7 +44,8 @@ deep.
 - If there are two rescuers, each should complete a round of 15 compressions.
 
 # STEP 2: GIVE 2 RESCUE BREATHS
-![Alt text](C:\Users\WeCanCodeIT\source\repos\FirstAide\frontend\public\Images\InfantCPR\infantCPR20.jpg)
+
+![Alt text](/Images/InfantCPR/infantCPR20.jpg)
 
 - Tilt the head back and lift the chin up.
 
@@ -56,17 +57,18 @@ deep.
 
   - Avoid blowing forcefully, since a baby's lungs are smaller, they only need regular breaths. Blowing forcefully could damage the baby's lungs.
 
-  - Be sure to lift the chin up 
+  - Be sure to lift the chin up
 
 - Give rescue breaths, one after
   the other.
 
 # STEP 3: DO NOT STOP
-![Alt text](C:\Users\WeCanCodeIT\source\repos\FirstAide\frontend\public\Images\InfantCPR\infantCPR21.jpg)
+
+![Alt text](/Images/InfantCPR/infantCPR21.jpg)
 
 - Continue cycles of CPR. Do not stop CPR unless:
-    -   You find an obvious sign of life,
+  - You find an obvious sign of life,
     such as breathing.
-    -   An AED is ready to use.
-    - You are too exhausted to continue.
-    - The scene becomes unsafe.
+  - An AED is ready to use.
+  - You are too exhausted to continue.
+  - The scene becomes unsafe.

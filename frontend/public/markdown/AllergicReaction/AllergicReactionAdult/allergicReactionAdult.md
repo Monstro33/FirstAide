@@ -1,6 +1,6 @@
 # STEP 1: RECOGNIZE ANAPHYLAXIS
 
-![Alt text](\Images\AllergicReactionAdult\allergicReactionAdult1.jpg)
+![Alt text](/Images/AllergicReactionAdult/allergicReactionAdult1.jpg)
 
 - BREATHING: A lump or tightness in the throat, or difficulty talking.
 
@@ -12,11 +12,11 @@
 
 # STEP 2: CALL 9-1-1
 
-![Alt text](\Images\AllergicReactionAdult\allergicReactionAdult7.jpg)
+![Alt text](/Images/AllergicReactionAdult/allergicReactionAdult7.jpg)
 
 # STEP 3: ASK FOR AUTOINJECTOR
 
-![Alt text](\Images\AllergicReactionAdult\allergicReactionAdult11.jpg)
+![Alt text](/Images/AllergicReactionAdult/allergicReactionAdult11.jpg)
 
 - Ask the person if he or she is carrying an epinephrine autoinjector (EpiPen, Auvi-Q, others) to treat an allergic attack.
 
@@ -27,7 +27,7 @@
 
 # STEP 4: PREPARE EPINEPNRINE AUTO-INJECTOR
 
-![Alt text](\Images\AllergicReactionAdult\allergicReactionAdult10.jpg)
+![Alt text](/Images/AllergicReactionAdult/allergicReactionAdult10.jpg)
 
 - The auto-injector is a single-use device and, once it is triggered, it cannot be reused.
 
@@ -37,7 +37,7 @@
 
 # STEP 4: PREPARE TO ADMINISTER EPINEPNRINE AUTO-INJECTOR
 
-![Alt text](\Images\AllergicReactionAdult\allergicReactionAdult8.jpg)
+![Alt text](/Images/AllergicReactionAdult/allergicReactionAdult8.jpg)
 
 - Hold the injector in the middle according to the instructions; do not put your hand over either end.
 
@@ -51,7 +51,7 @@
 
 # STEP 5: ADMINISTER EPINEPNRINE AUTO-INJECTOR
 
-![Alt text](\Images\AllergicReactionAdult\allergicReactionAdult9.jpg)
+![Alt text](/Images/AllergicReactionAdult/allergicReactionAdult9.jpg)
 
 - Place the orange tip against your outer thigh of either leg. You don't have to remove your pants, the needle will pierce your clothes.
 
