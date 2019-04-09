@@ -9,11 +9,8 @@
 ![Alt text](/Images/ChokingChild/chokingChild5.jpg)
 
 - If the chest still does not rise, ensure the child is on firm, flat surface.
-
 - Give 30 chest compressions.
-
 - Push hard, push fast in the middle of the chest.
-
 - Push about 2 inches deep.
 
 ## LOOK FOR AND REMOVE OBJECT IF SEEN

@@ -139,18 +139,15 @@
 ![Alt text](/Images/InfantCPR/infantCPR16.jpg)
 
 - After performing five cycles of chest compressions and rescue breathing or CPR for at least 2 minutes of CPR, call Emergency Services if you are the only person available.
-
 - If two or more people are available, one person should dial for help while the other continues with CPR.
 
 ## DO NOT STOP
 
 ![Alt text](/Images/InfantCPR/infantCPR21.jpg)
 
-- Continue cycles of CPR. Do not stop CPR unless:
+Continue cycles of CPR. Do not stop CPR unless:
 
-  - You find an obvious sign of life,
-    such as breathing.
-
-  - You are too exhausted to continue.
-
-  - The scene becomes unsafe.
+- You find an obvious sign of life,
+  such as breathing.
+- You are too exhausted to continue.
+- The scene becomes unsafe.
