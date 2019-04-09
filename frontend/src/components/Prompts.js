@@ -49,13 +49,7 @@ class Prompts extends Component {
     const ageGroupItems = this.state.ageGroups.map(item => (
       <div className="prompt-button">
         <Link
-          to={{
-            pathname: "/instructions",
-            state: {
-              emergencyId: this.state.emergencyId,
-              ageGroupId: item.ageGroupId
-            }
-          }}
+          to={`/instructions/${this.state.emergencyId}/${item.ageGroupId}`}
           key={item.ageGroupId}
         >
           {item.name}

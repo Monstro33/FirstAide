@@ -1,6 +1,7 @@
 .app {
   display: grid;
   grid-template-rows: 55px 1fr;
+  max-width: 100vw;
 }
 
 .header {

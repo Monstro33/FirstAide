@@ -13,7 +13,10 @@ class App extends Component {
           <div className="header" />
           <div className="content">
             <Route path="/" exact component={SplashPage} />
-            <Route path="/instructions" exact component={Instructions} />
+            <Route
+              path="/instructions/:emergencyId/:ageGroupId"
+              component={Instructions}
+            />
             <Route path="/prompts" exact component={Prompts} />
           </div>
         </Router>

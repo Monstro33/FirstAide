@@ -32,3 +32,5 @@ abdominal thrusts until the:
 ![Alt text](/Images/ChokingChild/chokingChild8.jpg)
 
 - IF CHILD BECOMES UNCONSCIOUS, CALL 9-1-1. Carefully lower the child to the ground and give CPR.
+
+[Go to CPR](/instructions/3/2)

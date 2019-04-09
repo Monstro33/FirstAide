@@ -70,3 +70,13 @@
 .instructions p {
   margin: 2rem;
 }
+
+.instructions a {
+  padding: 1rem 4rem;
+  margin: 5rem;
+  border-radius: 15px;
+  font-size: 3rem;
+  text-align: center;
+  cursor: pointer;
+  background: #cf1124;
+}
