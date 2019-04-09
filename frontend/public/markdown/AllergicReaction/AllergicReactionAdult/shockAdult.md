@@ -1,6 +1,6 @@
 # STEP 1: PLACE THE PERSON IN THE SHOCK POSITION
 
-![Alt text](\Images\AdultShock\adultShock1.jpg)
+![Alt text](/Images/AdultShock/adultShock1.jpg)
 
 - Have the person lie still on his or her back; do not allow them to stand or walk.
 
@@ -10,9 +10,9 @@
 
 - Loosen tight clothing and cover the person with a blanket. Don't give the person anything to drink.
 
-# STEP 2: 
+# STEP 2:
 
-![Alt text](\Images\AdultShock\adultShock2.jpg)
+![Alt text](/Images/AdultShock/adultShock2.jpg)
 
 - If there's vomiting or bleeding from the mouth, turn the person on his or her side to prevent choking.
 
