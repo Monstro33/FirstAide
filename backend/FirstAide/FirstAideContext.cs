@@ -89,8 +89,9 @@ namespace FirstAide
                    InstructionsId = 3,
                    AgeGroupId = 3,
                    EmergencyId = 1,
-                   Details = "/markdown/Choking/ChokingAdult/chokingAdult.md"
-               },
+                   Details = "/markdown/Choking/ChokingAdult/chokingConsciousAdult.md"
+
+    },
 
                new Instructions ()
                {
