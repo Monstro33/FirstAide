@@ -12,12 +12,15 @@
 
 # STEP 2:
 
-![Alt text](/Images/AdultShock/adultShock2.jpg)
+![Alt text](/Images/AdultShock/adultShock4.jpg)
 
 - If there's vomiting or bleeding from the mouth, turn the person on his or her side to prevent choking.
 
-- If there are no signs of breathing, coughing or movement, begin CPR.
+- If there are no signs of breathing, coughing or movement, begin 
+            - CPR -
 
 # STEP 3: REASSURE
 
-- - Reassure them and make them as comfortable as possible while you wait for the ambulance
+![Alt text](/Images/AdultShock/adultShock6.jpg)
+
+- Reassure them and make them as comfortable as possible while you wait for the ambulance.

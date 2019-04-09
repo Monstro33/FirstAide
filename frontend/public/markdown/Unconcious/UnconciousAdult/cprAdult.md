@@ -1,4 +1,64 @@
-# STEP 1: CHECK FOR PULSE
+# STEP 1: CHECK RESPONSIVENESS
+
+![Alt text](/Images/AdultCPR/adultCPR22.jpg)
+
+- If the person is on their side or stomach, then gently roll him onto his back while trying to support their head and neck.
+
+- Ask questions like, "What is your name?", "Are you alright?", and "Can you hear me?"
+
+- Also tap their shoulder or arm while you do it to see if that will help as well.
+
+- If this doesn't work, try yelling once or twice at them to see if that will rouse them. Yell phrases such as "Hey!" or "Hello!" to see if they wakes up.
+
+# STEP 2: VERIFY THEY ARE UNRESPONSIVE
+
+![Alt text](/Images/AdultCPR/adultCPR23.jpg)
+
+- Perform a sternal rub to establish that the person is indeed unresponsive.
+
+- You don't want to do CPR on someone who is just poorly responsive but breathing and circulating blood.
+
+- Make a fist and rub your knuckles hard on the person’s breastbone.
+
+- You can also grasp the muscles of the shoulder with your thumb and fingers and squeeze into the hollow of the collarbone. 
+
+- Bend low as you do this and listen for sounds or signs of breathing.
+
+# STEP 3: OPEN THE AIRWAY
+
+![Alt text](/Images/AdultCPR/adultCPR25.jpg)
+
+- Place one hand behind their head and one hand under their chin. Tilt the head backward toward the sky.
+
+- The chin should end in a slightly lifted position, as if they are sniffing the air.
+
+# STEP 4: REMOVE FOREIGN OBJECTS FROM THE AIRWAY
+
+![Alt text](/Images/AdultCPR/adultCPR26.jpg)
+
+- If the airway is visibally obstructed by vomit or any removable matter, get it out of the mouth with a quick swipes with two or three fingers in her mouth.
+
+- You can quickly turn the victim’s head to one side to assist in the removal.
+
+- Use sweeping motions rather than digging ones.
+
+# STEP 5: CHECK FOR BREATHING 
+
+![Alt text](/Images/AdultCPR/adultCPR27.jpg)
+
+- Take 5 to 10 seconds to look for the rise and fall of the chest.
+
+-Gasping is not considered to be normal breathing.
+
+- If there is not a rise of the chest, try to re-position the airway a little in either direction.
+
+- Also look for nose fluctuations.
+
+- Place your hand near her nose and mouth to see if you feel any breath.
+
+- If you don't, lean your head down close to the person’s mouth and feel for breath on your cheek and listen for any inhales or exhales.
+
+# STEP 6: CHECK FOR PULSE
 
 ![Alt text](/Images/AdultShock/adultShock7.jpg)
 
@@ -8,21 +68,17 @@
 
 - If you’re measuring on the wrist, set two fingers between the bone and tendon over your radial artery.
 
-- Find your radial artery by drawing a line with your finger from below your thumb to your wrist. Then feel for the spot between the wrist bone and tendon for a slight pumping motion.
+- Find the radial artery by drawing a line with your finger from below the thumb to the wrist. Then feel for the spot between the wrist bone and tendon for a slight pumping motion.
 
-- Place the flat part of your finger on your wrist or neck to get the most accurate reading. Avoid using your fingertips or your thumb
+- Place the flat part of your finger on the wrist or neck to get the most accurate reading. Avoid using your fingertips or your thumb.
 
-# STEP 2: DETERMINE IF CPR IS NECESASARY
+# STEP 7: DETERMINE IF CPR IS NECESASARY
 
 - IF NO PULSE, CONTINUE WITH STEPS.
 
--IF PULSE IS PRESENT, CLICK HERE FOR RESCUE BREATHING.
+-IF PULSE IS PRESENT, CLICK HERE FOR                - RESCUE BREATHING -
 
-# STEP 4: TILT THE HEAD BACK TO OPEN THE AIRWAY
-
-![Alt text](/Images/AdultCPR/adultCPR14.jpg)
-
-# STEP 5: INTERLACE FINGERS WITH ONE HAND ON TOP OF THE OTHER
+# STEP 8: INTERLACE FINGERS WITH ONE HAND ON TOP OF THE OTHER
 
 ![Alt text](/Images/AdultCPR/adultCPR15.jpg)
 
@@ -32,45 +88,65 @@
 
 - Orient yourself, elbows locked, directly above the victim.
 
-#STEP 6: GIVE 30 CHEST COMPRESSIONS
+#STEP 9: GIVE 30 CHEST COMPRESSIONS
 
 ![Alt text](/Images/AdultCPR/adultCPR16.jpg)
 
-- Push hard, push fast in the middle of the chest at least 1-2 inches deep.
+- Push hard, push fast in the middle of the chest at least 100 compressions per minute.
 
-- Push at a rate of 100 compressions per minute.
+- If you're not sure what 100 compressions a minute really means, try doing your compressions to the beat of the Bee Gee's song "Stain' Alive."
 
-- If you begin to hear or feel a cracking sound, you are pushing too hard. Continue, but apply less pressure with the compressions.
-
-- Allow complete chest recoil after each compression.
+- Push about 1 to 2 inches deep with your upper body weight and strength, not just your arm strength, to push straight down on the chest.
 
 - limit interruptions to less than 10 seconds.
 
+- Allow complete chest recoil after each compression.
+
 - If there are two rescuers, each should complete a round of 15 compressions.
 
-# STEP 7: GIVE 2 RESCUE BREATHS
+- It is likely you will break the person's ribs. This is extremely common, and you shouldn't stop compressions even if you think this has happened.
 
-![Alt text](/Images/AdultCPR/adultCPR9.jpg)
+# STEP 10: PROCEED TO OPEN THE AIRWAY
 
-- Tilt the head back and lift the chin up.
+![Alt text](/Images/AdultCPR/adultCPR28.jpg)
 
-- Pinch the nose shut then make a complete seal over the person’s mouth.
+- Put your palm on their forehead and gently tilt (extend) their head back a little. 
+
+- Then with your other hand, gently lift the chin forward to open up their airway.
+
+- If you suspect a neck/head/spine injury, sit above the person's head. Place one hand on each side of the person's jaw and lift the jaw so that it is jutting forward,as though the person has an underbite.
+
+# STEP 11: GIVE 2 RESCUE BREATHS
+
+![Alt text](/Images/AdultCPR/adultCPR29.jpg)
+
+- Make sure their mouth is free of any objects blocking their airway. 
+
+- Use one hand to pinch the nose shut then make a complete seal over the person’s mouth.
 
 - Blow in for about 1 second to make the
-  chest clearly rise.
+chest clearly rise.
 
 - Give rescue breaths, one after the other.
 
 - If chest does not rise with rescue breaths, retilt the head and give another rescue breath.
 
-# STEP 7: DO NOT STOP
+# STEP 12: CALL 9-1-1
+
+![Alt text](/Images/AdultCPR/adultCPR2.jpg)
+
+- After performing CPR for a full cycle or at least a minute, pause CPR and call 9-1-1 as quick as possible.
+
+- If two or more people are available, one person should dial for help while the other continues with CPR.
+
+# STEP 13: DO NOT STOP
 
 ![Alt text](/Images/AdultCPR/adultCPR12.jpg)
 
 - Continue cycles of CPR. Do not stop CPR except in one of these situations:
 
-  - You find an obvious sign of life, such as breathing.
+    - You find an obvious sign of life, such as breathing.
 
-  - You are too exhausted to continue.
+    - You are too exhausted to continue.
 
-  - The scene becomes unsafe.
+    - The scene becomes unsafe.
