@@ -33,6 +33,8 @@
 
 - The auto-injector is a single-use device and, once it is triggered, it cannot be reused.
 
+- Ensure the autoinjector is an EpiPen Jr. It's designed for children weight 33 to 66 pounds (15 to 30 kilograms).
+
 - Remove the injector from its case and follow the instructions on the side of the injector.
 
 - The injection should only to be made in the middle of the thigh from the outside of either leg. It can be made through one layer of clothing or to bare skin.
