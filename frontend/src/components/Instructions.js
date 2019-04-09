@@ -38,14 +38,6 @@ class Instructions extends Component {
     }
   };
 
-  // cprLink = () => {
-  //   const cprSpan = document.querySelector(".cpr-link");
-
-  //   cprSpan.addEventListener("click", function(){
-  //     this.setState({ emergencyId: 3, ageGroupId: 2 });
-  //   });
-  // }
-
   componentDidMount() {
     fetch("https://localhost:44321/api/instructions")
       .then(res => res.json())
