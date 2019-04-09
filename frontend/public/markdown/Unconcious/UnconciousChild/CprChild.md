@@ -1,4 +1,4 @@
-# STEP 1: GIVE 30 CHEST COMPRESSIONS
+## GIVE 30 CHEST COMPRESSIONS
 
 ![Alt text](/Images/ChildCPR/childCPR10.jpg)
 
@@ -12,7 +12,7 @@
 - Push fast, at least 100
   compressions per minute.
 
-# STEP 2: GIVE 2 RESCUE BREATHS
+## GIVE 2 RESCUE BREATHS
 
 ![Alt text](/Images/ChildChoking/childChoking12.jpg)
 
@@ -26,7 +26,7 @@
 - Give rescue breaths, one after
   the other.
 
-# STEP 3: DO NOT STOP
+## DO NOT STOP
 
 ![Alt text](/Images/ChildCPR/childCPR9.jpg)
 

@@ -1,4 +1,4 @@
-# STEP 1: CHECK FOR PULSE
+## CHECK FOR PULSE
 
 ![Alt text](/Images/AdultShock/adultShock7.jpg)
 
@@ -12,17 +12,17 @@
 
 - Place the flat part of your finger on your wrist or neck to get the most accurate reading. Avoid using your fingertips or your thumb
 
-# STEP 2: DETERMINE IF CPR IS NECESASARY
+## DETERMINE IF CPR IS NECESASARY
 
 - IF NO PULSE, CONTINUE WITH STEPS.
 
--IF PULSE IS PRESENT, CLICK HERE FOR RESCUE BREATHING.
+- IF PULSE IS PRESENT, CLICK HERE FOR RESCUE BREATHING.
 
-# STEP 4: TILT THE HEAD BACK TO OPEN THE AIRWAY
+## TILT THE HEAD BACK TO OPEN THE AIRWAY
 
 ![Alt text](/Images/AdultCPR/adultCPR14.jpg)
 
-# STEP 5: INTERLACE FINGERS WITH ONE HAND ON TOP OF THE OTHER
+## INTERLACE FINGERS WITH ONE HAND ON TOP OF THE OTHER
 
 ![Alt text](/Images/AdultCPR/adultCPR15.jpg)
 
@@ -32,7 +32,7 @@
 
 - Orient yourself, elbows locked, directly above the victim.
 
-#STEP 6: GIVE 30 CHEST COMPRESSIONS
+## GIVE 30 CHEST COMPRESSIONS
 
 ![Alt text](/Images/AdultCPR/adultCPR16.jpg)
 
@@ -48,7 +48,7 @@
 
 - If there are two rescuers, each should complete a round of 15 compressions.
 
-# STEP 7: GIVE 2 RESCUE BREATHS
+## GIVE 2 RESCUE BREATHS
 
 ![Alt text](/Images/AdultCPR/adultCPR9.jpg)
 
@@ -63,14 +63,14 @@
 
 - If chest does not rise with rescue breaths, retilt the head and give another rescue breath.
 
-# STEP 7: DO NOT STOP
+## DO NOT STOP
 
 ![Alt text](/Images/AdultCPR/adultCPR12.jpg)
 
-- Continue cycles of CPR. Do not stop CPR except in one of these situations:
+    Continue cycles of CPR. Do not stop CPR except in one of these situations:
 
-  - You find an obvious sign of life, such as breathing.
+- You find an obvious sign of life, such as breathing.
 
-  - You are too exhausted to continue.
+- You are too exhausted to continue.
 
-  - The scene becomes unsafe.
+- The scene becomes unsafe.
