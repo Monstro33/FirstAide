@@ -6,7 +6,7 @@
 
 - Press your fingers firmly but gently against the baby’s skin to try to feel the pulse.
 
-- Place the flat part of your finger to get the most accurate reading. Avoid using your fingertips or your thumb
+- Place the flat part of your finger to get the most accurate reading. Avoid using your fingertips or your thumb.
 
 # STEP 2: CHECK FOR BREATHING
 
@@ -49,6 +49,8 @@
 - Note where your fingers are, and double-check that the infant can breathe.
 
 # STEP 7: MONITOR AND KEEP WARM
+
+![Alt text](/Images/InfantShock/infantShock8.jpg)
 
 - Cover the infant with a blanket or coat to keep them warm.
 
