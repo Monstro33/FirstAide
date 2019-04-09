@@ -6,7 +6,7 @@
 
 - Press your fingers firmly but gently against the baby’s skin to try to feel the pulse.
 
-- Place the flat part of your finger to get the most accurate reading. Avoid using your fingertips or your thumb
+- Place the flat part of your finger to get the most accurate reading. Avoid using your fingertips or your thumb.
 
 # STEP 2: CHECK FOR BREATHING
 
