@@ -1,4 +1,4 @@
-# STEP 1: RECOGNIZE ANAPHYLAXIS
+## RECOGNIZE ANAPHYLAXIS
 
 ![Alt text](/Images/ChildAllergicReaction/childAllergicReaction3.jpg)
 
@@ -10,13 +10,13 @@
 
 - MENTAL STATE: Sense of doom and/or anxiety, confusion, or dizziness.
 
-# STEP 2: CALL 9-1-1
+## CALL 9-1-1
 
 ![Alt text](/Images/AdultAllergicReaction/adultAllergicReaction7.jpg)
 
 - Call 9-1-1 immediately.
 
-# STEP 3: ASK FOR AUTOINJECTOR
+## ASK FOR AUTOINJECTOR
 
 ![Alt text](/Images/AdultAllergicReaction/adultAllergicReaction11.jpg)
 
@@ -24,10 +24,9 @@
 
 - If an epinephrine autoinjector is on-hand, ask whether you should help inject the medication.
 
-- If they do not have their own injector, send people to find one by asking all bystanders, going into a place of business and ask for the first aid kit, or go to the closest pharmacy.
-                                        - AND CLICK HERE -
+- If they do not have their own injector, send people to find one by asking all bystanders, going into a place of business and ask for the first aid kit, or go to the closest pharmacy. - AND CLICK HERE -
 
-# STEP 4: PREPARE EPINEPNRINE AUTO-INJECTOR
+## PREPARE EPINEPNRINE AUTO-INJECTOR
 
 ![Alt text](/Images/AdultAllergicReaction/adultAllergicReaction10.jpg)
 
@@ -39,7 +38,7 @@
 
 - The injection should only to be made in the middle of the thigh from the outside of either leg. It can be made through one layer of clothing or to bare skin.
 
-# STEP 4: PREPARE TO ADMINISTER EPINEPNRINE AUTO-INJECTOR
+## PREPARE TO ADMINISTER EPINEPNRINE AUTO-INJECTOR
 
 ![Alt text](/Images/AdultAllergicReaction/adultAllergicReaction13.jpg)
 
@@ -53,7 +52,7 @@
 
 - For AdrenaClick/generic: Remove cap #1, then cap #2, then place the red tip firmly to the thigh.
 
-# STEP 5: ADMINISTER EPINEPNRINE AUTO-INJECTOR
+## ADMINISTER EPINEPNRINE AUTO-INJECTOR
 
 ![Alt text](/Images/ChildAllergicReaction/childAllergicReaction7.jpg)
 
@@ -69,18 +68,18 @@
 
 - If your EpiPen is expired, you can still use it. The potency may be reduced significantly.
 
-# STEP 6: GET TO THE HOSPITAL AS SOON AS POSSIBLE
+## GET TO THE HOSPITAL AS SOON AS POSSIBLE
 
 ![Alt text](/Images/AdultAllergicReaction/adultAllergicReaction12.jpg)
 
 - The epinephrine only temporarily relieves the symptoms. A secondary reaction is possible.
 
- - It is critical to get to a hospital, ambulance, or qualified medical personnel as soon as possible.
+- It is critical to get to a hospital, ambulance, or qualified medical personnel as soon as possible.
 
- - If professional medical care is not available it is important to have a second auto-injector available in case of a secondary reaction.
+- If professional medical care is not available it is important to have a second auto-injector available in case of a secondary reaction.
 
-# STEP 7: ADMINISTER ANOTHER EPINEPNRINE AUTO-INJECTOR 
+## ADMINISTER ANOTHER EPINEPNRINE AUTO-INJECTOR
 
 ![Alt text](/Images/ChildAllergicReaction/childAllergicReaction7.jpg)
 
- - If symptoms do not improve within 5 to 20 minutes, Aminister a second epinephrine autoinjector.
+- If symptoms do not improve within 5 to 20 minutes, Aminister a second epinephrine autoinjector.

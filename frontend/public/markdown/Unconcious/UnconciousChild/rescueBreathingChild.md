@@ -1,9 +1,10 @@
-# STEP 1: ASSESS THE SITUATION
+## ASSESS THE SITUATION
+
 ![Alt text](/Images/AdultShock/adultShock9.jpg)
 
 - Rescue breathing is used for people who are unconscious and breathing and have a pulse.
 
-# STEP 2: CHECK RESPONSIVENESS
+## CHECK RESPONSIVENESS
 
 ![Alt text](/Images/ChildRescueBreathing/childRescueBreathing2.jpg)
 
@@ -15,7 +16,7 @@
 
 - If this doesn't work, try yelling once or twice at them to see if that will rouse them. Yell phrases such as "Hey!" or "Hello!" to see if they wakes up.
 
-# STEP 3: CHECK FOR BREATHING AND CONSCIOUSNESS
+## CHECK FOR BREATHING AND CONSCIOUSNESS
 
 ![Alt text](/Images/ChildRescueBreathing/childRescueBreathing3.jpg)
 
@@ -26,14 +27,14 @@
 Check for breathing by placing your cheek near the nose and mouth of the child to feel their breath.
 
 If the child is breathing and unconscious or semi-conscious, you can place them in the recovery position.
- 
-# STEP 4: CHECK FOR PULSE
+
+## CHECK FOR PULSE
 
 ![Alt text](/Images/AdultShock/adultShock7.jpg)
 
 - Press firmly but not so hard that you can no longer feel the pulse.
 
-- Put your index and third finger on either side of the neck to the side of the  windpipe to find the carotid artery.
+- Put your index and third finger on either side of the neck to the side of the windpipe to find the carotid artery.
 
 - If you’re measuring on the wrist, set two fingers between the bone and tendon over your radial artery.
 
@@ -41,7 +42,7 @@ If the child is breathing and unconscious or semi-conscious, you can place them 
 
 - Place the flat part of your finger on the wrist or neck to get the most accurate reading. Avoid using your fingertips or your thumb.
 
-# STEP 5: POSITION THE HEAD
+## POSITION THE HEAD
 
 ![Alt text](/Images/ChildRescueBreathing/childRescueBreathing3.jpg)
 
@@ -53,7 +54,7 @@ If the child is breathing and unconscious or semi-conscious, you can place them 
 
 - Do not move the head more than necessary if you think the child may have a spinal cord injury.
 
-# STEP 6: PROVIDE RESCUE BREATHS
+## PROVIDE RESCUE BREATHS
 
 ![Alt text](/Images/ChildRescueBreathing/childRescueBreathing4.jpg)
 
@@ -65,7 +66,7 @@ If the child is breathing and unconscious or semi-conscious, you can place them 
 
 - If so, this suggests that the breath was effective and the airway is not blocked.
 
-# STEP 7: CLEAR THE AIRWAY IF NECESSARY
+## CLEAR THE AIRWAY IF NECESSARY
 
 ![Alt text](/Images/ChildRescueBreathing/childRescueBreathing4.jpg)
 
@@ -75,9 +76,9 @@ If the child is breathing and unconscious or semi-conscious, you can place them 
 
 - Do not poke your fingers or any other object deep into the child’s throat. If you do, you run the risk of pushing an object further in.
 
-- If you don't see an object, reposition the child's head and try another rescue breath. 
+- If you don't see an object, reposition the child's head and try another rescue breath.
 
-# STEP 8: CALL 9-1-1
+## CALL 9-1-1
 
 ![Alt text](/Images/AdultCPR/adultCPR2.jpg)
 
@@ -85,14 +86,14 @@ If the child is breathing and unconscious or semi-conscious, you can place them 
 
 - If two or more people are available, one person should dial for help while the other continues with rescue breathing.
 
-# STEP 9: CONTINUE RESCUE BREATHING
+## CONTINUE RESCUE BREATHING
 
 ![Alt text](/Images/ChildRescueBreathing/childRescueBreathing6.jpg)
 
 - Continue rescue breathing, giving one breath every 6 seconds (10 breaths per minute).
 
-- Check for a pulse every two minutes while doing rescue breathing. 
+- Check for a pulse every two minutes while doing rescue breathing.
 
-- Continue with rescue breathing until the child begins breathing on their own. 
+- Continue with rescue breathing until the child begins breathing on their own.
 
 - You will notice that they are improving if they start coughing or moving.

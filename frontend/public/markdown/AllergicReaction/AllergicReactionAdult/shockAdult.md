@@ -1,4 +1,4 @@
-# STEP 1: PLACE THE PERSON IN THE SHOCK POSITION
+## PLACE THE PERSON IN THE SHOCK POSITION
 
 ![Alt text](/Images/AdultShock/adultShock1.jpg)
 
@@ -10,16 +10,15 @@
 
 - Loosen tight clothing and cover the person with a blanket. Don't give the person anything to drink.
 
-# STEP 2:
+##
 
 ![Alt text](/Images/AdultShock/adultShock4.jpg)
 
 - If there's vomiting or bleeding from the mouth, turn the person on his or her side to prevent choking.
 
-- If there are no signs of breathing, coughing or movement, begin 
-            - CPR -
+- If there are no signs of breathing, coughing or movement, begin - CPR -
 
-# STEP 3: REASSURE
+## REASSURE
 
 ![Alt text](/Images/AdultShock/adultShock6.jpg)
 

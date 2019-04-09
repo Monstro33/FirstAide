@@ -1,4 +1,4 @@
-# STEP 1: CHECK RESPONSIVENESS
+## CHECK RESPONSIVENESS
 
 ![Alt text](/Images/AdultCPR/adultCPR22.jpg)
 
@@ -10,7 +10,7 @@
 
 - If this doesn't work, try yelling once or twice at them to see if that will rouse them. Yell phrases such as "Hey!" or "Hello!" to see if they wakes up.
 
-# STEP 2: VERIFY THEY ARE UNRESPONSIVE
+## VERIFY THEY ARE UNRESPONSIVE
 
 ![Alt text](/Images/AdultCPR/adultCPR23.jpg)
 
@@ -24,7 +24,7 @@
 
 - Bend low as you do this and listen for sounds or signs of breathing.
 
-# STEP 3: OPEN THE AIRWAY
+## OPEN THE AIRWAY
 
 ![Alt text](/Images/AdultCPR/adultCPR25.jpg)
 
@@ -32,7 +32,7 @@
 
 - The chin should end in a slightly lifted position, as if they are sniffing the air.
 
-# STEP 4: REMOVE FOREIGN OBJECTS FROM THE AIRWAY
+## REMOVE FOREIGN OBJECTS FROM THE AIRWAY
 
 ![Alt text](/Images/AdultCPR/adultCPR26.jpg)
 
@@ -42,7 +42,7 @@
 
 - Use sweeping motions rather than digging ones.
 
-# STEP 5: CHECK FOR BREATHING
+## CHECK FOR BREATHING
 
 ![Alt text](/Images/AdultCPR/adultCPR27.jpg)
 
@@ -58,7 +58,7 @@
 
 - If you don't, lean your head down close to the person’s mouth and feel for breath on your cheek and listen for any inhales or exhales.
 
-# STEP 6: CHECK FOR PULSE
+## CHECK FOR PULSE
 
 ![Alt text](/Images/AdultShock/adultShock7.jpg)
 
@@ -72,13 +72,13 @@
 
 - Place the flat part of your finger on the wrist or neck to get the most accurate reading. Avoid using your fingertips or your thumb.
 
-# STEP 7: DETERMINE IF CPR IS NECESASARY
+## DETERMINE IF CPR IS NECESASARY
 
 - IF NO PULSE, CONTINUE WITH STEPS.
 
 -IF PULSE IS PRESENT, CLICK HERE FOR - RESCUE BREATHING -
 
-# STEP 8: INTERLACE FINGERS WITH ONE HAND ON TOP OF THE OTHER
+## INTERLACE FINGERS WITH ONE HAND ON TOP OF THE OTHER
 
 ![Alt text](/Images/AdultCPR/adultCPR15.jpg)
 
@@ -88,7 +88,7 @@
 
 - Orient yourself, elbows locked, directly above the victim.
 
-#STEP 9: GIVE 30 CHEST COMPRESSIONS
+## GIVE 30 CHEST COMPRESSIONS
 
 ![Alt text](/Images/AdultCPR/adultCPR16.jpg)
 
@@ -106,7 +106,7 @@
 
 - It is likely you will break the person's ribs. This is extremely common, and you shouldn't stop compressions even if you think this has happened.
 
-# STEP 10: PROCEED TO OPEN THE AIRWAY
+## PROCEED TO OPEN THE AIRWAY
 
 ![Alt text](/Images/AdultCPR/adultCPR28.jpg)
 
@@ -116,7 +116,7 @@
 
 - If you suspect a neck/head/spine injury, sit above the person's head. Place one hand on each side of the person's jaw and lift the jaw so that it is jutting forward,as though the person has an underbite.
 
-# STEP 11: GIVE 2 RESCUE BREATHS
+## GIVE 2 RESCUE BREATHS
 
 ![Alt text](/Images/AdultCPR/adultCPR29.jpg)
 
@@ -131,7 +131,7 @@
 
 - If chest does not rise with rescue breaths, retilt the head and give another rescue breath.
 
-# STEP 12: CALL 9-1-1
+## CALL 9-1-1
 
 ![Alt text](/Images/AdultCPR/adultCPR2.jpg)
 
@@ -139,7 +139,7 @@
 
 - If two or more people are available, one person should dial for help while the other continues with CPR.
 
-# STEP 13: DO NOT STOP
+## DO NOT STOP
 
 ![Alt text](/Images/AdultCPR/adultCPR12.jpg)
 

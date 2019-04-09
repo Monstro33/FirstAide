@@ -1,4 +1,4 @@
-# STEP 1: CHECK RESPONSIVENESS
+## CHECK RESPONSIVENESS
 
 ![Alt text](/Images/InfantCPR/infantCPR15.jpg)
 
@@ -12,7 +12,7 @@
 
 - If this doesn't work, try yelling once or twice at them to see if that will rouse them.
 
-# STEP 2: VERIFY THEY ARE UNRESPONSIVE
+## VERIFY THEY ARE UNRESPONSIVE
 
 ![Alt text](/Images/AdultCPR/adultCPR23.jpg)
 
@@ -26,7 +26,7 @@
 
 - Bend low as you do this and listen for sounds or signs of breathing.
 
-# STEP 3: OPEN THE AIRWAY
+## OPEN THE AIRWAY
 
 ![Alt text](/Images/InfantCPR/infantCPR6.jpg)
 
@@ -34,7 +34,7 @@
 
 - The chin should end in a slightly lifted position, as if they are sniffing the air.
 
-# STEP 4: REMOVE FOREIGN OBJECTS FROM THE AIRWAY
+## REMOVE FOREIGN OBJECTS FROM THE AIRWAY
 
 ![Alt text](/Images/AdultCPR/adultCPR26.jpg)
 
@@ -44,7 +44,7 @@
 
 - Use sweeping motions rather than digging ones.
 
-# STEP 5: CHECK FOR BREATHING
+## CHECK FOR BREATHING
 
 ![Alt text](/Images/InfantCPR/infantCPR12.jpg)
 
@@ -60,7 +60,7 @@
 
 - If you don't, lean your head down close to the infant’s mouth and feel for breath on your cheek and listen for any inhales or exhales.
 
-# STEP 6: CHECK FOR PULSE
+## CHECK FOR PULSE
 
 ![Alt text](/Images/InfantCPR/infantCPR3.jpg)
 
@@ -74,13 +74,13 @@
 
 - They’re heart rates generally fall between 140 and 160 beats per minute, even at rest
 
-# STEP 7: DETERMINE IF CPR IS NECESASARY
+## DETERMINE IF CPR IS NECESASARY
 
 - IF NO PULSE, CONTINUE WITH STEPS.
 
 -IF PULSE IS PRESENT, CLICK HERE FOR - RESCUE BREATHING -
 
-# STEP 8: POSITION YOUR FINGERS IN THE CENTER OF THE CHEST
+## POSITION YOUR FINGERS IN THE CENTER OF THE CHEST
 
 ![Alt text](/Images/InfantCPR/infantCPR22.jpg)
 
@@ -90,7 +90,7 @@
 
 - The fingers should be placed in between the baby's nipples at the center of his chest.
 
-# STEP 9: GIVE 30 CHEST COMPRESSIONS
+## GIVE 30 CHEST COMPRESSIONS
 
 ![Alt text](/Images/InfantCPR/infantCPR23.jpg)
 
@@ -110,7 +110,7 @@
 
 - If there are two rescuers, each should complete a round of 15 compressions.
 
-# STEP 10: PROCEED TO OPEN THE AIRWAY
+## PROCEED TO OPEN THE AIRWAY
 
 ![Alt text](/Images/InfantCPR/infantCPR11.jpg)
 
@@ -120,7 +120,7 @@
 
 - If you suspect a neck/head/spine injury, sit above the infant's head. Place one hand on each side of the infant's jaw and lift the jaw so that it is jutting forward,as though the infant has an underbite.
 
-# STEP 11: GIVE 2 RESCUE BREATHS
+## GIVE 2 RESCUE BREATHS
 
 ![Alt text](/Images/InfantCPR/infantCPR20.jpg)
 
@@ -134,7 +134,7 @@
 
 - If chest does not rise with rescue breaths, retilt the head and give another rescue breath.
 
-# STEP 12: CALL 9-1-1
+## CALL 9-1-1
 
 ![Alt text](/Images/InfantCPR/infantCPR16.jpg)
 
@@ -142,7 +142,7 @@
 
 - If two or more people are available, one person should dial for help while the other continues with CPR.
 
-# STEP 13: DO NOT STOP
+## DO NOT STOP
 
 ![Alt text](/Images/InfantCPR/infantCPR21.jpg)
 
