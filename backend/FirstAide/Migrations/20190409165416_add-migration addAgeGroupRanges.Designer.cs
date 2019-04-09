@@ -3,14 +3,16 @@ using FirstAide;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace FirstAide.Migrations
 {
     [DbContext(typeof(FirstAideContext))]
-    partial class FirstAideContextModelSnapshot : ModelSnapshot
+    [Migration("20190409165416_add-migration addAgeGroupRanges")]
+    partial class addmigrationaddAgeGroupRanges
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -83,8 +85,7 @@ namespace FirstAide.Migrations
                         new { InstructionsId = 6, AgeGroupId = 3, Details = "/markdown/AllergicReaction/AllergicReactionAdult/allergicReactionAdult.md", EmergencyId = 2 },
                         new { InstructionsId = 7, AgeGroupId = 1, Details = "/markdown/Unconcious/UnconciousInfant/cprInfant.md", EmergencyId = 3 },
                         new { InstructionsId = 8, AgeGroupId = 2, Details = "/markdown/Unconcious/UnconciousChild/UnconciousChild.md", EmergencyId = 3 },
-                        new { InstructionsId = 9, AgeGroupId = 3, Details = "/markdown/Unconcious/UnconciousAdult/recoveryAdult.md", EmergencyId = 3 },
-                        new { InstructionsId = 10, AgeGroupId = 0, Details = "/markdown/Unconcious/UnconciousAdult/rescueBreathingAdult.md", EmergencyId = 0 }
+                        new { InstructionsId = 9, AgeGroupId = 3, Details = "/markdown/Unconcious/UnconciousAdult/recoveryAdult.md", EmergencyId = 3 }
                     );
                 });
 #pragma warning restore 612, 618
