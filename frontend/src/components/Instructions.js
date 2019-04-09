@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Markdown from "react-markdown";
+import Markdown from "react-markdown/with-html";
 import "../css/Instructions.css";
 
 class Instructions extends Component {
@@ -12,12 +12,14 @@ class Instructions extends Component {
   }
 
   setInstructions = () => {
-    const { emergencyId, ageGroupId } = this.props.location.state;
+    const {
+      match: { params }
+    } = this.props;
 
     for (let i = 0; i < this.state.instructions.length; i++) {
       if (
-        emergencyId === this.state.instructions[i].emergencyId &&
-        ageGroupId === this.state.instructions[i].ageGroupId
+        params.emergencyId == this.state.instructions[i].emergencyId &&
+        params.ageGroupId == this.state.instructions[i].ageGroupId
       ) {
         fetch(this.state.instructions[i].details)
           .then(res => res.text())
@@ -25,6 +27,14 @@ class Instructions extends Component {
       }
     }
   };
+
+  // cprLink = () => {
+  //   const cprSpan = document.querySelector(".cpr-link");
+
+  //   cprSpan.addEventListener("click", function(){
+  //     this.setState({ emergencyId: 3, ageGroupId: 2 });
+  //   });
+  // }
 
   componentDidMount() {
     fetch("https://localhost:44321/api/instructions")
@@ -40,7 +50,7 @@ class Instructions extends Component {
         <video controls="controls">
           <source src="/Videos/childChoking.mp4" type="video/mp4" />
         </video>
-        <Markdown source={markdown} />
+        <Markdown source={markdown} escapeHtml={false} />
       </div>
     );
   }

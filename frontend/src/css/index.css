@@ -13,3 +13,8 @@ a:visited {
 html {
   font-size: 10px;
 }
+
+body {
+  margin: 0;
+  max-width: 100vw;
+}
