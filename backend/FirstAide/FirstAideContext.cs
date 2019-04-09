@@ -140,6 +140,14 @@ namespace FirstAide
                    AgeGroupId = 3,
                    EmergencyId = 3,
                    Details = "/markdown/Unconcious/UnconciousAdult/recoveryAdult.md"
+               },
+
+               new Instructions()
+               {
+                   InstructionsId = 10,
+                   AgeGroupId = 0,
+                   EmergencyId = 0,
+                   Details = "/markdown/Unconcious/UnconciousAdult/rescueBreathingAdult.md"
                }
               );
 

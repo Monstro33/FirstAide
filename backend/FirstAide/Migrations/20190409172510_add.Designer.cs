@@ -3,14 +3,16 @@ using FirstAide;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace FirstAide.Migrations
 {
     [DbContext(typeof(FirstAideContext))]
-    partial class FirstAideContextModelSnapshot : ModelSnapshot
+    [Migration("20190409172510_add")]
+    partial class add
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -77,7 +79,7 @@ namespace FirstAide.Migrations
                     b.HasData(
                         new { InstructionsId = 1, AgeGroupId = 1, Details = "/markdown/Choking/ChokingInfant/chokingConsciousInfant.md", EmergencyId = 1 },
                         new { InstructionsId = 2, AgeGroupId = 2, Details = "/markdown/Choking/ChokingChild/chokingConsciousChild.md", EmergencyId = 1 },
-                        new { InstructionsId = 3, AgeGroupId = 3, Details = "/markdown/Choking/ChokingAdult/chokingConsciousAdult.md", EmergencyId = 1 },
+                        new { InstructionsId = 3, AgeGroupId = 3, Details = "/markdown/Choking/ChokingAdult/chokingAdult.md", EmergencyId = 1 },
                         new { InstructionsId = 4, AgeGroupId = 1, Details = "/markdown/AllergicReaction/AllergicReactionInfant/allergicReactionInfant.md", EmergencyId = 2 },
                         new { InstructionsId = 5, AgeGroupId = 2, Details = "/markdown/AllergicReaction/AllergicReactionChild/allergicReactionChild.md", EmergencyId = 2 },
                         new { InstructionsId = 6, AgeGroupId = 3, Details = "/markdown/AllergicReaction/AllergicReactionAdult/allergicReactionAdult.md", EmergencyId = 2 },
