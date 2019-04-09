@@ -1,6 +1,6 @@
-# STEP 1: CHECK FOR PULSE
+## CHECK FOR PULSE
 
-![Alt text](/Images/InfantShock/nfantShock5.jpg)
+![Alt text](/Images/InfantShock/infantShock5.jpg)
 
 - Put your point and middle finger on the infant’s inner bend of the upper arm at the back of the elbow.
 
@@ -8,7 +8,7 @@
 
 - Place the flat part of your finger to get the most accurate reading. Avoid using your fingertips or your thumb.
 
-# STEP 2: DETERMINE IF CPR IS NECESASARY
+## DETERMINE IF CPR IS NECESASARY
 
 - IF NO PULSE, COUNTINE WITH STEPS.
 
@@ -18,7 +18,7 @@
 
 ![Alt text](/Images/AdultCPR/adultCPR14.jpg)
 
-# STEP 4: GIVE 30 CHEST COMPRESSIONS
+## GIVE 30 CHEST COMPRESSIONS
 
 ![Alt text](/Images/InfantCPR/infantCPR19.jpg)
 
@@ -43,7 +43,7 @@
 
 - If there are two rescuers, each should complete a round of 15 compressions.
 
-# STEP 2: GIVE 2 RESCUE BREATHS
+## GIVE 2 RESCUE BREATHS
 
 ![Alt text](/Images/InfantCPR/infantCPR20.jpg)
 
@@ -62,7 +62,7 @@
 - Give rescue breaths, one after
   the other.
 
-# STEP 3: DO NOT STOP
+## DO NOT STOP
 
 ![Alt text](/Images/InfantCPR/infantCPR21.jpg)
 

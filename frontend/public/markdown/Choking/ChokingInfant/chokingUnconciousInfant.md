@@ -1,10 +1,10 @@
-# STEP 1: CHECK FOR RESPONSIVENESS
+## CHECK FOR RESPONSIVENESS
 
 ![Alt text](/Images/InfantChoking/infantChoking2.jpg)
 
 - Tap the shoulder or flick the bottom of the foot.
 
-# STEP 2: CALL 9-1-1
+## CALL 9-1-1
 
 ![Alt text](/Images/InfantChoking/infantChoking3.jpg)
 
@@ -14,13 +14,13 @@
 
 - If the infant responds, CALL 9-1-1. CHECK the Infant from head to toe and ask questions to find out what happened.
 
-# STEP 3: OPEN THE AIRWAY
+## OPEN THE AIRWAY
 
 ![Alt text](/Images/InfantChoking/infantChoking9.jpg)
 
 - Tilt head back slightly, lift chin.
 
-# STEP 4: CHECK FOR BREATHING
+## CHECK FOR BREATHING
 
 ![Alt text](/Images/InfantCPR/infantCPR12.jpg)
 
@@ -31,7 +31,7 @@
 - Infants have periodic breathing, so changes
   in breathing pattern are normal for infants.
 
-# STEP 5: GIVE 2 RESCUE BREATHS
+## GIVE 2 RESCUE BREATHS
 
 ![Alt text](/Images/InfantCPR/infantCPR10.jpg)
 

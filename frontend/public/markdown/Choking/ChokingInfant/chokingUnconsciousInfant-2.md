@@ -1,10 +1,10 @@
-# STEP 1: GIVE RESCUE BREATHS
+## GIVE RESCUE BREATHS
 
 ![Alt text](/Images/InfantCPR/infantCPR17.jpg)
 
 - Retilt the head and give another rescue breath.
 
-# STEP 2: GIVE CHEST COMPRESSIONS
+## GIVE CHEST COMPRESSIONS
 
 ![Alt text](/Images/InfantCPR/infantCPR19.jpg)
 
@@ -13,13 +13,13 @@
 - Push hard, push fast in the middle of the chest.
 - Push about 2 inches deep.
 
-# STEP 3: LOOK FOR AND REMOVE OBJECT IF SEEN
+## LOOK FOR AND REMOVE OBJECT IF SEEN
 
 ![Alt text](/Images/InfantChoking/infantChoking10.jpg)
 
 - DO NOT PERFORM A BLIND SWEEP FOR THE OBJECT.
 
-# STEP 4: GIVE 2 RESCUE BREATHS
+## GIVE 2 RESCUE BREATHS
 
 ![Alt text](/Images/InfantCPR/infantCPR17.jpg)
 
@@ -31,7 +31,7 @@
 - If the chest does not rise with rescue breaths, retilt the head and give another rescue breath.
 - Give another rescue breath, ensuring you give 2 complete unobstructed breaths.
 
-# STEP 5: REPEAT
+## REPEAT
 
 ![Alt text](/Images/InfantChoking/infantChoking12.jpg)
 

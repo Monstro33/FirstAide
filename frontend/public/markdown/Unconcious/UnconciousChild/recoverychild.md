@@ -1,4 +1,4 @@
-# STEP 1: CHECK FOR PULSE
+## CHECK FOR PULSE
 
 ![Alt text](/Images/ChildShock/childShock2.jpg)
 
@@ -12,7 +12,7 @@
 
 - Place the flat part of your finger on your wrist or neck to get the most accurate reading. Avoid using your fingertips or your thumb
 
-# STEP 2: CHECK FOR BREATHING
+## CHECK FOR BREATHING
 
 ![Alt text](/Images/childShock/childShock1.jpg)
 
@@ -20,7 +20,7 @@
 
 - Observe the person's chest to see if it rises and falls.
 
-# STEP 3: CHECK FOR CONSCIOUSNESS
+## CHECK FOR CONSCIOUSNESS
 
 ![Alt text](/Images/ChildShock/childShock3.jpg)
 
@@ -28,7 +28,7 @@
 
 - Talk to the person to assess if he is responsive.
 
-# STEP 4: POSITION THE ARMS AND LEGS
+## POSITION THE ARMS AND LEGS
 
 ![Alt text](/Images/AdultShock/adultShock3.jpg)
 
@@ -40,7 +40,7 @@
 
 - After positioning the arms, you should bend the knee of the leg farthest away from you, so the foot is flat on the floor.
 
-# STEP 5: ROLL THEM TOWARDS YOU
+## ROLL THEM TOWARDS YOU
 
 ![Alt text](/Images/AdultShock/adultShock4.jpg)
 
@@ -52,7 +52,7 @@
 
 - You can also roll the person by grabbing her firmly by the hip — either by a belt or the waistband of her pants, or by a front pocket — and pulling, with one hand on the shoulder farthest from you for stabilization.
 
-# STEP 6: OPEN THE AIRWAY
+## OPEN THE AIRWAY
 
 ![Alt text](/Images/AdultShock/adultShock5.jpg)
 
@@ -62,7 +62,7 @@
 
 - Cover them with a blanket or coat to keep them warm.
 
-# STEP 7: MONITOR AND KEEP WARM
+## MONITOR AND KEEP WARM
 
 ![Alt text](/Images/AdultShock/adultShock6.jpg)
 
