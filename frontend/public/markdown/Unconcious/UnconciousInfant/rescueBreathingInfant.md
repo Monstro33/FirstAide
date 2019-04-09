@@ -1,9 +1,10 @@
-# STEP 1: ASSESS THE SITUATION
+## ASSESS THE SITUATION
+
 ![Alt text](/Images/AdultShock/adultShock9.jpg)
 
 - Rescue breathing is used for people who are unconscious and breathing and have a pulse.
 
-# STEP 2: CHECK RESPONSIVENESS
+## CHECK RESPONSIVENESS
 
 ![Alt text](/Images/InfantCPR/infantCPR15.jpg)
 
@@ -15,9 +16,9 @@
 
 - Also tap their shoulder or arm while you do it to see if that will help as well.
 
-- If this doesn't work, try yelling once or twice at them to see if that will rouse them. 
+- If this doesn't work, try yelling once or twice at them to see if that will rouse them.
 
-# STEP 3: OPEN THE AIRWAY
+## OPEN THE AIRWAY
 
 ![Alt text](/Images/InfantCPR/infantCPR6.jpg)
 
@@ -25,7 +26,7 @@
 
 - The chin should end in a slightly lifted position, as if they are sniffing the air.
 
-# STEP 4: CHECK FOR BREATHING 
+## CHECK FOR BREATHING
 
 ![Alt text](/Images/InfantCPR/infantCPR12.jpg)
 
@@ -41,7 +42,7 @@
 
 - If you don't, lean your head down close to the infant’s mouth and feel for breath on your cheek and listen for any inhales or exhales.
 
-# STEP 5: CHECK FOR PULSE
+## CHECK FOR PULSE
 
 ![Alt text](/Images/InfantCPR/infantCPR3.jpg)
 
@@ -51,11 +52,11 @@
 
 - Count the pulse rate of the infant for one full minute.
 
- - Infants generally have higher pulse rates than adults.
- 
- - They’re heart rates generally fall between 140 and 160 beats per minute, even at rest.
+- Infants generally have higher pulse rates than adults.
 
- # STEP 6: POSITION THE HEAD
+- They’re heart rates generally fall between 140 and 160 beats per minute, even at rest.
+
+## POSITION THE HEAD
 
 ![Alt text](/Images/ChildRescueBreathing/childRescueBreathing3.jpg)
 
@@ -67,7 +68,7 @@
 
 - Do not move the head more than necessary if you think the child may have a spinal cord injury.
 
-# STEP 7: PROVIDE RESCUE BREATHS
+## PROVIDE RESCUE BREATHS
 
 ![Alt text](/Images/ChildRescueBreathing/childRescueBreathing4.jpg)
 
@@ -79,7 +80,7 @@
 
 - If so, this suggests that the breath was effective and the airway is not blocked.
 
-# STEP 7: CLEAR THE AIRWAY IF NECESSARY
+## CLEAR THE AIRWAY IF NECESSARY
 
 ![Alt text](/Images/ChildRescueBreathing/childRescueBreathing4.jpg)
 
@@ -89,9 +90,9 @@
 
 - Do not poke your fingers or any other object deep into the child’s throat. If you do, you run the risk of pushing an object further in.
 
-- If you don't see an object, reposition the child's head and try another rescue breath. 
+- If you don't see an object, reposition the child's head and try another rescue breath.
 
-# STEP 8: CALL 9-1-1
+## CALL 9-1-1
 
 ![Alt text](/Images/InfantCPR/infantCPR16.jpg)
 
@@ -99,14 +100,14 @@
 
 - If two or more people are available, one person should dial for help while the other continues with rescue breathing.
 
-# STEP 9: CONTINUE RESCUE BREATHING
+## CONTINUE RESCUE BREATHING
 
 ![Alt text](/Images/ChildRescueBreathing/childRescueBreathing6.jpg)
 
 - Continue rescue breathing, giving one breath every 6 seconds (10 breaths per minute).
 
-- Check for a pulse every two minutes while doing rescue breathing. 
+- Check for a pulse every two minutes while doing rescue breathing.
 
-- Continue with rescue breathing until the child begins breathing on their own. 
+- Continue with rescue breathing until the child begins breathing on their own.
 
 - You will notice that they are improving if they start coughing or moving.

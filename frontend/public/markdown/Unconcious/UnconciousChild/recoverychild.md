@@ -1,4 +1,4 @@
-# STEP 1: ASSESS THE SITUATION
+## ASSESS THE SITUATION
 
 ![Alt text](/Images/AdultShock/adultShock9.jpg)
 
@@ -6,7 +6,7 @@
 
 - This position is not intented for people with spinal injuries.
 
-# STEP 2: CHECK FOR BREATHING AND CONSCIOUSNESS
+## CHECK FOR BREATHING AND CONSCIOUSNESS
 
 ![Alt text](/Images/AdultShock/adultShock2.jpg)
 
@@ -18,7 +18,7 @@ Check for breathing by placing your cheek near the nose and mouth of the child t
 
 If the child is breathing and unconscious or semi-conscious, you can place them in the recovery position.
 
-# STEP 3: CHECK FOR PULSE
+## CHECK FOR PULSE
 
 ![Alt text](/Images/AdultShock/adultShock7.jpg)
 
@@ -44,7 +44,7 @@ If the child is breathing and unconscious or semi-conscious, you can place them 
 
 - After positioning the arms, you should bend the knee of the leg farthest away from you, so the foot is flat on the floor.
 
-# STEP 8: ROLL THEM TOWARDS YOU
+## ROLL THEM TOWARDS YOU
 
 ![Alt text](/Images/AdultShock/adultShock4.jpg)
 
@@ -56,7 +56,7 @@ If the child is breathing and unconscious or semi-conscious, you can place them 
 
 - You can also roll the person by grabbing her firmly by the hip — either by a belt or the waistband of their pants, or by a front pocket — and pulling, with one hand on the shoulder farthest from you for stabilization.
 
-# STEP 9: OPEN THE AIRWAY
+## OPEN THE AIRWAY
 
 ![Alt text](/Images/AdultCPR/adultCPR25.jpg)
 
@@ -66,7 +66,7 @@ If the child is breathing and unconscious or semi-conscious, you can place them 
 
 - Cover them with a blanket or coat to keep them warm.
 
-# STEP 10: MONITOR AND KEEP WARM
+## MONITOR AND KEEP WARM
 
 ![Alt text](/Images/AdultCPR/adultCPR20.jpg)
 

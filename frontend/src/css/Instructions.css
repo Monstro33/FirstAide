@@ -57,6 +57,30 @@
   content: "8";
 }
 
+.instructions h2:nth-of-type(9)::before {
+  content: "9";
+}
+
+.instructions h2:nth-of-type(10)::before {
+  content: "10";
+}
+
+.instructions h2:nth-of-type(11)::before {
+  content: "11";
+}
+
+.instructions h2:nth-of-type(12)::before {
+  content: "12";
+}
+
+.instructions h2:nth-of-type(13)::before {
+  content: "13";
+}
+
+.instructions h2:nth-of-type(14)::before {
+  content: "14";
+}
+
 .instructions img {
   width: 90vw;
 }

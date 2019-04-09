@@ -1,4 +1,4 @@
-# STEP 1: ASSESS THE SITUATION
+## ASSESS THE SITUATION
 
 ![Alt text](/Images/AdultShock/adultShock9.jpg)
 
@@ -6,7 +6,7 @@
 
 - This position is not intented for people with spinal injuries.
 
-# STEP 2: CHECK FOR BREATHING AND CONSCIOUSNESS
+## CHECK FOR BREATHING AND CONSCIOUSNESS
 
 ![Alt text](/Images/AdultShock/adultShock2.jpg)
 
@@ -18,7 +18,7 @@ Check for breathing by placing your cheek near the nose and mouth of the person 
 
 If the person is breathing and unconscious or semi-conscious, you can place them in the recovery position.
 
-# STEP 3: CHECK FOR PULSE
+## CHECK FOR PULSE
 
 ![Alt text](/Images/AdultShock/adultShock7.jpg)
 
@@ -32,7 +32,7 @@ If the person is breathing and unconscious or semi-conscious, you can place them
 
 - Place the flat part of your finger on the wrist or neck to get the most accurate reading. Avoid using your fingertips or your thumb.
 
-# STEP 4: POSITION THE ARMS AND LEGS
+## POSITION THE ARMS AND LEGS
 
 ![Alt text](/Images/AdultShock/adultShock3.jpg)
 
