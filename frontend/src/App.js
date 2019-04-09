@@ -14,7 +14,7 @@ class App extends Component {
           <div className="content">
             <Route path="/" exact component={SplashPage} />
             <Route
-              path="/instructions/:emergencyId/:ageGroupId"
+              path="/instructions/:emergencyId/:ageGroupId/:instructionsId"
               component={Instructions}
             />
             <Route path="/prompts" exact component={Prompts} />
