@@ -33,4 +33,4 @@ abdominal thrusts until the:
 
 - IF CHILD BECOMES UNCONSCIOUS, CALL 9-1-1. Carefully lower the child to the ground and give CPR.
 
-[Go to CPR](/instructions/3/2)
+[Go to CPR](/instructions/0/0/10)

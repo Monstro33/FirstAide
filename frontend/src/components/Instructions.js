@@ -17,7 +17,17 @@ class Instructions extends Component {
     } = this.props;
 
     for (let i = 0; i < this.state.instructions.length; i++) {
-      if (
+      if (params.emergencyId == 0 && params.ageGroupId == 0) {
+        for (let j = 0; j < this.state.instructions.length; j++) {
+          if (
+            params.instructionsId == this.state.instructions[j].instructionsId
+          ) {
+            fetch(this.state.instructions[j].details)
+              .then(res => res.text())
+              .then(text => this.setState({ markdown: text }));
+          }
+        }
+      } else if (
         params.emergencyId == this.state.instructions[i].emergencyId &&
         params.ageGroupId == this.state.instructions[i].ageGroupId
       ) {
@@ -27,14 +37,6 @@ class Instructions extends Component {
       }
     }
   };
-
-  // cprLink = () => {
-  //   const cprSpan = document.querySelector(".cpr-link");
-
-  //   cprSpan.addEventListener("click", function(){
-  //     this.setState({ emergencyId: 3, ageGroupId: 2 });
-  //   });
-  // }
 
   componentDidMount() {
     fetch("https://localhost:44321/api/instructions")

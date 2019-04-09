@@ -139,7 +139,7 @@ namespace FirstAide
                    InstructionsId = 9,
                    AgeGroupId = 3,
                    EmergencyId = 3,
-                   Details = "/markdown/Unconcious/UnconciousAdult/recoveryAdult.md"
+                   Details = "/markdown/Unconcious/UnconciousAdult/cprAdult.md"
                },
 
                new Instructions()
@@ -148,7 +148,108 @@ namespace FirstAide
                    AgeGroupId = 0,
                    EmergencyId = 0,
                    Details = "/markdown/Unconcious/UnconciousAdult/rescueBreathingAdult.md"
-               }
+               },
+               new Instructions()
+               {
+                   InstructionsId = 11,
+                   AgeGroupId = 0,
+                   EmergencyId = 0,
+                   Details = "/markdown/Unconcious/UnconciousAdult/recoveryAdult.md"
+               },
+               new Instructions()
+               {
+                   InstructionsId = 12,
+                   AgeGroupId = 0,
+                   EmergencyId = 0,
+                   Details = "/markdown/Unconcious/UnconciousChild/recoveryChild.md"
+               },
+               new Instructions()
+               {
+                   InstructionsId = 13,
+                   AgeGroupId = 0,
+                   EmergencyId = 0,
+                   Details = "/markdown/Unconcious/UnconciousChild/rescueBreathingChild.md"
+               },
+                new Instructions()
+                {
+                    InstructionsId = 14,
+                    AgeGroupId = 0,
+                    EmergencyId = 0,
+                    Details = "/markdown/Unconcious/UnconciousInfant/recoveryInfant.md"
+                },
+               new Instructions()
+               {
+                   InstructionsId = 15,
+                   AgeGroupId = 0,
+                   EmergencyId = 0,
+                   Details = "/markdown/Unconcious/UnconciousInfant/rescueBreathingInfant.md"
+               },
+                new Instructions()
+                {
+                    InstructionsId = 16,
+                    AgeGroupId = 0,
+                    EmergencyId = 0,
+                    Details = "/markdown/Choking/ChokingAdult/chokingUnconsciousAdult.md"
+                },
+               new Instructions()
+               {
+                   InstructionsId = 17,
+                   AgeGroupId = 0,
+                   EmergencyId = 0,
+                   Details = "/markdown/Choking/ChokingAdult/chokingUnconsciousAdult-2.md"
+               },
+                new Instructions()
+                {
+                    InstructionsId = 18,
+                    AgeGroupId = 0,
+                    EmergencyId = 0,
+                    Details = "/markdown/Choking/ChokingChild/chokingUnconsciousChild.md"
+                },
+               new Instructions()
+               {
+                   InstructionsId = 19,
+                   AgeGroupId = 0,
+                   EmergencyId = 0,
+                   Details = "/markdown/Choking/ChokingChild/chokingUnconsciousChild-2.md"
+               },
+                new Instructions()
+                {
+                    InstructionsId = 20,
+                    AgeGroupId = 0,
+                    EmergencyId = 0,
+                    Details = "/markdown/Choking/ChokingInfant/chokingUnconsciousInfant.md"
+                },
+               new Instructions()
+               {
+                   InstructionsId = 21,
+                   AgeGroupId = 0,
+                   EmergencyId = 0,
+                   Details = "/markdown/Choking/ChokingInfant/chokingUnconsciousInfant-2.md"
+               },
+
+                new Instructions()
+                {
+                    InstructionsId = 22,
+                    AgeGroupId = 0,
+                    EmergencyId = 0,
+                    Details = "/markdown/AllergicReaction/AllergicReactionAdult/shockAdult.md"
+                },
+                new Instructions()
+                {
+                    InstructionsId = 23,
+                    AgeGroupId = 0,
+                    EmergencyId = 0,
+                    Details = "/markdown/AllergicReaction/AllergicReactionChild/shockChild.md"
+                },
+                new Instructions()
+                {
+                    InstructionsId = 24,
+                    AgeGroupId = 0,
+                    EmergencyId = 0,
+                    Details = "/markdown/AllergicReaction/AllergicReactionInfant/shockInfant.md"
+                }
+
+
               );
 
             base.OnModelCreating(modelBuilder);
