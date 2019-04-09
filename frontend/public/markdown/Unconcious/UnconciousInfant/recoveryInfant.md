@@ -50,6 +50,8 @@
 
 # STEP 7: MONITOR AND KEEP WARM
 
+![Alt text](/Images/InfantShock/infantShock8.jpg)
+
 - Cover the infant with a blanket or coat to keep them warm.
 
 - Continue to monitor the pulse and breathing while you wait for help to arrive.
