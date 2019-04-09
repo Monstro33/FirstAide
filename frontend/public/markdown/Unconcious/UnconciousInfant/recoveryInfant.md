@@ -37,7 +37,6 @@
 ![Alt text](/Images/InfantShock/infantShock2.jpg)
 
 - When you lay the infant on your arm, you should be sure to support the neck and head with your other hand.
-
 - So, if you are laying the infant over your left arm, place your right hand under her head and neck to support it.
 
 ## KEEP THE MOUTH AND NOSE CLEAR
@@ -45,7 +44,6 @@
 ![Alt text](/Images/InfantShock/infantShock3.jpg)
 
 - When you supporting the infant’s head, it’s essential that you do not block the mouth and nose unwittingly.
-
 - Note where your fingers are, and double-check that the infant can breathe.
 
 ## MONITOR AND KEEP WARM
@@ -53,5 +51,4 @@
 ![Alt text](/Images/InfantShock/infantShock8.jpg)
 
 - Cover the infant with a blanket or coat to keep them warm.
-
 - Continue to monitor the pulse and breathing while you wait for help to arrive.

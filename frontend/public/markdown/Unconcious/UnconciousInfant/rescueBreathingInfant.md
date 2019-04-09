@@ -97,7 +97,6 @@
 ![Alt text](/Images/InfantCPR/infantCPR16.jpg)
 
 - After performing 2 minutes of rescue breathing, call Emergency Services if you are the only person available.
-
 - If two or more people are available, one person should dial for help while the other continues with rescue breathing.
 
 ## CONTINUE RESCUE BREATHING
@@ -105,9 +104,6 @@
 ![Alt text](/Images/ChildRescueBreathing/childRescueBreathing6.jpg)
 
 - Continue rescue breathing, giving one breath every 6 seconds (10 breaths per minute).
-
 - Check for a pulse every two minutes while doing rescue breathing.
-
 - Continue with rescue breathing until the child begins breathing on their own.
-
 - You will notice that they are improving if they start coughing or moving.

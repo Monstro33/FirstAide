@@ -25,7 +25,6 @@
 ![Alt text](/Images/ChokingChild/chokingChild11.jpg)
 
 - CHECK quickly for no more than 10 seconds.
-
 - Occasional gasps are not breathing.
 
 ## GIVE 2 RESCUE BREATHS
