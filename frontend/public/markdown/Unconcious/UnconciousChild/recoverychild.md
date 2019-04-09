@@ -1,4 +1,5 @@
 # STEP 1: ASSESS THE SITUATION
+
 ![Alt text](/Images/AdultShock/adultShock9.jpg)
 
 - The recovery position is used for people who are unconscious but breathing.
@@ -16,14 +17,14 @@
 Check for breathing by placing your cheek near the nose and mouth of the child to feel their breath.
 
 If the child is breathing and unconscious or semi-conscious, you can place them in the recovery position.
- 
+
 # STEP 3: CHECK FOR PULSE
 
 ![Alt text](/Images/AdultShock/adultShock7.jpg)
 
 - Press firmly but not so hard that you can no longer feel the pulse.
 
-- Put your index and third finger on either side of the neck to the side of the  windpipe to find the carotid artery.
+- Put your index and third finger on either side of the neck to the side of the windpipe to find the carotid artery.
 
 - If you’re measuring on the wrist, set two fingers between the bone and tendon over your radial artery.
 
@@ -31,7 +32,7 @@ If the child is breathing and unconscious or semi-conscious, you can place them 
 
 - Place the flat part of your finger on the wrist or neck to get the most accurate reading. Avoid using your fingertips or your thumb.
 
-# STEP 4: POSITION THE ARMS AND LEGS
+## POSITION THE ARMS AND LEGS
 
 ![Alt text](/Images/AdultShock/adultShock3.jpg)
 

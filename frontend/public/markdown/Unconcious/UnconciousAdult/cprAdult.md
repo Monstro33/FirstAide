@@ -20,7 +20,7 @@
 
 - Make a fist and rub your knuckles hard on the person’s breastbone.
 
-- You can also grasp the muscles of the shoulder with your thumb and fingers and squeeze into the hollow of the collarbone. 
+- You can also grasp the muscles of the shoulder with your thumb and fingers and squeeze into the hollow of the collarbone.
 
 - Bend low as you do this and listen for sounds or signs of breathing.
 
@@ -42,7 +42,7 @@
 
 - Use sweeping motions rather than digging ones.
 
-# STEP 5: CHECK FOR BREATHING 
+# STEP 5: CHECK FOR BREATHING
 
 ![Alt text](/Images/AdultCPR/adultCPR27.jpg)
 
@@ -76,7 +76,7 @@
 
 - IF NO PULSE, CONTINUE WITH STEPS.
 
--IF PULSE IS PRESENT, CLICK HERE FOR                - RESCUE BREATHING -
+-IF PULSE IS PRESENT, CLICK HERE FOR - RESCUE BREATHING -
 
 # STEP 8: INTERLACE FINGERS WITH ONE HAND ON TOP OF THE OTHER
 
@@ -110,7 +110,7 @@
 
 ![Alt text](/Images/AdultCPR/adultCPR28.jpg)
 
-- Put your palm on their forehead and gently tilt (extend) their head back a little. 
+- Put your palm on their forehead and gently tilt (extend) their head back a little.
 
 - Then with your other hand, gently lift the chin forward to open up their airway.
 
@@ -120,12 +120,12 @@
 
 ![Alt text](/Images/AdultCPR/adultCPR29.jpg)
 
-- Make sure their mouth is free of any objects blocking their airway. 
+- Make sure their mouth is free of any objects blocking their airway.
 
 - Use one hand to pinch the nose shut then make a complete seal over the person’s mouth.
 
 - Blow in for about 1 second to make the
-chest clearly rise.
+  chest clearly rise.
 
 - Give rescue breaths, one after the other.
 
@@ -143,7 +143,7 @@ chest clearly rise.
 
 ![Alt text](/Images/AdultCPR/adultCPR12.jpg)
 
-- Continue cycles of CPR. Do not stop CPR except in one of these situations:
+    Continue cycles of CPR. Do not stop CPR except in one of these situations:
 
     - You find an obvious sign of life, such as breathing.
 

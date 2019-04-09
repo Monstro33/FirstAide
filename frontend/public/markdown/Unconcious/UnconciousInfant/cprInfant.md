@@ -10,7 +10,7 @@
 
 - Also tap their shoulder or arm while you do it to see if that will help as well.
 
-- If this doesn't work, try yelling once or twice at them to see if that will rouse them. 
+- If this doesn't work, try yelling once or twice at them to see if that will rouse them.
 
 # STEP 2: VERIFY THEY ARE UNRESPONSIVE
 
@@ -22,7 +22,7 @@
 
 - Make a fist and rub your knuckles hard on the infants’s breastbone.
 
-- You can also grasp the muscles of the shoulder with your thumb and fingers and light to moderately squeeze into the hollow of the collarbone. 
+- You can also grasp the muscles of the shoulder with your thumb and fingers and light to moderately squeeze into the hollow of the collarbone.
 
 - Bend low as you do this and listen for sounds or signs of breathing.
 
@@ -44,7 +44,7 @@
 
 - Use sweeping motions rather than digging ones.
 
-# STEP 5: CHECK FOR BREATHING 
+# STEP 5: CHECK FOR BREATHING
 
 ![Alt text](/Images/InfantCPR/infantCPR12.jpg)
 
@@ -70,15 +70,15 @@
 
 - Count the pulse rate of the infant for one full minute.
 
- - Infants generally have higher pulse rates than adults.
- 
- - They’re heart rates generally fall between 140 and 160 beats per minute, even at rest
+- Infants generally have higher pulse rates than adults.
+
+- They’re heart rates generally fall between 140 and 160 beats per minute, even at rest
 
 # STEP 7: DETERMINE IF CPR IS NECESASARY
 
 - IF NO PULSE, CONTINUE WITH STEPS.
 
--IF PULSE IS PRESENT, CLICK HERE FOR                - RESCUE BREATHING -
+-IF PULSE IS PRESENT, CLICK HERE FOR - RESCUE BREATHING -
 
 # STEP 8: POSITION YOUR FINGERS IN THE CENTER OF THE CHEST
 
@@ -94,12 +94,11 @@
 
 ![Alt text](/Images/InfantCPR/infantCPR23.jpg)
 
-- Gently push straight down on the chest, depressing it by about 1.5 inches (4 cm). 
+- Gently push straight down on the chest, depressing it by about 1.5 inches (4 cm).
 
 - Perform 30 compressions rapidly at a rate of 100 compressions per minute.
 
-
-- Each compression should be smooth, not abrupt or shaky.
+* Each compression should be smooth, not abrupt or shaky.
 
 -Be careful not to injure the baby's ribs during the compressions
 
@@ -115,7 +114,7 @@
 
 ![Alt text](/Images/InfantCPR/infantCPR11.jpg)
 
-- Put your palm on their forehead and gently tilt (extend) their head back a little. 
+- Put your palm on their forehead and gently tilt (extend) their head back a little.
 
 - Then with your other hand, gently lift the chin forward to open up their airway.
 
@@ -125,7 +124,7 @@
 
 ![Alt text](/Images/InfantCPR/infantCPR20.jpg)
 
-- Make sure their mouth is free of any objects blocking their airway. 
+- Make sure their mouth is free of any objects blocking their airway.
 
 - Use one hand to pinch the nose shut then make a complete seal over the child’s mouth.
 
@@ -149,9 +148,9 @@
 
 - Continue cycles of CPR. Do not stop CPR unless:
 
-    - You find an obvious sign of life,
+  - You find an obvious sign of life,
     such as breathing.
 
-    - You are too exhausted to continue.
+  - You are too exhausted to continue.
 
-    - The scene becomes unsafe.
+  - The scene becomes unsafe.

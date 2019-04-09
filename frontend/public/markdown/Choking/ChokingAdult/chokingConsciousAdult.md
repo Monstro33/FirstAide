@@ -1,10 +1,10 @@
-# STEP 1: GIVE 5 BACK BLOWS
+## GIVE 5 BACK BLOWS
 
 - Bend the person forward at the waist and
   give 5 back blows between the shoulder
   blades with the heel of one hand.
 
-# STEP 2: GIVE 5 ABDOMINAL THRUSTS
+## GIVE 5 ABDOMINAL THRUSTS
 
 - Place a fist with the thumb side against
   the middle of the person’s abdomen, just
@@ -12,7 +12,7 @@
 - Cover your fist with your other hand.
 - Give 5 quick, upward abdominal thrusts.
 
-# STEP 3: CONTINUE CARE
+## CONTINUE CARE
 
 Continue sets of 5 back blows and
 5 abdominal thrusts until the:
