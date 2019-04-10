@@ -1,3 +1,7 @@
+<video controls="controls">
+    <source src="/Videos/childCPR.mp4" type="video/mp4" />
+</video>
+        
 ## CHECK RESPONSIVENESS
 
 ![Alt text](/Images/AdultCPR/adultCPR22.jpg)
