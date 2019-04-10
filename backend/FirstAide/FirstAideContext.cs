@@ -11,8 +11,8 @@ namespace FirstAide
     {
         public DbSet<AgeGroup> AgeGroups { get; set; }
         public DbSet<Instructions> Instructions { get; set; }
-
         public DbSet<Emergency> Emergency { get; set; }
+        public DbSet<User> Users { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -66,6 +66,7 @@ namespace FirstAide
                    Name = "Unconscious"
                }
               );
+
             modelBuilder.Entity<Instructions>().HasData(
 
                new Instructions()
@@ -75,25 +76,25 @@ namespace FirstAide
                    EmergencyId = 1,
                    Details = "/markdown/Choking/ChokingInfant/chokingConsciousInfant.md"
                },
-               
+
                new Instructions()
                {
                    InstructionsId = 2,
                    AgeGroupId = 2,
                    EmergencyId = 1,
-                   Details = "/markdown/Choking/ChokingChild/chokingConsciousChild.md"                            
+                   Details = "/markdown/Choking/ChokingChild/chokingConsciousChild.md"
                },
 
-               new Instructions ()
+               new Instructions()
                {
                    InstructionsId = 3,
                    AgeGroupId = 3,
                    EmergencyId = 1,
                    Details = "/markdown/Choking/ChokingAdult/chokingConsciousAdult.md"
 
-    },
+               },
 
-               new Instructions ()
+               new Instructions()
                {
                    InstructionsId = 4,
                    AgeGroupId = 1,
@@ -115,8 +116,8 @@ namespace FirstAide
                    AgeGroupId = 3,
                    EmergencyId = 2,
                    Details = "/markdown/AllergicReaction/AllergicReactionAdult/allergicReactionAdult.md"
-                   
-    },
+
+               },
 
                new Instructions()
                {
@@ -131,7 +132,7 @@ namespace FirstAide
                    InstructionsId = 8,
                    AgeGroupId = 2,
                    EmergencyId = 3,
-                   Details = "/markdown/Unconcious/UnconciousChild/UnconciousChild.md"
+                   Details = "/markdown/Unconcious/UnconciousChild/cprChild.md"
                },
 
                new Instructions()
@@ -247,8 +248,21 @@ namespace FirstAide
                     AgeGroupId = 0,
                     EmergencyId = 0,
                     Details = "/markdown/AllergicReaction/AllergicReactionInfant/shockInfant.md"
-                }
+                });
 
+                modelBuilder.Entity<User>().HasData(
+
+                new User()
+                {
+                    UserId = 1,
+                    Name = "Sabrina Andrew",
+                    UserName = "Sabrina",
+                    Email = "sabrina.rae.andrew@gmail.com",
+                    Dob = "December 17, 1979",
+                    Medications = "None",
+                    Allergies = "None"
+
+                }
 
               );
 
