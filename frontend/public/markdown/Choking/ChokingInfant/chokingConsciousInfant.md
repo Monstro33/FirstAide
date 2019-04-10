@@ -29,4 +29,12 @@ Chest thrusts until the:
 
 ## WHAT TO DO NEXT
 
-- IF INFANT BECOMES UNCONSCIOUS, CALL 9-1-1. Carefully lower the infant to the ground and give CPR.
+- IF INFANT BECOMES UNCONSCIOUS, CALL 9-1-1. Carefully lower the infant to the ground.
+- Assess the childs breathing and pulse. 
+- If the infant is not breathing or not breathing adequately, GO TO
+
+[Go to CPR](/instructions/0/0/15)
+
+- If the infant does not have a pulse, GO TO 
+
+[Go to CPR](/instructions/3/1/7)

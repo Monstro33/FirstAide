@@ -10,8 +10,11 @@
 
 - Check to see if the person is unconscious, but breathing, and has no other life-threatening conditions.
 - Talk to the person to assess if they are responsive.
-  Check for breathing by placing your cheek near the nose and mouth of the person to feel their breath for 5 to 10 seconds.
-  If the person is breathing and unconscious or semi-conscious, you can place them in the recovery position.
+- Check for breathing by placing your cheek near the nose and mouth of the person to feel their breath for 5 to 10 seconds.
+- If the person is breathing and unconscious or semi-conscious, you can place them in the recovery position.
+- If the person stops breathing or is not breathing adequately, GO TO 
+
+[Go to CPR](/instructions/0/0/10)
 
 ## CHECK FOR PULSE
 
@@ -22,6 +25,9 @@
 - If you’re measuring on the wrist, set two fingers between the bone and tendon over your radial artery.
 - Find the radial artery by drawing a line with your finger from below the thumb to the wrist. Then feel for the spot between the wrist bone and tendon for a slight pumping motion.
 - Place the flat part of your finger on the wrist or neck to get the most accurate reading. Avoid using your fingertips or your thumb.
+- If the person does not have a pulse, GO TO 
+
+[Go to CPR](/instructions/3/3/9)
 
 ## CALL 9-1-1
 
@@ -70,3 +76,7 @@
 - Check for a pulse every two minutes while doing rescue breathing.
 - Continue with rescue breathing until the person begins breathing on their own.
 - You will notice that they are improving if they start coughing or moving.
+- If the person does not have a pulse, GO TO 
+
+[Go to CPR](/instructions/3/3/9)
+
