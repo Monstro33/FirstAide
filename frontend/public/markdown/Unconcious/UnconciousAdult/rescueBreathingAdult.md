@@ -10,8 +10,8 @@
 
 - Check to see if the person is unconscious, but breathing, and has no other life-threatening conditions.
 - Talk to the person to assess if they are responsive.
-  Check for breathing by placing your cheek near the nose and mouth of the person to feel their breath for 5 to 10 seconds.
-  If the person is breathing and unconscious or semi-conscious, you can place them in the recovery position.
+- Check for breathing by placing your cheek near the nose and mouth of the person to feel their breath for 5 to 10 seconds.
+- If the person is breathing and unconscious or semi-conscious, you can place them in the recovery position.
 
 ## CHECK FOR PULSE
 
