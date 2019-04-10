@@ -24,6 +24,10 @@
 - Find the radial artery by drawing a line with your finger from below the thumb to the wrist. Then feel for the spot between the wrist bone and tendon for a slight pumping motion.
 - Place the flat part of your finger on the wrist or neck to get the most accurate reading. Avoid using your fingertips or your thumb.
 
+- If Pulse is not present, GO TO 
+
+[Go to CPR](/instructions/3/3/9)
+
 ## POSITION THE ARMS AND LEGS
 
 ![Alt text](/Images/AdultShock/adultShock3.jpg)
@@ -56,3 +60,10 @@
 
 - Cover them with a blanket or coat to keep them warm.
 - Continue to monitor the pulse and breathing while you wait for help to arrive.
+- If the person does not have a pulse, GO TO 
+
+[Go to CPR](/instructions/3/3/9)
+
+- If the person stops breathing or is not breathing adequately, GO TO 
+
+[Go to CPR](/instructions/0/0/10)

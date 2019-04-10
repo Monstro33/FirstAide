@@ -20,7 +20,9 @@ Continue sets of 5 back blows and
 - Object is forced out.
 - Person can cough forcefully or breathe.
 - Person becomes unconscious.
-  <!-- # STEP 4: WHAT TO DO NEXT
-- IF THE PERSON BECOMES UNCONSCIOUS—CALL 9-1-1, if not already done, and
-  give care for an unconscious choking adult, beginning with looking for an object
-  (PANEL 5, Step 3). -->
+
+## WHAT TO DO NEXT
+
+- IF THE PERSON BECOMES unconscious, call 9-1-1, if not already done, and GO TO
+
+[Go to Choking](/instructions/0/0/16)

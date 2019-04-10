@@ -78,7 +78,9 @@
 
 - IF NO PULSE, CONTINUE WITH STEPS.
 
--IF PULSE IS PRESENT, CLICK HERE FOR - RESCUE BREATHING -
+- If the infant HAS A PULSE but is not breathing or not breathing adequately, GO TO
+
+[Go to CPR](/instructions/0/0/15)
 
 ## POSITION YOUR FINGERS IN THE CENTER OF THE CHEST
 
@@ -147,7 +149,8 @@
 
 Continue cycles of CPR. Do not stop CPR unless:
 
-- You find an obvious sign of life,
-  such as breathing.
 - You are too exhausted to continue.
 - The scene becomes unsafe.
+- The infant regains consciousness and is breathing adequately, GO TO
+
+[Go to CPR](/instructions/0/0/15)

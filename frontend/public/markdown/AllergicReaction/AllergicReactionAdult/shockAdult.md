@@ -26,6 +26,22 @@
 - Talk to the person to assess if they are responsive.
 - Check for breathing by placing your cheek near the nose and mouth of the person to feel their breath for 5 to 10 seconds.
 - Continue to monitor the person’s respiration rate at least every 5 minutes,even if they are breathing on their own.
+- If the person stops breathing or is not breathing adequately, GO TO 
+
+[Go to CPR](/instructions/0/0/10)
+
+## CHECK FOR PULSE
+
+![Alt text](/Images/AdultShock/adultShock7.jpg)
+
+- Press firmly but not so hard that you can no longer feel the pulse.
+- Put your index and third finger on either side of the neck to the side of your windpipe to find the carotid artery.
+- If you’re measuring on the wrist, set two fingers between the bone and tendon over your radial artery.
+- Find the radial artery by drawing a line with your finger from below the thumb to the wrist. Then feel for the spot between the wrist bone and tendon for a slight pumping motion.
+- Place the flat part of your finger on the wrist or neck to get the most accurate reading. Avoid using your fingertips or your thumb.
+- If the person does not have a pulse, GO TO 
+
+[Go to CPR](/instructions/3/3/9)
 
 ## PLACE THE PERSON IN THE SHOCK POSITION
 
@@ -63,4 +79,11 @@
 - Talk to the person calmly. If the person is conscious, talking to them can help you to continue to evaluate their condition.
 - Check and maintain a clear airway, monitor their breathing, and keep check on their circulation by checking the pulse.
 - If the person vomits or is bleeding from the mouth, and there is no suspicion of spinal injury, turn the person onto their side to keep the airway clear and prevent choking.
+- If the person  is not breathing or not breathing adequately, GO TO
+
+[Go to CPR](/instructions/0/0/10)
+
+- If the person does not have a pulse, GO TO 
+
+[Go to CPR](/instructions/3/3/9)
 
