@@ -1,3 +1,7 @@
+<video controls="controls">
+    <source src="/Videos/adultChoking.mp4" type="video/mp4" />
+</video>
+
 ## GIVE 5 BACK BLOWS
 
 - Bend the person forward at the waist and

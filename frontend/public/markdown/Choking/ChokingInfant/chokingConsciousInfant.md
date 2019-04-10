@@ -1,3 +1,7 @@
+<video controls="controls">
+    <source src="/Videos/infantChoking.mp4" type="video/mp4" />
+</video>
+
 ## GIVE 5 BACK BLOWS
 
 ![Alt text](/Images/InfantChoking/infantChoking5.jpg)
