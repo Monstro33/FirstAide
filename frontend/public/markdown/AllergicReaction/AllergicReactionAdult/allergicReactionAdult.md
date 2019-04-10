@@ -19,7 +19,7 @@
 
 - Ask the person if he or she is carrying an epinephrine autoinjector (EpiPen, Auvi-Q, others) to treat an allergic attack.
 - If an epinephrine autoinjector is on-hand, ask whether you should help inject the medication.
-- If they do not have their own injector, send people to find one by asking all bystanders, going into a place of business and ask for the first aid kit, or go to the closest pharmacy.
+- If they do not have their own injector, send people to find one by asking all bystanders, going into a place of business and ask for the first aid kit, or go to the closest pharmacy. GO TO
 
 [Go to Shock](/instructions/0/0/22)
 
@@ -64,6 +64,6 @@
 
 ![Alt text](/Images/AdultAllergicReaction/adultAllergicReaction9.jpg)
 
-- If symptoms do not improve within 5 to 15 minutes, Administer a second epinephrine autoinjector. If at any time the patient loses consciousness.
+- If symptoms do not improve within 5 to 15 minutes, Administer a second epinephrine autoinjector. If at any time the patient loses consciousness, GO TO
 
 [Go to CPR](/instructions/3/3/9)
