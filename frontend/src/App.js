@@ -4,22 +4,15 @@ import "./css/App.css";
 import Instructions from "./components/Instructions";
 import SplashPage from "./components/SplashPage";
 import Prompts from "./components/Prompts";
-import NavBar from "./components/NavBar";
 import MenuAppBar from "./components/MenuAppBar";
 import Login from "./components/Login";
-// import Sidebar from "./components/Sidebar";
-// import sidebarStyle from "./assets/jsm/components/sidebarStyle";
 
 class App extends Component {
   render() {
     return (
       <div className="app">
-    <Login />
-      {/* <MenuAppBar /> */}
-      {/* <Sidebar /> */}
-      {/* <NavBar /> */}
-        {/* <Router>
-          <div className="header" />
+        <Router>
+          <MenuAppBar />
           <div className="content">
             <Route path="/" exact component={SplashPage} />
             <Route
@@ -28,7 +21,7 @@ class App extends Component {
             />
             <Route path="/prompts" exact component={Prompts} />
           </div>
-        </Router> */}
+        </Router>
       </div>
     );
   }
