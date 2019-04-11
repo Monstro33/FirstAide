@@ -12,6 +12,7 @@
   font-family: "Roboto";
   padding: 1rem;
   font-size: 8vw;
+  z-index: 3000;
 }
 
 .prompts h1 {
