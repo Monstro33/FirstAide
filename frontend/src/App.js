@@ -7,10 +7,19 @@ import Prompts from "./components/Prompts";
 import Header from "./components/Header";
 import { createMuiTheme, MuiThemeProvider } from "@material-ui/core/styles";
 import red from "@material-ui/core/colors/red";
-import MedicationsView from "./components/MedicationsView";
+import Auth from "./Auth/Auth";
+import Callback from "./components/Callback";
 
 class App extends Component {
   render() {
+    const auth = new Auth();
+
+    const handleAuthentication = (nextState, replace) => {
+      if (/access_token|id_token|error/.test(nextState.location.hash)) {
+        auth.handleAuthentication();
+      }
+    };
+
     const theme = createMuiTheme({
       palette: {
         primary: red
@@ -20,20 +29,25 @@ class App extends Component {
     return (
       <MuiThemeProvider theme={theme}>
         <div className="app">
-          <MedicationsView />
-          {
-            <Router>
-              <Header />
-              <div className="content">
-                <Route path="/" exact component={SplashPage} />
-                <Route
-                  path="/instructions/:emergencyId/:ageGroupId/:instructionsId"
-                  component={Instructions}
-                />
-                <Route path="/prompts" exact component={Prompts} />
-              </div>
-            </Router>
-          }
+          <Router>
+            <Header auth={auth} />
+            <div className="content">
+              <Route path="/" exact component={SplashPage} />
+              <Route
+                path="/instructions/:emergencyId/:ageGroupId/:instructionsId"
+                component={Instructions}
+              />
+              <Route path="/prompts" exact component={Prompts} />
+              <Route
+                path="/callback"
+                exact
+                render={props => {
+                  handleAuthentication(props);
+                  return <Callback {...props} />;
+                }}
+              />
+            </div>
+          </Router>
         </div>
       </MuiThemeProvider>
     );
