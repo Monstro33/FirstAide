@@ -9,15 +9,15 @@ import MenuIcon from "@material-ui/icons/Menu";
 import AccountCircle from "@material-ui/icons/AccountCircle";
 import MenuItem from "@material-ui/core/MenuItem";
 import Menu from "@material-ui/core/Menu";
-import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
-import Button from '@material-ui/core/Button';
-import List from '@material-ui/core/List';
-import Divider from '@material-ui/core/Divider';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
-import DashboardIcon from '@material-ui/icons/Dashboard';
-import MailIcon from '@material-ui/icons/Mail';
+import SwipeableDrawer from "@material-ui/core/SwipeableDrawer";
+import Button from "@material-ui/core/Button";
+import List from "@material-ui/core/List";
+import Divider from "@material-ui/core/Divider";
+import ListItem from "@material-ui/core/ListItem";
+import ListItemIcon from "@material-ui/core/ListItemIcon";
+import ListItemText from "@material-ui/core/ListItemText";
+import DashboardIcon from "@material-ui/icons/Dashboard";
+import MailIcon from "@material-ui/icons/Mail";
 
 const styles = {
   root: {
@@ -40,9 +40,29 @@ class Header extends Component {
     left: false
   };
 
+  goTo(route) {
+    this.props.history.replace(`/${route}`);
+  }
+
+  login() {
+    this.props.auth.login();
+  }
+
+  logout() {
+    this.props.auth.logout();
+  }
+
+  componentDidMount() {
+    const { renewSession } = this.props.auth;
+
+    if (localStorage.getItem("isLoggedIn") === "true") {
+      renewSession();
+    }
+  }
+
   toggleDrawer = (side, open) => () => {
     this.setState({
-      [side]: open,
+      [side]: open
     });
   };
 
@@ -62,22 +82,29 @@ class Header extends Component {
     const { classes } = this.props;
     const { auth, anchorEl } = this.state;
     const open = Boolean(anchorEl);
+    const { isAuthenticated } = this.props.auth;
 
     const sideList = (
       <div className={classes.list}>
         <List>
-          {['Dashboard', 'Current Medications', 'Allergies', 'Log'].map((text, index) => (
-            <ListItem button key={text}>
-              <ListItemIcon>{index % 2 === 0 ? <DashboardIcon /> : <MailIcon />}</ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItem>
-          ))}
+          {["Dashboard", "Current Medications", "Allergies", "Log"].map(
+            (text, index) => (
+              <ListItem button key={text}>
+                <ListItemIcon>
+                  {index % 2 === 0 ? <DashboardIcon /> : <MailIcon />}
+                </ListItemIcon>
+                <ListItemText primary={text} />
+              </ListItem>
+            )
+          )}
         </List>
         <Divider />
         <List>
-          {['Health Log', 'Emergency'].map((text, index) => (
+          {["Health Log", "Emergency"].map((text, index) => (
             <ListItem button key={text}>
-              <ListItemIcon>{index % 2 === 0 ? <DashboardIcon /> : <MailIcon />}</ListItemIcon>
+              <ListItemIcon>
+                {index % 2 === 0 ? <DashboardIcon /> : <MailIcon />}
+              </ListItemIcon>
               <ListItemText primary={text} />
             </ListItem>
           ))}
@@ -87,7 +114,6 @@ class Header extends Component {
 
     return (
       <div className={classes.root}>
-
         <AppBar position="fixed">
           <Toolbar>
             <IconButton
@@ -95,53 +121,60 @@ class Header extends Component {
               color="inherit"
               aria-label="Menu"
             >
-            <MenuIcon onClick={this.toggleDrawer('left', true)} />
+              <MenuIcon onClick={this.toggleDrawer("left", true)} />
             </IconButton>
             <Typography variant="h6" color="inherit" className={classes.grow}>
               Health Dashboard
             </Typography>
-            {auth && (
-              <div>
-                <IconButton
-                  aria-owns={open ? "menu-appbar" : undefined}
-                  aria-haspopup="true"
-                  onClick={this.handleMenu}
-                  color="inherit"
-                >
-                  <AccountCircle />
-                </IconButton>
-                <Menu
-                  id="menu-appbar"
-                  anchorEl={anchorEl}
-                  anchorOrigin={{
-                    vertical: "top",
-                    horizontal: "right"
-                  }}
-                  transformOrigin={{
-                    vertical: "top",
-                    horizontal: "right"
-                  }}
-                  open={open}
-                  onClose={this.handleClose}
-                >
-                  <MenuItem onClick={this.handleClose}>Profile</MenuItem>
-                  <MenuItem onClick={this.handleClose}>Log Out</MenuItem>
-                </Menu>
-              </div>
-            )}
+            <div>
+              <IconButton
+                aria-owns={open ? "menu-appbar" : undefined}
+                aria-haspopup="true"
+                onClick={this.handleMenu}
+                color="inherit"
+              >
+                <AccountCircle />
+              </IconButton>
+              <Menu
+                id="menu-appbar"
+                anchorEl={anchorEl}
+                anchorOrigin={{
+                  vertical: "top",
+                  horizontal: "right"
+                }}
+                transformOrigin={{
+                  vertical: "top",
+                  horizontal: "right"
+                }}
+                open={open}
+                onClose={this.handleClose}
+              >
+                {!isAuthenticated() && (
+                  <MenuItem onClick={this.login.bind(this)}>Log In</MenuItem>
+                )}
+                {isAuthenticated() && (
+                  <>
+                    <MenuItem onClick={this.handleClose}>Profile</MenuItem>
+                    <MenuItem onClick={this.logout.bind(this)}>
+                      Log Out
+                    </MenuItem>
+                  </>
+                )}
+              </Menu>
+            </div>
           </Toolbar>
         </AppBar>
 
         <SwipeableDrawer
           open={this.state.left}
-          onClose={this.toggleDrawer('left', false)}
-          onOpen={this.toggleDrawer('left', true)}
+          onClose={this.toggleDrawer("left", false)}
+          onOpen={this.toggleDrawer("left", true)}
         >
           <div
             tabIndex={0}
             role="button"
-            onClick={this.toggleDrawer('left', false)}
-            onKeyDown={this.toggleDrawer('left', false)}
+            onClick={this.toggleDrawer("left", false)}
+            onKeyDown={this.toggleDrawer("left", false)}
           >
             {sideList}
           </div>
