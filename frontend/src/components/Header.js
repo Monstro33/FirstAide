@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
@@ -9,13 +9,21 @@ import MenuIcon from "@material-ui/icons/Menu";
 import AccountCircle from "@material-ui/icons/AccountCircle";
 import MenuItem from "@material-ui/core/MenuItem";
 import Menu from "@material-ui/core/Menu";
+import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
+import Button from '@material-ui/core/Button';
+import List from '@material-ui/core/List';
+import Divider from '@material-ui/core/Divider';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemIcon from '@material-ui/core/ListItemIcon';
+import ListItemText from '@material-ui/core/ListItemText';
+import DashboardIcon from '@material-ui/icons/Dashboard';
+import MailIcon from '@material-ui/icons/Mail';
 
 const styles = {
   root: {
     background: "red",
     flexGrow: 1
   },
-
   grow: {
     flexGrow: 1
   },
@@ -25,10 +33,17 @@ const styles = {
   }
 };
 
-class MenuAppBar extends React.Component {
+class Header extends Component {
   state = {
     auth: true,
-    anchorEl: null
+    anchorEl: null,
+    left: false
+  };
+
+  toggleDrawer = (side, open) => () => {
+    this.setState({
+      [side]: open,
+    });
   };
 
   handleChange = event => {
@@ -48,8 +63,31 @@ class MenuAppBar extends React.Component {
     const { auth, anchorEl } = this.state;
     const open = Boolean(anchorEl);
 
+    const sideList = (
+      <div className={classes.list}>
+        <List>
+          {['Dashboard', 'Current Medications', 'Allergies', 'Log'].map((text, index) => (
+            <ListItem button key={text}>
+              <ListItemIcon>{index % 2 === 0 ? <DashboardIcon /> : <MailIcon />}</ListItemIcon>
+              <ListItemText primary={text} />
+            </ListItem>
+          ))}
+        </List>
+        <Divider />
+        <List>
+          {['Health Log', 'Emergency'].map((text, index) => (
+            <ListItem button key={text}>
+              <ListItemIcon>{index % 2 === 0 ? <DashboardIcon /> : <MailIcon />}</ListItemIcon>
+              <ListItemText primary={text} />
+            </ListItem>
+          ))}
+        </List>
+      </div>
+    );
+
     return (
       <div className={classes.root}>
+
         <AppBar position="fixed">
           <Toolbar>
             <IconButton
@@ -57,7 +95,7 @@ class MenuAppBar extends React.Component {
               color="inherit"
               aria-label="Menu"
             >
-            <MenuIcon />
+            <MenuIcon onClick={this.toggleDrawer('left', true)} />
             </IconButton>
             <Typography variant="h6" color="inherit" className={classes.grow}>
               Health Dashboard
@@ -93,13 +131,28 @@ class MenuAppBar extends React.Component {
             )}
           </Toolbar>
         </AppBar>
+
+        <SwipeableDrawer
+          open={this.state.left}
+          onClose={this.toggleDrawer('left', false)}
+          onOpen={this.toggleDrawer('left', true)}
+        >
+          <div
+            tabIndex={0}
+            role="button"
+            onClick={this.toggleDrawer('left', false)}
+            onKeyDown={this.toggleDrawer('left', false)}
+          >
+            {sideList}
+          </div>
+        </SwipeableDrawer>
       </div>
     );
   }
 }
 
-MenuAppBar.propTypes = {
+Header.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(MenuAppBar);
+export default withStyles(styles)(Header);
