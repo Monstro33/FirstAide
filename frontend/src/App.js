@@ -21,17 +21,19 @@ class App extends Component {
       <MuiThemeProvider theme={theme}>
         <div className="app">
           <MedicationsView />
-          {/* <Router>
-            <Header />
-            <div className="content">
-              <Route path="/" exact component={SplashPage} />
-              <Route
-                path="/instructions/:emergencyId/:ageGroupId/:instructionsId"
-                component={Instructions}
-              />
-              <Route path="/prompts" exact component={Prompts} />
-            </div>
-          </Router> */}
+          {
+            <Router>
+              <Header />
+              <div className="content">
+                <Route path="/" exact component={SplashPage} />
+                <Route
+                  path="/instructions/:emergencyId/:ageGroupId/:instructionsId"
+                  component={Instructions}
+                />
+                <Route path="/prompts" exact component={Prompts} />
+              </div>
+            </Router>
+          }
         </div>
       </MuiThemeProvider>
     );
