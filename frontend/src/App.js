@@ -4,7 +4,7 @@ import "./css/App.css";
 import Instructions from "./components/Instructions";
 import SplashPage from "./components/SplashPage";
 import Prompts from "./components/Prompts";
-import MenuAppBar from "./components/MenuAppBar";
+import Header from "./components/Header";
 import { createMuiTheme, MuiThemeProvider } from "@material-ui/core/styles";
 import red from "@material-ui/core/colors/red";
 
@@ -20,7 +20,7 @@ class App extends Component {
       <MuiThemeProvider theme={theme}>
       <div className="app">
           <Router>
-            <MenuAppBar />
+            <Header />
             <div className="content">
               <Route path="/" exact component={SplashPage} />
               <Route
