@@ -9,15 +9,15 @@ import MenuIcon from "@material-ui/icons/Menu";
 import AccountCircle from "@material-ui/icons/AccountCircle";
 import MenuItem from "@material-ui/core/MenuItem";
 import Menu from "@material-ui/core/Menu";
-import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
-import Button from '@material-ui/core/Button';
-import List from '@material-ui/core/List';
-import Divider from '@material-ui/core/Divider';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
-import DashboardIcon from '@material-ui/icons/Dashboard';
-import MailIcon from '@material-ui/icons/Mail';
+import SwipeableDrawer from "@material-ui/core/SwipeableDrawer";
+import Button from "@material-ui/core/Button";
+import List from "@material-ui/core/List";
+import Divider from "@material-ui/core/Divider";
+import ListItem from "@material-ui/core/ListItem";
+import ListItemIcon from "@material-ui/core/ListItemIcon";
+import ListItemText from "@material-ui/core/ListItemText";
+import DashboardIcon from "@material-ui/icons/Dashboard";
+import MailIcon from "@material-ui/icons/Mail";
 
 const styles = {
   root: {
@@ -42,7 +42,7 @@ class Header extends Component {
 
   toggleDrawer = (side, open) => () => {
     this.setState({
-      [side]: open,
+      [side]: open
     });
   };
 
@@ -66,28 +66,27 @@ class Header extends Component {
     const sideList = (
       <div className={classes.list}>
         <List>
-          {['Dashboard', 'Current Medications', 'Allergies', 'Log'].map((text, index) => (
-            <ListItem button key={text}>
-              <ListItemIcon>{index % 2 === 0 ? <DashboardIcon /> : <MailIcon />}</ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItem>
-          ))}
+          {["Dashboard", "Current Medications", "Allergies", "Log"].map(
+            (text, index) => (
+              <ListItem button key={text}>
+                <ListItemIcon>
+                  {index % 2 === 0 ? <DashboardIcon /> : <MailIcon />}
+                </ListItemIcon>
+                <ListItemText primary={text} />
+              </ListItem>
+            )
+          )}
         </List>
         <Divider />
-        <List>
-          {['Health Log', 'Emergency'].map((text, index) => (
-            <ListItem button key={text}>
-              <ListItemIcon>{index % 2 === 0 ? <DashboardIcon /> : <MailIcon />}</ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItem>
+        {/* <List>
+          {["Health Log", "Emergency"].map((text, index) => (
+            
           ))}
-        </List>
+        </List> */}
       </div>
     );
-
     return (
       <div className={classes.root}>
-
         <AppBar position="fixed">
           <Toolbar>
             <IconButton
@@ -95,7 +94,7 @@ class Header extends Component {
               color="inherit"
               aria-label="Menu"
             >
-            <MenuIcon onClick={this.toggleDrawer('left', true)} />
+              <MenuIcon onClick={this.toggleDrawer("left", true)} />
             </IconButton>
             <Typography variant="h6" color="inherit" className={classes.grow}>
               Health Dashboard
@@ -134,16 +133,22 @@ class Header extends Component {
 
         <SwipeableDrawer
           open={this.state.left}
-          onClose={this.toggleDrawer('left', false)}
-          onOpen={this.toggleDrawer('left', true)}
+          onClose={this.toggleDrawer("left", false)}
+          onOpen={this.toggleDrawer("left", true)}
         >
           <div
             tabIndex={0}
             role="button"
-            onClick={this.toggleDrawer('left', false)}
-            onKeyDown={this.toggleDrawer('left', false)}
+            onClick={this.toggleDrawer("left", false)}
+            onKeyDown={this.toggleDrawer("left", false)}
           >
-            {sideList}
+            {/* {sideList} */}
+            <ListItem button>
+              <ListItemIcon>
+                <img src="/Icons/emergency.svg" className="icon" />
+              </ListItemIcon>
+              <ListItemText primary="Emergency" />
+            </ListItem>
           </div>
         </SwipeableDrawer>
       </div>
