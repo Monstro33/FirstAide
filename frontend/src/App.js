@@ -7,6 +7,8 @@ import Prompts from "./components/Prompts";
 import Header from "./components/Header";
 import { createMuiTheme, MuiThemeProvider } from "@material-ui/core/styles";
 import red from "@material-ui/core/colors/red";
+import DetailedExpansionPanel from "./components/DetailedExpansionPanel";
+import CustomizedExpansionPanel from "./components/CustomizedExpansionPanel";
 
 class App extends Component {
   render() {
@@ -19,6 +21,8 @@ class App extends Component {
     return (
       <MuiThemeProvider theme={theme}>
         <div className="app">
+        {/* <CustomizedExpansionPanel />
+        <DetailedExpansionPanel />  */}
           <Router>
             <Header />
             <div className="content">
