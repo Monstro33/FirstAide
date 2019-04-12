@@ -18,7 +18,7 @@ class App extends Component {
 
     return (
       <MuiThemeProvider theme={theme}>
-      <div className="app">
+        <div className="app">
           <Router>
             <Header />
             <div className="content">
@@ -30,8 +30,8 @@ class App extends Component {
               <Route path="/prompts" exact component={Prompts} />
             </div>
           </Router>
-      </div>
-    </MuiThemeProvider>
+        </div>
+      </MuiThemeProvider>
     );
   }
 }
