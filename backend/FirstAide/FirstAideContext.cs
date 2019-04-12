@@ -13,6 +13,7 @@ namespace FirstAide
         public DbSet<Instructions> Instructions { get; set; }
         public DbSet<Emergency> Emergency { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Medication> Medications { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -256,15 +257,26 @@ namespace FirstAide
                 {
                     UserId = 1,
                     Name = "Sabrina Andrew",
-                    UserName = "Sabrina",
-                    Email = "sabrina.rae.andrew@gmail.com",
                     Dob = "December 17, 1979",
-                    Medications = "None",
+                    Height = "66 inches",
+                    Weight = "130 pounds",
+                    BloodPressure = "130/70",
+                    ChifComplaint = "Insomnia",
                     Allergies = "None"
+                });
 
-                }
+            modelBuilder.Entity<Medication>().HasData(
 
-              );
+               new Medication()
+               {
+                   UserId = 1,
+                   MedicationId = 1,
+                   MedicationName = "Lunesta",
+                   Concentration = "10mg",
+                   Purpose = "For sleep",
+                   Dosage = "Every Night",
+                   Notes = "Take 30 minutes prior to sleep",
+               });
 
             base.OnModelCreating(modelBuilder);
         }

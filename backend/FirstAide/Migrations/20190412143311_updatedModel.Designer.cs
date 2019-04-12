@@ -3,14 +3,16 @@ using FirstAide;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace FirstAide.Migrations
 {
     [DbContext(typeof(FirstAideContext))]
-    partial class FirstAideContextModelSnapshot : ModelSnapshot
+    [Migration("20190412143311_updatedModel")]
+    partial class updatedModel
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -102,35 +104,6 @@ namespace FirstAide.Migrations
                     );
                 });
 
-            modelBuilder.Entity("FirstAide.Models.Medication", b =>
-                {
-                    b.Property<int>("MedicationId")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Concentration");
-
-                    b.Property<string>("Dosage");
-
-                    b.Property<string>("MedicationName");
-
-                    b.Property<string>("Notes");
-
-                    b.Property<string>("Purpose");
-
-                    b.Property<int>("UserId");
-
-                    b.HasKey("MedicationId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Medications");
-
-                    b.HasData(
-                        new { MedicationId = 1, Concentration = "10mg", Dosage = "Every Night", MedicationName = "Lunesta", Notes = "Take 30 minutes prior to sleep", Purpose = "For sleep", UserId = 1 }
-                    );
-                });
-
             modelBuilder.Entity("FirstAide.Models.User", b =>
                 {
                     b.Property<int>("UserId")
@@ -139,33 +112,31 @@ namespace FirstAide.Migrations
 
                     b.Property<string>("Allergies");
 
-                    b.Property<string>("BloodPressure");
-
-                    b.Property<string>("ChifComplaint");
-
                     b.Property<string>("Dob");
 
-                    b.Property<string>("Height");
+                    b.Property<string>("Dosage");
+
+                    b.Property<string>("Email");
+
+                    b.Property<string>("MedicationConcentration");
+
+                    b.Property<string>("MedicationName");
 
                     b.Property<string>("Name");
 
-                    b.Property<string>("Weight");
+                    b.Property<string>("Notes");
+
+                    b.Property<string>("Purpose");
+
+                    b.Property<string>("UserName");
 
                     b.HasKey("UserId");
 
                     b.ToTable("Users");
 
                     b.HasData(
-                        new { UserId = 1, Allergies = "None", BloodPressure = "130/70", ChifComplaint = "Insomnia", Dob = "December 17, 1979", Height = "66 inches", Name = "Sabrina Andrew", Weight = "130 pounds" }
+                        new { UserId = 1, Allergies = "None", Dob = "December 17, 1979", Dosage = "Every Night", Email = "sabrina.rae.andrew@gmail.com", MedicationConcentration = "10mg", MedicationName = "Lunesta", Name = "Sabrina Andrew", Notes = "Take 30 minutes prior to sleep.", Purpose = "For sleep", UserName = "Sabrina" }
                     );
-                });
-
-            modelBuilder.Entity("FirstAide.Models.Medication", b =>
-                {
-                    b.HasOne("FirstAide.Models.User", "User")
-                        .WithMany("Medication")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
         }
