@@ -7,6 +7,9 @@ import Prompts from "./components/Prompts";
 import MenuAppBar from "./components/MenuAppBar";
 import { createMuiTheme, MuiThemeProvider } from "@material-ui/core/styles";
 import red from "@material-ui/core/colors/red";
+import Dashboard from "./components/Dashboard";
+import SwipeableTemporaryDrawer from "./components/SwipeableTemporaryDrawer";
+import ImageAvatar from "./components/ImageAvatar";
 
 class App extends Component {
   render() {
@@ -20,15 +23,21 @@ class App extends Component {
       <MuiThemeProvider theme={theme}>
       <div className="app">
           <Router>
-            <MenuAppBar />
-            <div className="content">
+            {/* <MenuAppBar /> */}
+            {/* <MenuAppBar />
+            < SwipeableTemporaryDrawer /> */}
+
+            <Dashboard /> 
+            <ImageAvatar />
+            >
+            {/* <div className="content">
               <Route path="/" exact component={SplashPage} />
               <Route
                 path="/instructions/:emergencyId/:ageGroupId/:instructionsId"
                 component={Instructions}
               />
               <Route path="/prompts" exact component={Prompts} />
-            </div>
+            </div> */}
           </Router>
       </div>
     </MuiThemeProvider>
