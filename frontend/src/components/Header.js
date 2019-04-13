@@ -145,7 +145,7 @@ class Header extends Component {
             {/* {sideList} */}
             <ListItem button>
               <ListItemIcon>
-                <img src="/Icons/emergency.svg" className="icon" />
+                <img src="/Icons/emergency.png" className="icon" />
               </ListItemIcon>
               <ListItemText primary="Emergency" />
             </ListItem>
