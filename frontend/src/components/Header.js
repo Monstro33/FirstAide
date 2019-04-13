@@ -150,6 +150,18 @@ class Header extends Component {
               <ListItemText primary="Emergency" />
             </ListItem>
           </div>
+          <ListItem button>
+            <ListItemIcon>
+              <img src="/Icons/RX.png" className="icon" />
+            </ListItemIcon>
+            <ListItemText primary="Current Medications" />
+          </ListItem>
+          <ListItem button>
+            <ListItemIcon>
+              <img src="/Icons/healthLog.png" className="icon" />
+            </ListItemIcon>
+            <ListItemText primary="Health Log" />
+          </ListItem>
         </SwipeableDrawer>
       </div>
     );

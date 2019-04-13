@@ -29,4 +29,4 @@ Continue sets of 5 back blows and
 
 - IF THE PERSON BECOMES unconscious, call 9-1-1, if not already done, and GO TO
 
-[Go to Choking](/instructions/0/0/16)
+[Go to Rescue Breathing](/instructions/0/0/10)
