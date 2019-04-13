@@ -40,6 +40,26 @@ class Header extends Component {
     left: false
   };
 
+  goTo(route) {
+    this.props.history.replace(`/${route}`);
+  }
+
+  login() {
+    this.props.auth.login();
+  }
+
+  logout() {
+    this.props.auth.logout();
+  }
+
+  componentDidMount() {
+    const { renewSession } = this.props.auth;
+
+    if (localStorage.getItem("isLoggedIn") === "true") {
+      renewSession();
+    }
+  }
+
   toggleDrawer = (side, open) => () => {
     this.setState({
       [side]: open
@@ -62,29 +82,8 @@ class Header extends Component {
     const { classes } = this.props;
     const { auth, anchorEl } = this.state;
     const open = Boolean(anchorEl);
+    const { isAuthenticated } = this.props.auth;
 
-    const sideList = (
-      <div className={classes.list}>
-        <List>
-          {["Dashboard", "Current Medications", "Allergies", "Log"].map(
-            (text, index) => (
-              <ListItem button key={text}>
-                <ListItemIcon>
-                  {index % 2 === 0 ? <DashboardIcon /> : <MailIcon />}
-                </ListItemIcon>
-                <ListItemText primary={text} />
-              </ListItem>
-            )
-          )}
-        </List>
-        <Divider />
-        {/* <List>
-          {["Health Log", "Emergency"].map((text, index) => (
-            
-          ))}
-        </List> */}
-      </div>
-    );
     return (
       <div className={classes.root}>
         <AppBar position="fixed">
@@ -99,35 +98,42 @@ class Header extends Component {
             <Typography variant="h6" color="inherit" className={classes.grow}>
               Health Dashboard
             </Typography>
-            {auth && (
-              <div>
-                <IconButton
-                  aria-owns={open ? "menu-appbar" : undefined}
-                  aria-haspopup="true"
-                  onClick={this.handleMenu}
-                  color="inherit"
-                >
-                  <AccountCircle />
-                </IconButton>
-                <Menu
-                  id="menu-appbar"
-                  anchorEl={anchorEl}
-                  anchorOrigin={{
-                    vertical: "top",
-                    horizontal: "right"
-                  }}
-                  transformOrigin={{
-                    vertical: "top",
-                    horizontal: "right"
-                  }}
-                  open={open}
-                  onClose={this.handleClose}
-                >
-                  <MenuItem onClick={this.handleClose}>Profile</MenuItem>
-                  <MenuItem onClick={this.handleClose}>Log Out</MenuItem>
-                </Menu>
-              </div>
-            )}
+            <div>
+              <IconButton
+                aria-owns={open ? "menu-appbar" : undefined}
+                aria-haspopup="true"
+                onClick={this.handleMenu}
+                color="inherit"
+              >
+                <AccountCircle />
+              </IconButton>
+              <Menu
+                id="menu-appbar"
+                anchorEl={anchorEl}
+                anchorOrigin={{
+                  vertical: "top",
+                  horizontal: "right"
+                }}
+                transformOrigin={{
+                  vertical: "top",
+                  horizontal: "right"
+                }}
+                open={open}
+                onClose={this.handleClose}
+              >
+                {!isAuthenticated() && (
+                  <MenuItem onClick={this.login.bind(this)}>Log In</MenuItem>
+                )}
+                {isAuthenticated() && (
+                  <>
+                    <MenuItem onClick={this.handleClose}>Profile</MenuItem>
+                    <MenuItem onClick={this.logout.bind(this)}>
+                      Log Out
+                    </MenuItem>
+                  </>
+                )}
+              </Menu>
+            </div>
           </Toolbar>
         </AppBar>
 
@@ -142,7 +148,6 @@ class Header extends Component {
             onClick={this.toggleDrawer("left", false)}
             onKeyDown={this.toggleDrawer("left", false)}
           >
-            {/* {sideList} */}
             <ListItem button>
               <ListItemIcon>
                 <img src="/Icons/emergency.png" className="icon" />

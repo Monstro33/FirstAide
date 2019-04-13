@@ -3,14 +3,16 @@ using FirstAide;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace FirstAide.Migrations
 {
     [DbContext(typeof(FirstAideContext))]
-    partial class FirstAideContextModelSnapshot : ModelSnapshot
+    [Migration("20190412143311_updatedModel")]
+    partial class updatedModel
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -90,6 +92,8 @@ namespace FirstAide.Migrations
                         new { InstructionsId = 13, AgeGroupId = 0, Details = "/markdown/Unconcious/UnconciousChild/rescueBreathingChild.md", EmergencyId = 0 },
                         new { InstructionsId = 14, AgeGroupId = 0, Details = "/markdown/Unconcious/UnconciousInfant/recoveryInfant.md", EmergencyId = 0 },
                         new { InstructionsId = 15, AgeGroupId = 0, Details = "/markdown/Unconcious/UnconciousInfant/rescueBreathingInfant.md", EmergencyId = 0 },
+                        new { InstructionsId = 16, AgeGroupId = 0, Details = "/markdown/Choking/ChokingAdult/chokingUnconsciousAdult.md", EmergencyId = 0 },
+                        new { InstructionsId = 17, AgeGroupId = 0, Details = "/markdown/Choking/ChokingAdult/chokingUnconsciousAdult-2.md", EmergencyId = 0 },
                         new { InstructionsId = 18, AgeGroupId = 0, Details = "/markdown/Choking/ChokingChild/chokingUnconsciousChild.md", EmergencyId = 0 },
                         new { InstructionsId = 19, AgeGroupId = 0, Details = "/markdown/Choking/ChokingChild/chokingUnconsciousChild-2.md", EmergencyId = 0 },
                         new { InstructionsId = 20, AgeGroupId = 0, Details = "/markdown/Choking/ChokingInfant/chokingUnconsciousInfant.md", EmergencyId = 0 },
@@ -97,35 +101,6 @@ namespace FirstAide.Migrations
                         new { InstructionsId = 22, AgeGroupId = 0, Details = "/markdown/AllergicReaction/AllergicReactionAdult/shockAdult.md", EmergencyId = 0 },
                         new { InstructionsId = 23, AgeGroupId = 0, Details = "/markdown/AllergicReaction/AllergicReactionChild/shockChild.md", EmergencyId = 0 },
                         new { InstructionsId = 24, AgeGroupId = 0, Details = "/markdown/AllergicReaction/AllergicReactionInfant/shockInfant.md", EmergencyId = 0 }
-                    );
-                });
-
-            modelBuilder.Entity("FirstAide.Models.Medication", b =>
-                {
-                    b.Property<int>("MedicationId")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Concentration");
-
-                    b.Property<string>("Dosage");
-
-                    b.Property<string>("MedicationName");
-
-                    b.Property<string>("Notes");
-
-                    b.Property<string>("Purpose");
-
-                    b.Property<int>("UserId");
-
-                    b.HasKey("MedicationId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Medications");
-
-                    b.HasData(
-                        new { MedicationId = 1, Concentration = "10mg", Dosage = "Every Night", MedicationName = "Lunesta", Notes = "Take 30 minutes prior to sleep", Purpose = "For sleep", UserId = 1 }
                     );
                 });
 
@@ -137,33 +112,31 @@ namespace FirstAide.Migrations
 
                     b.Property<string>("Allergies");
 
-                    b.Property<string>("BloodPressure");
-
-                    b.Property<string>("ChifComplaint");
-
                     b.Property<string>("Dob");
 
-                    b.Property<string>("Height");
+                    b.Property<string>("Dosage");
+
+                    b.Property<string>("Email");
+
+                    b.Property<string>("MedicationConcentration");
+
+                    b.Property<string>("MedicationName");
 
                     b.Property<string>("Name");
 
-                    b.Property<string>("Weight");
+                    b.Property<string>("Notes");
+
+                    b.Property<string>("Purpose");
+
+                    b.Property<string>("UserName");
 
                     b.HasKey("UserId");
 
                     b.ToTable("Users");
 
                     b.HasData(
-                        new { UserId = 1, Allergies = "None", BloodPressure = "130/70", ChifComplaint = "Insomnia", Dob = "December 17, 1979", Height = "66 inches", Name = "Sabrina Andrew", Weight = "130 pounds" }
+                        new { UserId = 1, Allergies = "None", Dob = "December 17, 1979", Dosage = "Every Night", Email = "sabrina.rae.andrew@gmail.com", MedicationConcentration = "10mg", MedicationName = "Lunesta", Name = "Sabrina Andrew", Notes = "Take 30 minutes prior to sleep.", Purpose = "For sleep", UserName = "Sabrina" }
                     );
-                });
-
-            modelBuilder.Entity("FirstAide.Models.Medication", b =>
-                {
-                    b.HasOne("FirstAide.Models.User")
-                        .WithMany("Medication")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
         }

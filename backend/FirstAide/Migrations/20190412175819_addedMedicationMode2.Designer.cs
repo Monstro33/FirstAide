@@ -3,14 +3,16 @@ using FirstAide;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace FirstAide.Migrations
 {
     [DbContext(typeof(FirstAideContext))]
-    partial class FirstAideContextModelSnapshot : ModelSnapshot
+    [Migration("20190412175819_addedMedicationMode2")]
+    partial class addedMedicationMode2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -90,6 +92,8 @@ namespace FirstAide.Migrations
                         new { InstructionsId = 13, AgeGroupId = 0, Details = "/markdown/Unconcious/UnconciousChild/rescueBreathingChild.md", EmergencyId = 0 },
                         new { InstructionsId = 14, AgeGroupId = 0, Details = "/markdown/Unconcious/UnconciousInfant/recoveryInfant.md", EmergencyId = 0 },
                         new { InstructionsId = 15, AgeGroupId = 0, Details = "/markdown/Unconcious/UnconciousInfant/rescueBreathingInfant.md", EmergencyId = 0 },
+                        new { InstructionsId = 16, AgeGroupId = 0, Details = "/markdown/Choking/ChokingAdult/chokingUnconsciousAdult.md", EmergencyId = 0 },
+                        new { InstructionsId = 17, AgeGroupId = 0, Details = "/markdown/Choking/ChokingAdult/chokingUnconsciousAdult-2.md", EmergencyId = 0 },
                         new { InstructionsId = 18, AgeGroupId = 0, Details = "/markdown/Choking/ChokingChild/chokingUnconsciousChild.md", EmergencyId = 0 },
                         new { InstructionsId = 19, AgeGroupId = 0, Details = "/markdown/Choking/ChokingChild/chokingUnconsciousChild-2.md", EmergencyId = 0 },
                         new { InstructionsId = 20, AgeGroupId = 0, Details = "/markdown/Choking/ChokingInfant/chokingUnconsciousInfant.md", EmergencyId = 0 },
@@ -160,7 +164,7 @@ namespace FirstAide.Migrations
 
             modelBuilder.Entity("FirstAide.Models.Medication", b =>
                 {
-                    b.HasOne("FirstAide.Models.User")
+                    b.HasOne("FirstAide.Models.User", "User")
                         .WithMany("Medication")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
