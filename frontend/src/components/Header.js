@@ -84,34 +84,6 @@ class Header extends Component {
     const open = Boolean(anchorEl);
     const { isAuthenticated } = this.props.auth;
 
-    const sideList = (
-      <div className={classes.list}>
-        <List>
-          {["Dashboard", "Current Medications", "Allergies", "Log"].map(
-            (text, index) => (
-              <ListItem button key={text}>
-                <ListItemIcon>
-                  {index % 2 === 0 ? <DashboardIcon /> : <MailIcon />}
-                </ListItemIcon>
-                <ListItemText primary={text} />
-              </ListItem>
-            )
-          )}
-        </List>
-        <Divider />
-        <List>
-          {["Health Log", "Emergency"].map((text, index) => (
-            <ListItem button key={text}>
-              <ListItemIcon>
-                {index % 2 === 0 ? <DashboardIcon /> : <MailIcon />}
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItem>
-          ))}
-        </List>
-      </div>
-    );
-
     return (
       <div className={classes.root}>
         <AppBar position="fixed">
@@ -176,8 +148,25 @@ class Header extends Component {
             onClick={this.toggleDrawer("left", false)}
             onKeyDown={this.toggleDrawer("left", false)}
           >
-            {sideList}
+            <ListItem button>
+              <ListItemIcon>
+                <img src="/Icons/emergency.png" className="icon" />
+              </ListItemIcon>
+              <ListItemText primary="Emergency" />
+            </ListItem>
           </div>
+          <ListItem button>
+            <ListItemIcon>
+              <img src="/Icons/pills.png" className="icon" />
+            </ListItemIcon>
+            <ListItemText primary="Current Medications" />
+          </ListItem>
+          <ListItem button>
+            <ListItemIcon>
+              <img src="/Icons/healthLog.png" className="icon" />
+            </ListItemIcon>
+            <ListItemText primary="Health Log" />
+          </ListItem>
         </SwipeableDrawer>
       </div>
     );

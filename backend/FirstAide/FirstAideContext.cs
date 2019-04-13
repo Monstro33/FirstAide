@@ -186,20 +186,20 @@ namespace FirstAide
                    EmergencyId = 0,
                    Details = "/markdown/Unconcious/UnconciousInfant/rescueBreathingInfant.md"
                },
-                new Instructions()
-                {
-                    InstructionsId = 16,
-                    AgeGroupId = 0,
-                    EmergencyId = 0,
-                    Details = "/markdown/Choking/ChokingAdult/chokingUnconsciousAdult.md"
-                },
-               new Instructions()
-               {
-                   InstructionsId = 17,
-                   AgeGroupId = 0,
-                   EmergencyId = 0,
-                   Details = "/markdown/Choking/ChokingAdult/chokingUnconsciousAdult-2.md"
-               },
+               // new Instructions()
+               // {
+               //     InstructionsId = 16,
+               //     AgeGroupId = 0,
+               //     EmergencyId = 0,
+               //     Details = "/markdown/Choking/ChokingAdult/chokingUnconsciousAdult.md"
+               // },
+               //new Instructions()
+               //{
+               //    InstructionsId = 17,
+               //    AgeGroupId = 0,
+               //    EmergencyId = 0,
+               //    Details = "/markdown/Choking/ChokingAdult/chokingUnconsciousAdult-2.md"
+               //},
                 new Instructions()
                 {
                     InstructionsId = 18,
