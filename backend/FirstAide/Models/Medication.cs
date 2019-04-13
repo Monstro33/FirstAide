@@ -15,6 +15,5 @@ namespace FirstAide.Models
         public string Purpose { get; set; }
         public string Notes { get; set; }
 
-        public virtual User User { get; set; }
     }
 }
