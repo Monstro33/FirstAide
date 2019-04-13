@@ -152,7 +152,7 @@ class Header extends Component {
           </div>
           <ListItem button>
             <ListItemIcon>
-              <img src="/Icons/RX.png" className="icon" />
+              <img src="/Icons/pills.png" className="icon" />
             </ListItemIcon>
             <ListItemText primary="Current Medications" />
           </ListItem>
