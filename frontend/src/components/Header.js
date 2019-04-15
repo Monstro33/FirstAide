@@ -18,6 +18,7 @@ import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import DashboardIcon from "@material-ui/icons/Dashboard";
 import MailIcon from "@material-ui/icons/Mail";
+import { Link } from "react-router-dom";
 
 const styles = {
   root: {
@@ -148,25 +149,25 @@ class Header extends Component {
             onClick={this.toggleDrawer("left", false)}
             onKeyDown={this.toggleDrawer("left", false)}
           >
-            <ListItem button>
-              <ListItemIcon>
-                <img src="/Icons/emergency.png" className="icon" />
-              </ListItemIcon>
-              <ListItemText primary="Emergency" />
-            </ListItem>
-          </div>
+          <ListItem button onClick={() => this.goTo("dashboard")}>
+            <ListItemIcon>
+              <img src="/Icons/healthLog.png" className="icon" />
+            </ListItemIcon>
+            <ListItemText primary="Dashboard" />
+          </ListItem>
           <ListItem button>
             <ListItemIcon>
               <img src="/Icons/pills.png" className="icon" />
             </ListItemIcon>
             <ListItemText primary="Current Medications" />
           </ListItem>
-          <ListItem button>
-            <ListItemIcon>
-              <img src="/Icons/healthLog.png" className="icon" />
-            </ListItemIcon>
-            <ListItemText primary="Health Log" />
-          </ListItem>
+            <ListItem button onClick={() => this.goTo("prompts")}>
+              <ListItemIcon>
+                <img src="/Icons/emergency.png" className="icon" />
+              </ListItemIcon>
+              <ListItemText primary="Emergency" />
+            </ListItem>
+          </div>
         </SwipeableDrawer>
       </div>
     );
