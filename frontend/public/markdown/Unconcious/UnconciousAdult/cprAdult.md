@@ -1,5 +1,5 @@
 <video controls="controls">
-    <source src="/Videos/adultCPR.mp4" type="video/mp4" />
+<source src="/Videos/adultCPR.mp4" type="video/mp4" />
 </video>
 
 ## CHECK RESPONSIVENESS
@@ -60,7 +60,7 @@
 ## DETERMINE IF CPR IS NECESASARY
 
 - IF NO PULSE, CONTINUE WITH STEPS.
-- IF PULSE IS PRESENT, CLICK HERE FOR - RESCUE BREATHING -
+- IF PULSE IS PRESENT, CLICK HERE FOR - RESCUE BREATHING
 
 ## INTERLACE FINGERS WITH ONE HAND ON TOP OF THE OTHER
 
