@@ -69,7 +69,7 @@
 - If the person vomits or is bleeding from the mouth, and there is no suspicion of spinal injury, turn the person onto their side to keep the airway clear and prevent choking.
 - If the person is not breathing or not breathing adequately, GO TO
 
-[Go to CPR](/instructions/0/0/10)
+[Go to Rescue Breathing](/instructions/0/0/10)
 
 - If the person does not have a pulse, GO TO
 

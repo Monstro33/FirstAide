@@ -4,7 +4,7 @@
 
 ## GIVE 5 BACK BLOWS
 
-![Alt text](public/Images/AdultChoking/adultChoking10.jpg)
+![Alt text](/Images/AdultChoking/adultChoking10.jpg)
 
 - Bend the person forward at the waist and
   give 5 back blows between the shoulder
@@ -12,7 +12,7 @@
 
 ## GIVE 5 ABDOMINAL THRUSTS
 
-![Alt text](public/Images/AdultChoking/adultChoking4.jpg)
+![Alt text](/Images/AdultChoking/adultChoking4.jpg)
 
 - Place a fist with the thumb side against
   the middle of the person’s abdomen, just
@@ -22,7 +22,7 @@
 
 ## CONTINUE CARE
 
-![Alt text](public/Images/AdultChoking/adultChoking10.jpg)
+![Alt text](/Images/AdultChoking/adultChoking10.jpg)
 
 Continue sets of 5 back blows and
 5 abdominal thrusts until the:

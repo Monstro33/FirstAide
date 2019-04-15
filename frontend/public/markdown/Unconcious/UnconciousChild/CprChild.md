@@ -95,7 +95,7 @@
 
 ## GIVE 2 RESCUE BREATHS
 
-![Alt text](/Images/ChildChoking/childChoking12.jpg)
+![Alt text](/Images/ChokingChild/chokingChild12.jpg)
 
 - Make sure their mouth is free of any objects blocking their airway.
 - Use one hand to pinch the nose shut then make a complete seal over the child’s mouth.
