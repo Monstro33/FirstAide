@@ -36,4 +36,4 @@
 
 - If the person stops breathing or is not breathing adequately, GO TO
 
-[Go to CPR](/instructions/0/0/10)
+[Go to Rescue Breathing](/instructions/0/0/10)
