@@ -44,7 +44,7 @@
 
 - If the infant is not breathing or not breathing adequately, GO TO
 
-[Go to CPR](/instructions/0/0/15)
+[Go to Rescue Breathing](/instructions/0/0/15)
 
 ## CHECK FOR PULSE
 
@@ -60,7 +60,7 @@
 
 - They’re heart rates generally fall between 140 and 160 beats per minute, even at rest.
 
-- If the infant does not have a pulse, GO TO 
+- If the infant does not have a pulse, GO TO
 
 [Go to CPR](/instructions/3/1/7)
 
@@ -117,8 +117,8 @@
 - You will notice that they are improving if they start coughing or moving.
 - If the infant loses consciousness and is not breathing or not breathing adequately, GO TO
 
-[Go to CPR](/instructions/0/0/15)
+[Go to Rescue Breathing](/instructions/0/0/15)
 
-- If the infant loses consciousness and does not have a pulse, GO TO 
+- If the infant loses consciousness and does not have a pulse, GO TO
 
 [Go to CPR](/instructions/3/1/7)
