@@ -9,6 +9,7 @@ import { createMuiTheme, MuiThemeProvider } from "@material-ui/core/styles";
 import red from "@material-ui/core/colors/red";
 import Auth from "./Auth/Auth";
 import Callback from "./components/Callback";
+import Dashboard from "./components/Dashboard";
 
 class App extends Component {
   render() {
@@ -43,9 +44,10 @@ class App extends Component {
                 exact
                 render={props => {
                   handleAuthentication(props);
-                  return <Callback {...props} />;
+                  return <Callback {...props} auth={this.auth} />;
                 }}
               />
+              <Route path="/dashboard" exact component={Dashboard} />
             </div>
           </Router>
         </div>

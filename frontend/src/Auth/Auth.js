@@ -1,5 +1,7 @@
+import React from "react";
 import auth0 from "auth0-js";
 import history from "../history";
+import { Redirect } from "react-router-dom";
 
 export default class Auth {
   accessToken;
@@ -60,6 +62,7 @@ export default class Auth {
 
     // navigate to the home route
     history.replace('/instructions/3/2/undefined');
+
   }
 
   renewSession() {
@@ -88,7 +91,10 @@ export default class Auth {
     });
 
     // navigate to the home route
-    history.replace('/');
+    // history.replace('/');
+    return <Redirect to={{
+      pathname: '/'
+    }} />
   }
 
   isAuthenticated() {
