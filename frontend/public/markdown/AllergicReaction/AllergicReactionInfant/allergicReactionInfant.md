@@ -21,7 +21,7 @@
 - If an epinephrine autoinjector is on-hand, ask whether you should help inject the medication.
 - If they do not have their own injector, send people to find one by asking all bystanders, going into a place of business and ask for the first aid kit, or go to the closest pharmacy. GO TO
 
-[Go to CPR](/instructions/0/0/14)
+[Go to Recover Infant](/instructions/0/0/14)
 
 ## PREPARE EPINEPNRINE AUTO-INJECTOR
 
@@ -62,15 +62,28 @@
 - If professional medical care is not available it is important to have a second auto-injector available in case of a secondary reaction.
 - If the infant loses consciousness and is not breathing or not breathing adequately, GO TO
 
-[Go to CPR](/instructions/0/0/15)
+[Go to Rescue Breathing](/instructions/0/0/15)
 
-- If the infant loses consciousness and does not have a pulse, GO TO 
+- If the infant loses consciousness and does not have a pulse, GO TO
 
 [Go to CPR](/instructions/3/1/7)
-
 
 ## ADMINISTER ANOTHER EPINEPNRINE AUTO-INJECTOR
 
 ![Alt text](/Images/ChildAllergicReaction/childAllergicReaction7.jpg)
 
 - If symptoms do not improve within 5 to 20 minutes, Aminister a second epinephrine autoinjector.
+
+## RECOGNIZE THE SYMPTOMS OF SHOCK
+
+![Alt text](public/Images/InfantShock/infantShock2.jpg)
+
+- Cool, clammy skin that may appear pale or grayish.
+- Profuse sweating or moist skin.
+- Bluish lips and fingernails.
+- Rapid and weak pulse.
+- Rapid and shallow breathing.
+- Enlarged or contracted pupils.
+- Altered mental status such as being disoriented, confused, anxious, agitated, dizzy, lightheaded, or feel faint, weak, or fatigue.
+
+[Go to Shock](/instructions/0/0/24)
