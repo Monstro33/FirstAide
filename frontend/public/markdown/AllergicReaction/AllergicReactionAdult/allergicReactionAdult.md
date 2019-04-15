@@ -67,3 +67,17 @@
 - If symptoms do not improve within 5 to 15 minutes, Administer a second epinephrine autoinjector. If at any time the patient loses consciousness, GO TO
 
 [Go to CPR](/instructions/3/3/9)
+
+## RECOGNIZE THE SYMPTOMS OF SHOCK
+
+![Alt text](/Images/AdultShock/adultShock4.jpg)
+
+- Cool, clammy skin that may appear pale or grayish.
+- Profuse sweating or moist skin.
+- Bluish lips and fingernails.
+- Rapid and weak pulse.
+- Rapid and shallow breathing.
+- Enlarged or contracted pupils.
+- Altered mental status such as being disoriented, confused, anxious, agitated, dizzy, lightheaded, or feel faint, weak, or fatigue.
+
+[Go to Shock](/instructions/0/0/22)
