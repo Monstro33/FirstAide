@@ -21,9 +21,19 @@ namespace FirstAide.Controllers
             }
 
             [HttpGet]
-            public ActionResult<List<Medication>> Get()
+            public ActionResult<IEnumerable<Medication>> Get()
             {
-                return repo.GetAll();
+                return repo.GetAll().ToArray();
             }
-        }
+
+            [HttpPost]
+            public void Post([FromBody] Medication medication)
+            {
+                repo.Create(medication);
+            }
+
+        
+
+
+    }
     }

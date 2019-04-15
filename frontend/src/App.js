@@ -12,6 +12,66 @@ import Callback from "./components/Callback";
 import MedicationsView from "./components/MedicationsView";
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      medicationName: "",
+      medicationConcentration: "",
+      medicationDosage: "",
+      medicationPurpose: "",
+      medicationNotes: "",
+
+      medications: []
+    };
+  }
+
+  setName = text => {
+    this.setState({ medicationName: text });
+  };
+
+  setConcentration = text => {
+    this.setState({ medicationConcentration: text });
+  };
+
+  setDosage = text => {
+    this.setState({ medicationDosage: text });
+  };
+
+  setPurpose = text => {
+    this.setState({ medicationPurpose: text });
+  };
+
+  setNotes = text => {
+    this.setState({ medicationNotes: text });
+  };
+
+  addMedication = () => {
+    const newMedication = {
+      medicationName: this.state.medicationName,
+      medicationConcentration: this.state.medicationConcentration,
+      medicationDosage: this.state.medicationDosage,
+      medicationPurpose: this.state.medicationPurpose,
+      medicationNotes: this.state.medicationNotes
+    };
+
+    fetch("https://localhost:44321/api/medication", {
+      method: "POST",
+      body: JSON.stringify(newMedication),
+      headers: {
+        "Content-Type": "application/json"
+      }
+    })
+      .then(res => {
+        if (res.ok) {
+          const allMedications = [...this.state.medications, newMedication];
+          this.setState({ medications: allMedications });
+        }
+      })
+      .catch(err => {
+        console.error(err);
+      });
+  };
+
   render() {
     const auth = new Auth();
 
@@ -51,7 +111,14 @@ class App extends Component {
       //     </Router>
       //   </div>
       // </MuiThemeProvider>
-      <MedicationsView />
+      <MedicationsView
+        setName={this.setName}
+        setConcentration={this.setConcentration}
+        setDosage={this.setDosage}
+        setPurpose={this.setPurpose}
+        setNotes={this.setNotes}
+        addMedication={this.addMedication}
+      />
     );
   }
 }

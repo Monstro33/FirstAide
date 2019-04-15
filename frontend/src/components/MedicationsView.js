@@ -8,7 +8,7 @@ import Paper from "@material-ui/core/Paper";
 import "../css/MedicationsView.css";
 import { withStyles } from "@material-ui/core/styles";
 import classNames from "classnames";
-//import MedicationsForm from "../MedicationsForm.js";
+import MedicationsForm from "./MedicationsForm.js";
 import Typography from "@material-ui/core/Typography";
 import { EditorFormatAlignCenter } from "material-ui/svg-icons";
 
@@ -71,9 +71,9 @@ class MedicationsView extends Component {
         <TableCell component="th" scope="row">
           {med.medicationName}
         </TableCell>
+        <TableCell align="left">{med.concentration}</TableCell>
         <TableCell align="left">{med.dosage}</TableCell>
         <TableCell align="left">{med.purpose}</TableCell>
-        <TableCell align="left">{med.concentration}</TableCell>
         <TableCell align="left">{med.notes}</TableCell>
       </TableRow>
     ));
@@ -100,13 +100,13 @@ class MedicationsView extends Component {
                   <h2>Medication</h2>
                 </TableCell>
                 <TableCell align="left">
+                  <h2>Concentration</h2>
+                </TableCell>
+                <TableCell align="left">
                   <h2>Dosage</h2>
                 </TableCell>
                 <TableCell align="left">
                   <h2>Purpose</h2>
-                </TableCell>
-                <TableCell align="left">
-                  <h2>Concentration</h2>
                 </TableCell>
                 <TableCell align="left">
                   <h2>Notes</h2>
@@ -116,7 +116,16 @@ class MedicationsView extends Component {
             <TableBody>{real}</TableBody>
           </Table>
         </Paper>
-        {/* <MedicationsForm /> */}
+        {
+          <MedicationsForm
+            setName={this.props.setName}
+            setConcentration={this.props.setConcentration}
+            setDosage={this.props.setDosage}
+            setPurpose={this.props.setPurpose}
+            setNotes={this.props.setNotes}
+            addMedication={this.props.addMedication}
+          />
+        }
       </div>
     );
   }

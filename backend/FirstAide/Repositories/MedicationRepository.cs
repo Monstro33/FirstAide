@@ -15,7 +15,13 @@ namespace FirstAide.Repositories
             this.db = db;
         }
 
-        public List<Medication> GetAll()
+        public void Create(Medication medication)
+        {
+            db.Medications.Add(medication);
+            db.SaveChanges();
+        }
+
+        public IEnumerable<Medication> GetAll()
         {
             return db.Medications.ToList();
         }
