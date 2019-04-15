@@ -1,7 +1,7 @@
 <video controls="controls">
     <source src="/Videos/childCPR.mp4" type="video/mp4" />
 </video>
-        
+
 ## CHECK RESPONSIVENESS
 
 ![Alt text](/Images/AdultCPR/adultCPR22.jpg)
@@ -121,4 +121,4 @@ Continue cycles of CPR. Do not stop CPR unless:
 - A pulse is present.
 - The child regains consciousness and is breathing adequately, GO TO
 
-[Go to CPR](/instructions/0/0/13)
+[Go to Recovery](/instructions/0/0/12)

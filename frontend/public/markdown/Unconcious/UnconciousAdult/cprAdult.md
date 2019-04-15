@@ -1,7 +1,7 @@
 <video controls="controls">
     <source src="/Videos/adultCPR.mp4" type="video/mp4" />
 </video>
-        
+
 ## CHECK RESPONSIVENESS
 
 ![Alt text](/Images/AdultCPR/adultCPR22.jpg)
@@ -111,14 +111,15 @@
 
 ![Alt text](/Images/AdultCPR/adultCPR12.jpg)
 
-    Continue cycles of CPR. Do not stop CPR except in one of these situations:
-        - You are too exhausted to continue.
-        - The scene becomes unsafe.
-        - A pulse is present.
-        - The person regains consciousness and is breathing adequately, GO TO
+Continue cycles of CPR. Do not stop CPR except in one of these situations:
 
-[Go to CPR](/instructions/0/0/11)
+- You are too exhausted to continue.
+- The scene becomes unsafe.
+- A pulse is present.
+- The person regains consciousness but is not breathing or not breathing adequately, GO TO
 
-        - The person regains consciousness but is not breathing or not breathing adequately, GO TO
+[Go to Rescue Breathing](/instructions/0/0/10)
 
-[Go to CPR](/instructions/0/0/10)
+## If person regains consciousness and breathing adequately
+
+[Go to Recovery](/instructions/0/0/11)

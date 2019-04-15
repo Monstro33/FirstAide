@@ -62,13 +62,26 @@
 
 [Go to CPR](/instructions/0/0/13)
 
-- If the child loses consciousness and does not have a pulse, GO TO 
+- If the child loses consciousness and does not have a pulse, GO TO
 
 [Go to CPR](/instructions/3/2/8)
-
 
 ## ADMINISTER ANOTHER EPINEPNRINE AUTO-INJECTOR
 
 ![Alt text](/Images/ChildAllergicReaction/childAllergicReaction7.jpg)
 
 - If symptoms do not improve within 5 to 20 minutes, Aminister a second epinephrine autoinjector.
+
+## RECOGNIZE THE SYMPTOMS OF SHOCK
+
+![Alt text](/Images/ChildShock/childShock3.jpg)
+
+- Cool, clammy skin that may appear pale or grayish.
+- Profuse sweating or moist skin.
+- Bluish lips and fingernails.
+- Rapid and weak pulse.
+- Rapid and shallow breathing.
+- Enlarged or contracted pupils.
+- Altered mental status such as being disoriented, confused, anxious, agitated, dizzy, lightheaded, or feel faint, weak, or fatigue.
+
+[Go to Shock](/instructions/0/0/23)

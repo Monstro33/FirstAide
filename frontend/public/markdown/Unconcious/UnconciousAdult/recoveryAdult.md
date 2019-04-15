@@ -1,33 +1,3 @@
-## ASSESS THE SITUATION
-
-![Alt text](/Images/AdultShock/adultShock9.jpg)
-
-- The recovery position is used for people who are unconscious but breathing.
-- This position is not intented for people with spinal injuries.
-
-## CHECK FOR BREATHING AND CONSCIOUSNESS
-
-![Alt text](/Images/AdultShock/adultShock2.jpg)
-
-- Check to see if the person is unconscious, but breathing, and has no other life-threatening conditions.
-- Talk to the person to assess if they are responsive.
-- Check for breathing by placing your cheek near the nose and mouth of the person to feel their breath.
-- If the person is breathing and unconscious or semi-conscious, you can place them in the recovery position.
-
-## CHECK FOR PULSE
-
-![Alt text](/Images/AdultShock/adultShock7.jpg)
-
-- Press firmly but not so hard that you can no longer feel the pulse.
-- Put your index and third finger on either side of the neck to the side of the windpipe to find the carotid artery.
-- If you’re measuring on the wrist, set two fingers between the bone and tendon over your radial artery.
-- Find the radial artery by drawing a line with your finger from below the thumb to the wrist. Then feel for the spot between the wrist bone and tendon for a slight pumping motion.
-- Place the flat part of your finger on the wrist or neck to get the most accurate reading. Avoid using your fingertips or your thumb.
-
-- If Pulse is not present, GO TO 
-
-[Go to CPR](/instructions/3/3/9)
-
 ## POSITION THE ARMS AND LEGS
 
 ![Alt text](/Images/AdultShock/adultShock3.jpg)
@@ -60,10 +30,10 @@
 
 - Cover them with a blanket or coat to keep them warm.
 - Continue to monitor the pulse and breathing while you wait for help to arrive.
-- If the person does not have a pulse, GO TO 
+- If the person does not have a pulse, GO TO
 
 [Go to CPR](/instructions/3/3/9)
 
-- If the person stops breathing or is not breathing adequately, GO TO 
+- If the person stops breathing or is not breathing adequately, GO TO
 
 [Go to CPR](/instructions/0/0/10)
