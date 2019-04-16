@@ -9,6 +9,8 @@ import { createMuiTheme, MuiThemeProvider } from "@material-ui/core/styles";
 import red from "@material-ui/core/colors/red";
 import Auth from "./Auth/Auth";
 import Callback from "./components/Callback";
+import Main from "./components/Main";
+import AddressForm from "./components/AddressForm";
 import Dashboard from "./components/Dashboard";
 import history from "./history";
 
@@ -52,7 +54,7 @@ class App extends Component {
                 return <Dashboard {...props} auth={auth} />
               }} />
             </div>
-          </Router>
+          </Router> */}
         </div>
       </MuiThemeProvider>
     );
