@@ -56,7 +56,7 @@ export default class Auth {
     let matchedUser;
 
     this.users.forEach(function(user) {
-      if (user.email == email) {
+      if (user.email === email) {
         isNew = false;
         matchedUser = user;
       }
