@@ -1,14 +1,15 @@
+
+<h2>CALL 9-1-1</h2>
+
 <video controls="controls">
     <source src="/Videos\shockAllAges.mp4" type="video/mp4" />
 </video>
-
-## CALL 9-1-1
 
 ![Alt text](/Images/AdultShock/adultshock8.jpg)
 
 - Call 9-1-1 immediately.
 
-## CHECK FOR BREATHING AND CONSCIOUSNESS
+<h2>CHECK FOR BREATHING AND CONSCIOUSNESS</h2>
 
 ![Alt text](/Images/InfantShock/infantShock6.jpg)
 
@@ -20,7 +21,7 @@
 
 [Go to CPR](/instructions/3/1/7)
 
-## CHECK FOR PULSE
+<h2>CHECK FOR PULSE</h2>
 
 ![Alt text](/Images/InfantShock/infantShock5.jpg)
 
@@ -33,7 +34,7 @@
 
 [Go to CPR](/instructions/3/1/7)
 
-## PLACE THE INFANT IN THE SHOCK POSITION
+<h2>PLACE THE INFANT IN THE SHOCK POSITION</h2>
 
 ![Alt text](/Images/InfantShock/infantShock1.jpg)
 
@@ -42,14 +43,14 @@
 - Do not elevate the head.
   -If raising the legs causes pain, or possible harm, then do not elevate the legs and leave the infant lying in a flat position.
 
-## DO NOT MOVE THE INFANT
+<h2>DO NOT MOVE THE INFANT</h2>
 
 ![Alt text](/Images/InfantShock/infantShock2.jpg)
 
 - Treat the infant where they are unless the surrounding area is dangerous and they have to be moved for safety reasons.
 - Do not let the person eat or drink anything.
 
-## KEEP THE INFANT WARM AND COMFORTABLE AS POSSIBLE
+<h2>KEEP THE INFANT WARM AND COMFORTABLE AS POSSIBLE</h2>
 
 ![Alt text](/Images/InfantShock/infantShock8.jpg)
 
@@ -58,7 +59,7 @@
 - Loosen collars, remove neckties, and unbutton or cut away tight clothing.
 - Loosen shoes and remove any tight or constrictive jewelry if on the person's wrists or neck.
 
-## MONITOR THE INFANT UNTIL HELP ARRIVES
+<h2>MONITOR THE INFANT UNTIL HELP ARRIVES</h2>
 
 - Stay with the infant until help arrives.
 - Talk to the infant calmly. If the person is conscious, talking to them can help you to continue to evaluate their condition.

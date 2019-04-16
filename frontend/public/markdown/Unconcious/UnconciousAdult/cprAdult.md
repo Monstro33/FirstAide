@@ -2,7 +2,7 @@
 <source src="/Videos/adultCPR.mp4" type="video/mp4" />
 </video>
 
-## CHECK RESPONSIVENESS
+<h2>CHECK RESPONSIVENESS</h2>
 
 ![Alt text](/Images/AdultCPR/adultCPR22.jpg)
 
@@ -11,7 +11,7 @@
 - Also tap their shoulder or arm while you do it to see if that will help as well.
 - If this doesn't work, try yelling once or twice at them to see if that will rouse them. Yell phrases such as "Hey!" or "Hello!" to see if they wakes up.
 
-## VERIFY THEY ARE UNRESPONSIVE
+<h2>VERIFY THEY ARE UNRESPONSIVE</h2>
 
 ![Alt text](/Images/AdultCPR/adultCPR23.jpg)
 
@@ -21,14 +21,14 @@
 - You can also grasp the muscles of the shoulder with your thumb and fingers and squeeze into the hollow of the collarbone.
 - Bend low as you do this and listen for sounds or signs of breathing.
 
-## OPEN THE AIRWAY
+<h2>OPEN THE AIRWAY</h2>
 
 ![Alt text](/Images/AdultCPR/adultCPR25.jpg)
 
 - Place one hand behind their head and one hand under their chin. Tilt the head backward toward the sky.
 - The chin should end in a slightly lifted position, as if they are sniffing the air.
 
-## REMOVE FOREIGN OBJECTS FROM THE AIRWAY
+<h2>REMOVE FOREIGN OBJECTS FROM THE AIRWAY</h2>
 
 ![Alt text](/Images/AdultCPR/adultCPR26.jpg)
 
@@ -36,7 +36,7 @@
 - You can quickly turn the victim’s head to one side to assist in the removal.
 - Use sweeping motions rather than digging ones.
 
-## CHECK FOR BREATHING
+<h2>CHECK FOR BREATHING</h2>
 
 ![Alt text](/Images/AdultCPR/adultCPR27.jpg)
 
@@ -47,7 +47,7 @@
 - Place your hand near her nose and mouth to see if you feel any breath.
 - If you don't, lean your head down close to the person’s mouth and feel for breath on your cheek and listen for any inhales or exhales.
 
-## CHECK FOR PULSE
+<h2>CHECK FOR PULSE</h2>
 
 ![Alt text](/Images/AdultShock/adultShock7.jpg)
 
@@ -57,12 +57,12 @@
 - Find the radial artery by drawing a line with your finger from below the thumb to the wrist. Then feel for the spot between the wrist bone and tendon for a slight pumping motion.
 - Place the flat part of your finger on the wrist or neck to get the most accurate reading. Avoid using your fingertips or your thumb.
 
-## DETERMINE IF CPR IS NECESASARY
+<h2>DETERMINE IF CPR IS NECESASARY</h2>
 
 - IF NO PULSE, CONTINUE WITH STEPS.
 - IF PULSE IS PRESENT, CLICK HERE FOR - RESCUE BREATHING
 
-## INTERLACE FINGERS WITH ONE HAND ON TOP OF THE OTHER
+<h2>INTERLACE FINGERS WITH ONE HAND ON TOP OF THE OTHER</h2>
 
 ![Alt text](/Images/AdultCPR/adultCPR15.jpg)
 
@@ -70,7 +70,7 @@
 - Place the heel of your palm on the sternum directly between the victim’s nipples.
 - Orient yourself, elbows locked, directly above the victim.
 
-## GIVE 30 CHEST COMPRESSIONS
+<h2>GIVE 30 CHEST COMPRESSIONS</h2>
 
 ![Alt text](/Images/AdultCPR/adultCPR16.jpg)
 
@@ -82,7 +82,7 @@
 - If there are two rescuers, each should complete a round of 15 compressions.
 - It is likely you will break the person's ribs. This is extremely common, and you shouldn't stop compressions even if you think this has happened.
 
-## PROCEED TO OPEN THE AIRWAY
+<h2>PROCEED TO OPEN THE AIRWAY</h2>
 
 ![Alt text](/Images/AdultCPR/adultCPR28.jpg)
 
@@ -90,7 +90,7 @@
 - Then with your other hand, gently lift the chin forward to open up their airway.
 - If you suspect a neck/head/spine injury, sit above the person's head. Place one hand on each side of the person's jaw and lift the jaw so that it is jutting forward,as though the person has an underbite.
 
-## GIVE 2 RESCUE BREATHS
+<h2>GIVE 2 RESCUE BREATHS</h2>
 
 ![Alt text](/Images/AdultCPR/adultCPR29.jpg)
 
@@ -100,14 +100,14 @@
 - Give rescue breaths, one after the other.
 - If chest does not rise with rescue breaths, retilt the head and give another rescue breath.
 
-## CALL 9-1-1
+<h2>CALL 9-1-1</h2>
 
 ![Alt text](/Images/AdultCPR/adultCPR2.jpg)
 
 - After performing CPR for a full cycle or at least a minute, pause CPR and call 9-1-1 as quick as possible.
 - If two or more people are available, one person should dial for help while the other continues with CPR.
 
-## DO NOT STOP
+<h2>DO NOT STOP</h2>
 
 ![Alt text](/Images/AdultCPR/adultCPR12.jpg)
 
@@ -120,6 +120,6 @@ Continue cycles of CPR. Do not stop CPR except in one of these situations:
 
 [Go to Rescue Breathing](/instructions/0/0/10)
 
-## If person regains consciousness and breathing adequately
+<h2>If person regains consciousness and breathing adequately</h2>
 
 [Go to Recovery](/instructions/0/0/11)
