@@ -1,10 +1,10 @@
-## ASSESS THE SITUATION
+<h2>ASSESS THE SITUATION</h2>
 
 ![Alt text](/Images/AdultShock/adultShock9.jpg)
 
 - Rescue breathing is used for people who are unconscious and breathing and have a pulse.
 
-## CHECK RESPONSIVENESS
+<h2>CHECK RESPONSIVENESS</h2>
 
 ![Alt text](/Images/InfantCPR/infantCPR15.jpg)
 
@@ -18,7 +18,7 @@
 
 - If this doesn't work, try yelling once or twice at them to see if that will rouse them.
 
-## OPEN THE AIRWAY
+<h2>OPEN THE AIRWAY</h2>
 
 ![Alt text](/Images/InfantCPR/infantCPR6.jpg)
 
@@ -26,7 +26,7 @@
 
 - The chin should end in a slightly lifted position, as if they are sniffing the air.
 
-## CHECK FOR BREATHING
+<h2>CHECK FOR BREATHING</h2>
 
 ![Alt text](/Images/InfantCPR/infantCPR12.jpg)
 
@@ -46,7 +46,7 @@
 
 [Go to Rescue Breathing](/instructions/0/0/15)
 
-## CHECK FOR PULSE
+<h2>CHECK FOR PULSE</h2>
 
 ![Alt text](/Images/InfantCPR/infantCPR3.jpg)
 
@@ -64,7 +64,7 @@
 
 [Go to CPR](/instructions/3/1/7)
 
-## POSITION THE HEAD
+<h2>POSITION THE HEAD</h2>
 
 ![Alt text](/Images/ChildRescueBreathing/childRescueBreathing3.jpg)
 
@@ -76,7 +76,7 @@
 
 - Do not move the head more than necessary if you think the child may have a spinal cord injury.
 
-## PROVIDE RESCUE BREATHS
+<h2>PROVIDE RESCUE BREATHS</h2>
 
 ![Alt text](/Images/ChildRescueBreathing/childRescueBreathing4.jpg)
 
@@ -88,7 +88,7 @@
 
 - If so, this suggests that the breath was effective and the airway is not blocked.
 
-## CLEAR THE AIRWAY IF NECESSARY
+<h2>CLEAR THE AIRWAY IF NECESSARY</h2>
 
 ![Alt text](/Images/ChildRescueBreathing/childRescueBreathing4.jpg)
 
@@ -100,14 +100,14 @@
 
 - If you don't see an object, reposition the child's head and try another rescue breath.
 
-## CALL 9-1-1
+<h2>CALL 9-1-1</h2>
 
 ![Alt text](/Images/InfantCPR/infantCPR16.jpg)
 
 - After performing 2 minutes of rescue breathing, call Emergency Services if you are the only person available.
 - If two or more people are available, one person should dial for help while the other continues with rescue breathing.
 
-## CONTINUE RESCUE BREATHING
+<h2>CONTINUE RESCUE BREATHING</h2>
 
 ![Alt text](/Images/ChildRescueBreathing/childRescueBreathing6.jpg)
 

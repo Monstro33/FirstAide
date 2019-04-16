@@ -1,4 +1,4 @@
-## CALL 9-1-1
+<h2>CALL 9-1-1</h2>
 
 ![Alt text](/Images/AdultShock/adultshock8.jpg)
 
@@ -6,7 +6,7 @@
 
 ![Alt text](/Images/AdultShock/adultShock1.jpg)
 
-## CHECK FOR BREATHING AND CONSCIOUSNESS
+<h2>CHECK FOR BREATHING AND CONSCIOUSNESS</h2>
 
 ![Alt text](/Images/AdultShock/adultShock11.jpg)
 
@@ -18,7 +18,7 @@
 
 [Go to CPR](/instructions/0/0/10)
 
-## CHECK FOR PULSE
+<h2>CHECK FOR PULSE</h2>
 
 ![Alt text](/Images/AdultShock/adultShock7.jpg)
 
@@ -31,7 +31,7 @@
 
 [Go to CPR](/instructions/3/3/9)
 
-## PLACE THE PERSON IN THE SHOCK POSITION
+<h2>PLACE THE PERSON IN THE SHOCK POSITION</h2>
 
 ![Alt text](/Images/AdultShock/adultShock12.jpg)
 
@@ -40,20 +40,20 @@
 - Do not elevate the head.
   -If raising the legs causes pain, or possible harm, then do not elevate the legs and leave the person lying in a flat position.
 
-## DO NOT MOVE THE PERSON
+<h2>DO NOT MOVE THE PERSON</h2>
 
 ![Alt text](/Images/AdultShock/adultShock13.jpg)
 
 - Treat the person where they are unless the surrounding area is dangerous and they have to be moved for safety reasons.
 - Do not let the person eat or drink anything.
 
-## KEEP THE PERSON WARM
+<h2>KEEP THE PERSON WARM</h2>
 
 ![Alt text](/Images/AdultShock/adultShock10.jpg)
 
 - Cover the person with any available material such as towels, jackets, blankets, or first aid blankets.
 
-## MAKE THE PERSON AS COMFORTABLE AS POSSIBLE
+<h2>MAKE THE PERSON AS COMFORTABLE AS POSSIBLE</h2>
 
 ![Alt text](/Images/AdultShock/adultShock14.jpg)
 
@@ -61,7 +61,7 @@
 - Loosen collars, remove neckties, and unbutton or cut away tight clothing.
 - Loosen shoes and remove any tight or constrictive jewelry if on the person's wrists or neck.
 
-## MONITOR THE PERSON UNTIL HELP ARRIVES
+<h2>MONITOR THE PERSON UNTIL HELP ARRIVES</h2>
 
 - Stay with the person until help arrives.
 - Talk to the person calmly. If the person is conscious, talking to them can help you to continue to evaluate their condition.

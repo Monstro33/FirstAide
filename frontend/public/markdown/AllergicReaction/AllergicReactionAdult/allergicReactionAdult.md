@@ -1,4 +1,4 @@
-## RECOGNIZE ANAPHYLAXIS
+<h2>RECOGNIZE ANAPHYLAXIS</h2>
 
 ![Alt text](/Images/AdultAllergicReaction/adultAllergicReaction1.jpg)
 
@@ -7,13 +7,13 @@
 - STOMACH: Cramps, nausea, vomiting, and/or diarrhea.
 - MENTAL STATE: Sense of doom and/or anxiety, confusion, or dizziness.
 
-## CALL 9-1-1
+<h2>CALL 9-1-1</h2>
 
 ![Alt text](/Images/AdultAllergicReaction/adultAllergicReaction7.jpg)
 
 - Call 9-1-1 immediately.
 
-## ASK FOR AUTOINJECTOR
+<h2>ASK FOR AUTOINJECTOR</h2>
 
 ![Alt text](/Images/AdultAllergicReaction/adultAllergicReaction11.jpg)
 
@@ -23,7 +23,7 @@
 
 [Go to Shock](/instructions/0/0/22)
 
-## PREPARE EPINEPNRINE AUTO-INJECTOR
+<h2>PREPARE EPINEPNRINE AUTO-INJECTOR</h2>
 
 ![Alt text](/Images/AdultAllergicReaction/adultAllergicReaction10.jpg)
 
@@ -31,7 +31,7 @@
 - Remove the injector from its case and follow the instructions on the side of the injector.
 - The injection should only to be made in the middle of the thigh from the outside of either leg. It can be made through one layer of clothing or to bare skin.
 
-## PREPARE TO ADMINISTER EPINEPNRINE AUTO-INJECTOR
+<h2>PREPARE TO ADMINISTER EPINEPNRINE AUTO-INJECTOR</h2>
 
 ![Alt text](/Images/AdultAllergicReaction/adultAllergicReaction13.jpg)
 
@@ -41,7 +41,7 @@
 - For EpiPen: Remove the blue safety cap and place the orange tip firmly to the thigh.
 - For AdrenaClick/generic: Remove cap #1, then cap #2, then place the red tip firmly to the thigh.
 
-## ADMINISTER EPINEPNRINE AUTO-INJECTOR
+<h2>ADMINISTER EPINEPNRINE AUTO-INJECTOR</h2>
 
 ![Alt text](/Images/AdultAllergicReaction/adultAllergicReaction9.jpg)
 
@@ -52,7 +52,7 @@
 - Massage the the injection site for 10 seconds to circulate the medication.
 - If your EpiPen is expired, you can still use it. The potency may be reduced significantly.
 
-## GET TO THE HOSPITAL AS SOON AS POSSIBLE
+<h2>GET TO THE HOSPITAL AS SOON AS POSSIBLE</h2>
 
 ![Alt text](/Images/AdultAllergicReaction/adultAllergicReaction12.jpg)
 
@@ -60,7 +60,7 @@
 - It is critical to get to a hospital, ambulance, or qualified medical personnel as soon as possible.
 - If professional medical care is not available it is important to have a second auto-injector available in case of a secondary reaction.
 
-## ADMINISTER ANOTHER EPINEPNRINE AUTO-INJECTOR
+<h2>ADMINISTER ANOTHER EPINEPNRINE AUTO-INJECTOR</h2>
 
 ![Alt text](/Images/AdultAllergicReaction/adultAllergicReaction9.jpg)
 
@@ -68,7 +68,7 @@
 
 [Go to CPR](/instructions/3/3/9)
 
-## RECOGNIZE THE SYMPTOMS OF SHOCK
+<h2>RECOGNIZE THE SYMPTOMS OF SHOCK</h2>
 
 ![Alt text](/Images/AdultShock/adultShock4.jpg)
 
