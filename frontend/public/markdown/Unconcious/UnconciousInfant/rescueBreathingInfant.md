@@ -32,7 +32,7 @@
 - Place your hand near her nose and mouth to see if you feel any breath.
 - If you don't, lean your head down close to the infant’s mouth and feel for breath on your cheek and listen for any inhales or exhales.
 
-- If the infant is breathing adequately, GO TO
+- If the infant is breathing adequately:
 
 [Go to Recovery Position](/instructions/0/0/14)
 
@@ -45,7 +45,7 @@
 - Count the pulse rate of the infant for one full minute.
 - Infants generally have higher pulse rates than adults.
 - They’re heart rates generally fall between 140 and 160 beats per minute, even at rest.
-- If the infant does not have a pulse, GO TO
+- If the infant does not have a pulse:
 
 [Go to CPR](/instructions/3/1/7)
 
@@ -91,10 +91,10 @@
 - Check for a pulse every two minutes while doing rescue breathing.
 - Continue with rescue breathing until the child begins breathing on their own.
 - You will notice that they are improving if they start coughing or moving.
-- If the infant is breathing adequately, GO TO
+- If the infant is breathing adequately:
 
 [Go to Recovery Position](/instructions/0/0/14)
 
-- If the infant loses consciousness and does not have a pulse, GO TO
+- If the infant loses consciousness and does not have a pulse:
 
 [Go to CPR](/instructions/3/1/7)

@@ -21,7 +21,7 @@
 - Talk to the child to assess if they are responsive.
 - Check for breathing by placing your cheek near the nose and mouth of the child to feel their breath.
 - If the child is BREATHING ADEQUATELY and unconscious or semi-conscious, you can place them in the recovery position.
-- If the child HAS A PULSE but is not breathing or not breathing adequately, GO TO
+- If the child HAS A PULSE but is not breathing or not breathing adequately:
 
 [Go to Rescue Breathing](/instructions/0/0/13)
 
@@ -34,7 +34,7 @@
 - If you’re measuring on the wrist, set two fingers between the bone and tendon over your radial artery.
 - Find the radial artery by drawing a line with your finger from below the thumb to the wrist. Then feel for the spot between the wrist bone and tendon for a slight pumping motion.
 - Place the flat part of your finger on the wrist or neck to get the most accurate reading. Avoid using your fingertips or your thumb.
-- If the child does not have a pulse, GO TO
+- If the child does not have a pulse:
 
 [Go to CPR](/instructions/3/2/8)
 
@@ -80,10 +80,10 @@
 - Check for a pulse every two minutes while doing rescue breathing.
 - Continue with rescue breathing until the child begins breathing on their own.
 - You will notice that they are improving if they start coughing or moving.
-- If the child loses consciousness and is not breathing or not breathing adequately, GO TO
+- If the child loses consciousness and is not breathing or not breathing adequately:
 
 [Go to CPR](/instructions/0/0/13)
 
-- If the child loses consciousness and does not have a pulse, GO TO
+- If the child loses consciousness and does not have a pulse:
 
 [Go to Rescue Breathing](/instructions/3/2/8)

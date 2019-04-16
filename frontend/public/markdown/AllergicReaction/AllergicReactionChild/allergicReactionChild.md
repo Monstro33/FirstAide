@@ -61,11 +61,11 @@
 - The epinephrine only temporarily relieves the symptoms. A secondary reaction is possible.
 - It is critical to get to a hospital, ambulance, or qualified medical personnel as soon as possible.
 - If professional medical care is not available it is important to have a second auto-injector available in case of a secondary reaction.
-- If the child loses consciousness and is not breathing or not breathing adequately but does have a pulse, GO TO
+- If the child loses consciousness and is not breathing or not breathing adequately but does have a pulse:
 
 [Go to Rescue Breathing](/instructions/0/0/13)
 
-- If the child loses consciousness and does not have a pulse, GO TO
+- If the child loses consciousness and does not have a pulse:
 
 [Go to CPR](/instructions/3/2/8)
 

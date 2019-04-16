@@ -60,7 +60,7 @@
 <h2>DETERMINE IF CPR IS NECESASARY</h2>
 
 - IF NO PULSE, CONTINUE WITH STEPS.
-- If the child HAS A PULSE but is not breathing or not breathing adequately, GO TO
+- If the child HAS A PULSE but is not breathing or not breathing adequately:
 
 [Go to Rescue Breathing](/instructions/0/0/13)
 
@@ -119,6 +119,6 @@ Continue cycles of CPR. Do not stop CPR unless:
 - You are too exhausted to continue.
 - The scene becomes unsafe.
 - A pulse is present.
-- The child regains consciousness and is breathing adequately, GO TO
+- The child regains consciousness and is breathing adequately:
 
 [Go to Recovery Position](/instructions/0/0/12)
