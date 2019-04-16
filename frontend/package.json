@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^3.9.3",
     "@material-ui/icons": "^3.0.2",
+    "add": "^2.0.6",
     "@react-form-fields/material-ui": "^1.18.4",
     "auth0-js": "^9.10.1",
     "jwt-decode": "^2.2.0",
