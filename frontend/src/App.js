@@ -9,6 +9,10 @@ import { createMuiTheme, MuiThemeProvider } from "@material-ui/core/styles";
 import red from "@material-ui/core/colors/red";
 import Auth from "./Auth/Auth";
 import Callback from "./components/Callback";
+import Main from "./components/Main";
+import AddressForm from "./components/AddressForm";
+
+
 
 class App extends Component {
   render() {
@@ -29,7 +33,10 @@ class App extends Component {
     return (
       <MuiThemeProvider theme={theme}>
         <div className="app">
-          <Router>
+        <Main />
+
+       
+          {/* <Router>
             <Header auth={auth} />
             <div className="content">
               <Route path="/" exact component={SplashPage} />
@@ -47,7 +54,7 @@ class App extends Component {
                 }}
               />
             </div>
-          </Router>
+          </Router> */}
         </div>
       </MuiThemeProvider>
     );
