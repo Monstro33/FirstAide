@@ -1,8 +1,9 @@
 ## RECOGNIZE ANAPHYLAXIS
 
-![Alt text](/Images/ChildAllergicReaction/childAllergicReaction3.jpg)
+![Alt text](/Images/InfantAllergicReaction/infantAllergicReaction2.jpg)
 
-- BREATHING: A lump or tightness in the throat, or difficulty talking.
+- BREATHING: A lump
+  or tightness in the throat, or difficulty talking.
 - SKIN: Itching, hives, flushing, rash, pale, or swelling.
 - STOMACH: Cramps, nausea, vomiting, and/or diarrhea.
 - MENTAL STATE: Sense of doom and/or anxiety, confusion, or dizziness.
@@ -44,7 +45,7 @@
 
 ## ADMINISTER EPINEPNRINE AUTO-INJECTOR
 
-![Alt text](/Images/ChildAllergicReaction/childAllergicReaction7.jpg)
+![Alt text](/Images/InfantAllergicReaction/infantAllergicReaction10.jpg)
 
 - Place the orange tip against the outer thigh of either leg. You don't have to remove their pants, the needle will pierce through their clothes.
 - Firmly press the orange tip against your leg; you will hear a click. This will release a needle that injects the dose of epinephrine.
@@ -70,13 +71,13 @@
 
 ## ADMINISTER ANOTHER EPINEPNRINE AUTO-INJECTOR
 
-![Alt text](/Images/ChildAllergicReaction/childAllergicReaction7.jpg)
+![Alt text](/Images/InfantAllergicReaction/infantAllergicReaction10.jpg)
 
 - If symptoms do not improve within 5 to 20 minutes, Aminister a second epinephrine autoinjector.
 
 ## RECOGNIZE THE SYMPTOMS OF SHOCK
 
-![Alt text](public/Images/InfantShock/infantShock2.jpg)
+![Alt text](/Images/InfantShock/infantShock2.jpg)
 
 - Cool, clammy skin that may appear pale or grayish.
 - Profuse sweating or moist skin.
