@@ -1,9 +1,8 @@
-
-<h2>CALL 9-1-1</h2>
-
 <video controls="controls">
     <source src="/Videos\shockAllAges.mp4" type="video/mp4" />
 </video>
+
+<h2>CALL 9-1-1</h2>
 
 ![Alt text](/Images/AdultShock/adultshock8.jpg)
 
@@ -21,7 +20,7 @@
 - Continue to monitor the person’s respiration rate at least every 5 minutes,even if they are breathing on their own.
 - If the person stops breathing or is not breathing adequately, GO TO
 
-[Go to CPR](/instructions/0/0/10)
+[Go to Rescue Breathing](/instructions/0/0/10)
 
 <h2>CHECK FOR PULSE</h2>
 

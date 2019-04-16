@@ -1,10 +1,8 @@
-<h2>CALL 9-1-1</h2>
-
 <video controls="controls">
     <source src="/Videos\shockAllAges.mp4" type="video/mp4" />
 </video>
 
-## CALL 9-1-1
+<h2>CALL 9-1-1</h2>
 
 ![Alt text](/Images/AdultShock/adultshock8.jpg)
 
@@ -22,7 +20,7 @@
 - Continue to monitor the child’s respiration rate at least every 5 minutes,even if they are breathing on their own.
 - If the child stops breathing or is not breathing adequately, GO TO
 
-[Go to CPR](/instructions/0/0/10)
+[Go to Rescue Breathing](/instructions/0/0/13)
 
 <h2>CHECK FOR PULSE</h2>
 
@@ -75,9 +73,9 @@
 - Talk to the child calmly. If the person is conscious, talking to them can help you to continue to evaluate their condition.
 - Check and maintain a clear airway, monitor their breathing, and keep check on their circulation by checking the pulse.
 - If the child vomits or is bleeding from the mouth, and there is no suspicion of spinal injury, turn the person onto their side to keep the airway clear and prevent choking.
-- If the child loses consciousness and is not breathing or not breathing adequately, GO TO
+- If the child loses consciousness and is not breathing or not breathing adequately but has a pulse, GO TO
 
-[Go to CPR](/instructions/0/0/13)
+[Go to Rescue Breathing](/instructions/0/0/13)
 
 - If the child loses consciousness and does not have a pulse, GO TO
 

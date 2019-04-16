@@ -1,9 +1,8 @@
-<h2>RECOGNIZE ANAPHYLAXIS</h2>
-
 <video controls="controls">
     <source src="/Videos/anaphylaxisAllAges.mp4" type="video/mp4" />
 </video>
 
+<h2>RECOGNIZE ANAPHYLAXIS</h2>
 
 ![Alt text](/Images/InfantAllergicReaction/infantAllergicReaction2.jpg)
 
@@ -27,7 +26,7 @@
 - If an epinephrine autoinjector is on-hand, ask whether you should help inject the medication.
 - If they do not have their own injector, send people to find one by asking all bystanders, going into a place of business and ask for the first aid kit, or go to the closest pharmacy. GO TO
 
-[Go to Recover Infant](/instructions/0/0/14)
+[Go to Infant Shock](/instructions/0/0/24)
 
 <h2>PREPARE EPINEPNRINE AUTO-INJECTOR</h2>
 
