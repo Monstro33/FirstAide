@@ -1,0 +1,14 @@
+.icon-box {
+   float: left;
+    padding: 50px;
+    margin-top: -25px;
+    margin-left: 25px;
+    border-radius: 3px;
+    background-color: blue;
+    display: flex;
+  }
+  .icon {
+      color: white;
+      margin-right: 10px;
+     
+  }

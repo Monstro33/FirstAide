@@ -5,6 +5,19 @@ import TableCell from "@material-ui/core/TableCell";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import Paper from "@material-ui/core/Paper";
+import "../css/MedicationsView.css";
+import { withStyles } from "@material-ui/core/styles";
+import classNames from "classnames";
+import MedicationsForm from "./MedicationsForm.js";
+import Typography from "@material-ui/core/Typography";
+import { EditorFormatAlignCenter } from "material-ui/svg-icons";
+
+const styles = {
+  root: {
+    background: "red",
+    flexGrow: 1
+  }
+};
 
 // const rows = [
 //   this.state.medications.map(med =>
@@ -34,9 +47,9 @@ class MedicationsView extends Component {
       .then(json => this.setState({ medications: json }));
   }
 
-  createData(medication, dosage, purpose, directions) {
+  createData(medication, dosage, purpose, concentration, notes) {
     id += 1;
-    return { id, medication, dosage, purpose, directions };
+    return { id, medication, dosage, purpose, concentration, notes };
   }
 
   render() {
@@ -52,35 +65,78 @@ class MedicationsView extends Component {
     //     )
     //   ];
 
+    const { classes, addMedication } = this.props;
     const real = this.state.medications.map(med => (
       <TableRow key={med.id}>
         <TableCell component="th" scope="row">
           {med.medicationName}
         </TableCell>
-        <TableCell align="right">{med.dosage}</TableCell>
-        <TableCell align="right">{med.purpose}</TableCell>
-        <TableCell align="right">{med.concentration}</TableCell>
+        <TableCell align="left">{med.concentration}</TableCell>
+        <TableCell align="left">{med.dosage}</TableCell>
+        <TableCell align="left">{med.purpose}</TableCell>
+        <TableCell align="left">{med.notes}</TableCell>
       </TableRow>
     ));
     console.log(this.state.medications);
     console.log(real);
 
     return (
-      <Paper>
-        <Table>
-          <TableHead>
-            <TableRow>
-              <TableCell>Medication</TableCell>
-              <TableCell align="right">Dosage</TableCell>
-              <TableCell align="right">Purpose</TableCell>
-              <TableCell align="right">Directions</TableCell>
-            </TableRow>
-          </TableHead>
-          <TableBody>{real}</TableBody>
-        </Table>
-      </Paper>
+      <div id="MedicationsPage">
+        <div id="MedicationsTitle">
+          <Typography
+            variant="h2"
+            color="inherit"
+            align="center"
+            //padding="20px"
+            //className={classes.grow}
+          >
+            Your Medications
+          </Typography>
+        </div>
+        <div id="MedicationsTable">
+          <Paper className="paper">
+            <Table>
+              <TableHead>
+                <TableRow>
+                  <TableCell>
+                    <h2>Medication</h2>
+                  </TableCell>
+                  <TableCell align="left">
+                    <h2>Concentration</h2>
+                  </TableCell>
+                  <TableCell align="left">
+                    <h2>Dosage</h2>
+                  </TableCell>
+                  <TableCell align="left">
+                    <h2>Purpose</h2>
+                  </TableCell>
+                  <TableCell align="left">
+                    <h2>Notes</h2>
+                  </TableCell>
+                </TableRow>
+              </TableHead>
+              <TableBody>{real}</TableBody>
+            </Table>
+          </Paper>
+        </div>
+        <div id="MedicationsForm">
+          {
+            <MedicationsForm
+              setName={this.props.setName}
+              setConcentration={this.props.setConcentration}
+              setDosage={this.props.setDosage}
+              setPurpose={this.props.setPurpose}
+              setNotes={this.props.setNotes}
+              addMedication={this.props.addMedication}
+            />
+          }
+        </div>
+        <button id="MedicationsButton" onClick={addMedication}>
+          Add Medication
+        </button>
+      </div>
     );
   }
 }
 
-export default MedicationsView;
+export default withStyles(styles)(MedicationsView);

@@ -1,5 +1,9 @@
 <h2>RECOGNIZE ANAPHYLAXIS</h2>
 
+<video controls="controls">
+    <source src="/Videos/anaphylaxisAllAges.mp4" type="video/mp4" />
+
+
 ![Alt text](/Images/ChildAllergicReaction/childAllergicReaction3.jpg)
 
 - BREATHING: A lump or tightness in the throat, or difficulty talking.

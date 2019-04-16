@@ -1,5 +1,11 @@
 <h2>CALL 9-1-1</h2>
 
+<video controls="controls">
+    <source src="/Videos\shockAllAges.mp4" type="video/mp4" />
+</video>
+
+## CALL 9-1-1
+
 ![Alt text](/Images/AdultShock/adultshock8.jpg)
 
 - Call 9-1-1 immediately.
