@@ -4,7 +4,7 @@
 
 ## CHECK RESPONSIVENESS
 
-![Alt text](/Images/AdultCPR/adultCPR22.jpg)
+![Alt text](/Images/ChildCPR/childCPR1.jpg)
 
 - If the child is on their side or stomach, then gently roll him onto his back while trying to support their head and neck.
 - Ask questions like, "What is your name?", "Are you alright?", and "Can you hear me?"
