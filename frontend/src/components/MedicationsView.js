@@ -65,7 +65,7 @@ class MedicationsView extends Component {
     //     )
     //   ];
 
-    const { classes } = this.props;
+    const { classes, addMedication } = this.props;
     const real = this.state.medications.map(med => (
       <TableRow key={med.id}>
         <TableCell component="th" scope="row">
@@ -131,6 +131,9 @@ class MedicationsView extends Component {
             />
           }
         </div>
+        <button id="MedicationsButton" onClick={addMedication}>
+          Add Medication
+        </button>
       </div>
     );
   }

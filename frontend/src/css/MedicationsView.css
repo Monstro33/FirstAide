@@ -15,3 +15,8 @@
 #MedicationsForm {
   padding: 2rem;
 }
+
+#MedicationsButton {
+  padding: 2rem;
+  max-width: 10rem;
+}

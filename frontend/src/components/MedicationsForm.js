@@ -53,8 +53,7 @@ class MedicationsForm extends Component {
       medicationConcentration,
       medicationDosage,
       medicationPurpose,
-      medicationNotes,
-      addMedication
+      medicationNotes
     } = this.props;
 
     return (
@@ -114,10 +113,6 @@ class MedicationsForm extends Component {
           value={medicationNotes}
           type="text"
         />
-
-        <button id="addMedication" onClick={addMedication}>
-          Add Medication
-        </button>
       </form>
     );
   }
