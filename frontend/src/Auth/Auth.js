@@ -7,6 +7,7 @@ export default class Auth {
   idToken;
   expiresAt;
   users;
+  currentUser;
 
   auth0 = new auth0.WebAuth({
     domain: "first-aide.auth0.com",
@@ -37,18 +38,24 @@ export default class Auth {
       .then(() => this.checkIfNewUser());
   }
 
+  setCurrentUser(user) {
+    this.currentUser = user;
+    console.log("Current user: ", this.currentUser);
+  }
+
   checkIfNewUser() {
     const decodedToken = jwtDecode(this.idToken);
     const email = decodedToken.email;
     const name = decodedToken.nickname;
     
     let isNew = true;
+    let matchedUser;
 
     this.users.forEach(function(user){
       if(user.email == email){
         isNew = false;
+        matchedUser = user;
       }
-      console.log(user);
     });
 
     if(isNew){
@@ -60,8 +67,12 @@ export default class Auth {
         body: JSON.stringify({ name: name, email: email })
       })
       .then(res => res.json())
-      .then(json => console.log(json));
+      .then(json => this.setCurrentUser(json));
+    } else {
+      this.setCurrentUser(matchedUser);
     }
+
+
   }
 
     handleAuthentication() {

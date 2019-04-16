@@ -20,10 +20,12 @@ namespace FirstAide.Repositories
             return db.Users.ToList();
         }
 
-        public void Add(User user)
+        public User Add(User user)
         {
             db.Users.Add(user);
             db.SaveChanges();
+
+            return user;
         }
     }
 }

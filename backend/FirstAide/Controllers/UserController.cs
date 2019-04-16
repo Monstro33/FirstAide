@@ -27,10 +27,10 @@ namespace FirstAide.Controllers
         }
 
         [HttpPost]
-        public ActionResult<bool> Post([FromBody] User user)
+        public ActionResult<User> Post([FromBody] User user)
         {
             repo.Add(user);
-            return true;
+            return user;
         }
     }
 }
