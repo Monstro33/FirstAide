@@ -1,3 +1,7 @@
+<video controls="controls">
+    <source src="/Videos/anaphylaxisAllAges.mp4" type="video/mp4" />
+</video>
+
 ## RECOGNIZE ANAPHYLAXIS
 
 ![Alt text](/Images/ChildAllergicReaction/childAllergicReaction3.jpg)
