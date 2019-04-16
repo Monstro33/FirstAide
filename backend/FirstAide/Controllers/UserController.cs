@@ -25,5 +25,12 @@ namespace FirstAide.Controllers
         {
             return repo.GetAll();
         }
+
+        [HttpPost]
+        public ActionResult<User> Post([FromBody] User user)
+        {
+            repo.Add(user);
+            return user;
+        }
     }
 }

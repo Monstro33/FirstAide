@@ -1,15 +1,3 @@
-## RECOGNIZE THE SYMPTOMS OF SHOCK
-
-![Alt text](/Images/ChildShock/childShock3.jpg)
-
-- Cool, clammy skin that may appear pale or grayish.
-- Profuse sweating or moist skin.
-- Bluish lips and fingernails.
-- Rapid and weak pulse.
-- Rapid and shallow breathing.
-- Enlarged or contracted pupils.
-- Altered mental status such as being disoriented, confused, anxious, agitated, dizzy, lightheaded, or feel faint, weak, or fatigue.
-
 ## CALL 9-1-1
 
 ![Alt text](/Images/AdultShock/adultshock8.jpg)
@@ -26,7 +14,7 @@
 - Talk to the child to assess if they are responsive.
 - Check for breathing by placing your cheek near the nose and mouth of the child to feel their breath for 5 to 10 seconds.
 - Continue to monitor the child’s respiration rate at least every 5 minutes,even if they are breathing on their own.
-- If the child stops breathing or is not breathing adequately, GO TO 
+- If the child stops breathing or is not breathing adequately, GO TO
 
 [Go to CPR](/instructions/0/0/10)
 
@@ -39,7 +27,7 @@
 - If you’re measuring on the wrist, set two fingers between the bone and tendon over the radial artery.
 - Find the radial artery by drawing a line with your finger from below the thumb to the wrist. Then feel for the spot between the wrist bone and tendon for a slight pumping motion.
 - Place the flat part of your finger on the wrist or neck to get the most accurate reading. Avoid using your fingertips or your thumb.
-- If the child loses consciousness and does not have a pulse, GO TO 
+- If the child loses consciousness and does not have a pulse, GO TO
 
 [Go to CPR](/instructions/3/2/8)
 
@@ -50,7 +38,7 @@
 - If the child is conscious and has no injury to the head, leg, neck, or spine, then proceed with placing them in the shock position.
 - Position the child on their back and elevate the legs about 12 inches.
 - Do not elevate the head.
--If raising the legs causes pain, or possible harm, then do not elevate the legs and leave the child lying in a flat position.
+  -If raising the legs causes pain, or possible harm, then do not elevate the legs and leave the child lying in a flat position.
 
 ## DO NOT MOVE THE CHILD
 
@@ -85,9 +73,6 @@
 
 [Go to CPR](/instructions/0/0/13)
 
-- If the child loses consciousness and does not have a pulse, GO TO 
+- If the child loses consciousness and does not have a pulse, GO TO
 
 [Go to CPR](/instructions/3/2/8)
-
-
-

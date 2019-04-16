@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Router, Route } from "react-router-dom";
 import "./css/App.css";
 import Instructions from "./components/Instructions";
 import SplashPage from "./components/SplashPage";
@@ -10,6 +10,8 @@ import red from "@material-ui/core/colors/red";
 import Auth from "./Auth/Auth";
 import Callback from "./components/Callback";
 import MedicationsView from "./components/MedicationsView";
+import Dashboard from "./components/Dashboard";
+import history from "./history";
 
 class App extends Component {
   constructor() {
@@ -87,38 +89,45 @@ class App extends Component {
       }
     });
 
+    //   <MedicationsView
+    //   setName={this.setName}
+    //   setConcentration={this.setConcentration}
+    //   setDosage={this.setDosage}
+    //   setPurpose={this.setPurpose}
+    //   setNotes={this.setNotes}
+    //   addMedication={this.addMedication}
+    // />
+
     return (
-      // <MuiThemeProvider theme={theme}>
-      //   <div className="app">
-      //     <Router>
-      //       <Header auth={auth} />
-      //       <div className="content">
-      //         <Route path="/" exact component={SplashPage} />
-      //         <Route
-      //           path="/instructions/:emergencyId/:ageGroupId/:instructionsId"
-      //           component={Instructions}
-      //         />
-      //         <Route path="/prompts" exact component={Prompts} />
-      //         <Route
-      //           path="/callback"
-      //           exact
-      //           render={props => {
-      //             handleAuthentication(props);
-      //             return <Callback {...props} />;
-      //           }}
-      //         />
-      //       </div>
-      //     </Router>
-      //   </div>
-      // </MuiThemeProvider>
-      <MedicationsView
-        setName={this.setName}
-        setConcentration={this.setConcentration}
-        setDosage={this.setDosage}
-        setPurpose={this.setPurpose}
-        setNotes={this.setNotes}
-        addMedication={this.addMedication}
-      />
+      <MuiThemeProvider theme={theme}>
+        <div className="app">
+          <Router history={history}>
+            <Header auth={auth} history={history} />
+            <div className="content">
+              <Route path="/" exact component={SplashPage} />
+              <Route
+                path="/instructions/:emergencyId/:ageGroupId/:instructionsId"
+                component={Instructions}
+              />
+              <Route path="/prompts" exact component={Prompts} />
+              <Route
+                path="/callback"
+                exact
+                render={props => {
+                  handleAuthentication(props);
+                  return <Callback {...props} />;
+                }}
+              />
+              <Route
+                path="/dashboard"
+                render={props => {
+                  return <Dashboard {...props} auth={auth} />;
+                }}
+              />
+            </div>
+          </Router>
+        </div>
+      </MuiThemeProvider>
     );
   }
 }

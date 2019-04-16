@@ -1,10 +1,10 @@
 <video controls="controls">
     <source src="/Videos/childCPR.mp4" type="video/mp4" />
 </video>
-        
+
 ## CHECK RESPONSIVENESS
 
-![Alt text](/Images/AdultCPR/adultCPR22.jpg)
+![Alt text](/Images/ChildCPR/childCPR1.jpg)
 
 - If the child is on their side or stomach, then gently roll him onto his back while trying to support their head and neck.
 - Ask questions like, "What is your name?", "Are you alright?", and "Can you hear me?"
@@ -95,7 +95,7 @@
 
 ## GIVE 2 RESCUE BREATHS
 
-![Alt text](/Images/ChildChoking/childChoking12.jpg)
+![Alt text](/Images/ChokingChild/chokingChild12.jpg)
 
 - Make sure their mouth is free of any objects blocking their airway.
 - Use one hand to pinch the nose shut then make a complete seal over the child’s mouth.
@@ -121,4 +121,4 @@ Continue cycles of CPR. Do not stop CPR unless:
 - A pulse is present.
 - The child regains consciousness and is breathing adequately, GO TO
 
-[Go to CPR](/instructions/0/0/13)
+[Go to Recovery](/instructions/0/0/12)
