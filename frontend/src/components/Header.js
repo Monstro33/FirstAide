@@ -10,15 +10,9 @@ import AccountCircle from "@material-ui/icons/AccountCircle";
 import MenuItem from "@material-ui/core/MenuItem";
 import Menu from "@material-ui/core/Menu";
 import SwipeableDrawer from "@material-ui/core/SwipeableDrawer";
-import Button from "@material-ui/core/Button";
-import List from "@material-ui/core/List";
-import Divider from "@material-ui/core/Divider";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
-import DashboardIcon from "@material-ui/icons/Dashboard";
-import MailIcon from "@material-ui/icons/Mail";
-import { Link } from "react-router-dom";
 
 const styles = {
   root: {
@@ -81,7 +75,7 @@ class Header extends Component {
 
   render() {
     const { classes } = this.props;
-    const { auth, anchorEl } = this.state;
+    const { anchorEl } = this.state;
     const open = Boolean(anchorEl);
     const { isAuthenticated } = this.props.auth;
 
@@ -151,19 +145,19 @@ class Header extends Component {
           >
           <ListItem button onClick={() => this.goTo("dashboard")}>
             <ListItemIcon>
-              <img src="/Icons/healthLog.png" className="icon" />
+              <img src="/Icons/healthLog.png" className="icon" alt="dashboard" />
             </ListItemIcon>
             <ListItemText primary="Dashboard" />
           </ListItem>
           <ListItem button>
             <ListItemIcon>
-              <img src="/Icons/pills.png" className="icon" />
+              <img src="/Icons/pills.png" className="icon" alt="medications" />
             </ListItemIcon>
             <ListItemText primary="Current Medications" />
           </ListItem>
             <ListItem button onClick={() => this.goTo("prompts")}>
               <ListItemIcon>
-                <img src="/Icons/emergency.png" className="icon" />
+                <img src="/Icons/emergency.png" className="icon" alt="emergency" />
               </ListItemIcon>
               <ListItemText primary="Emergency" />
             </ListItem>

@@ -1,17 +1,20 @@
 import auth0 from "auth0-js";
 import history from "../history";
+import jwtDecode from "jwt-decode";
 
 export default class Auth {
   accessToken;
   idToken;
   expiresAt;
+  users;
+  currentUser;
 
   auth0 = new auth0.WebAuth({
     domain: "first-aide.auth0.com",
     clientID: "3uSBPcOn6CnRRvZ5uMj4nVmizAWSZy70",
     redirectUri: "http://localhost:3000/callback",
     responseType: "token id_token",
-    scope: "openid"
+    scope: "openid email profile"
   });
 
   constructor() {
@@ -28,9 +31,54 @@ export default class Auth {
     this.auth0.authorize();
   }
 
+  getUsers() {
+    fetch("https://localhost:44321/api/user")
+      .then(res => res.json())
+      .then(json => this.users = json)
+      .then(() => this.checkIfNewUser());
+  }
+
+  setCurrentUser(user) {
+    this.currentUser = user;
+    console.log("Current user: ", this.currentUser);
+  }
+
+  checkIfNewUser() {
+    const decodedToken = jwtDecode(this.idToken);
+    const email = decodedToken.email;
+    const name = decodedToken.nickname;
+    
+    let isNew = true;
+    let matchedUser;
+
+    this.users.forEach(function(user){
+      if(user.email == email){
+        isNew = false;
+        matchedUser = user;
+      }
+    });
+
+    if(isNew){
+      fetch("https://localhost:44321/api/user", {
+        method: "POST",
+        headers: {
+          "Content-type": "application/json"
+        },
+        body: JSON.stringify({ name: name, email: email })
+      })
+      .then(res => res.json())
+      .then(json => this.setCurrentUser(json));
+    } else {
+      this.setCurrentUser(matchedUser);
+    }
+
+
+  }
+
     handleAuthentication() {
     this.auth0.parseHash((err, authResult) => {
       if (authResult && authResult.accessToken && authResult.idToken) {
+        this.getUsers();
         this.setSession(authResult);
       } else if (err) {
         history.replace('/');
