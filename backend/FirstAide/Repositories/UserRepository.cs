@@ -7,18 +7,24 @@ using System.Threading.Tasks;
 namespace FirstAide.Repositories
 {
     public class UserRepository : IUserRepository
+    {
+        FirstAideContext db;
+
+        public UserRepository(FirstAideContext db)
         {
-            FirstAideContext db;
+            this.db = db;
+        }
 
-            public UserRepository(FirstAideContext db)
-            {
-                this.db = db;
-            }
+        public List<User> GetAll()
+        {
+            return db.Users.ToList();
+        }
 
-            public List<User> GetAll()
-            {
-                return db.Users.ToList();
-            }
+        public void Add(User user)
+        {
+            db.Users.Add(user);
+            db.SaveChanges();
         }
     }
+}
 

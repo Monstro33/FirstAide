@@ -215,12 +215,13 @@ namespace FirstAide
                 {
                     UserId = 1,
                     Name = "Sabrina Andrew",
-                    Dob = "December 17, 1979",
-                    Height = "66 inches",
-                    Weight = "130 pounds",
-                    BloodPressure = "130/70",
-                    ChifComplaint = "Insomnia",
-                    Allergies = "None"
+                    Email = "email@email.com"
+                    //Dob = "December 17, 1979",
+                    //Height = "66 inches",
+                    //Weight = "130 pounds",
+                    //BloodPressure = "130/70",
+                    //ChifComplaint = "Insomnia",
+                    //Allergies = "None"
                 });
 
             modelBuilder.Entity<Medication>().HasData(

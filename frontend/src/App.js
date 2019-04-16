@@ -48,7 +48,9 @@ class App extends Component {
                   return <Callback {...props} />;
                 }}
               />
-              <Route path="/dashboard" component={Dashboard} />
+              <Route path="/dashboard" render={props => {
+                return <Dashboard {...props} auth={auth} />
+              }} />
             </div>
           </Router>
         </div>
