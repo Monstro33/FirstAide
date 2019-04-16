@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Router, Route } from "react-router-dom";
 import "./css/App.css";
 import Instructions from "./components/Instructions";
 import SplashPage from "./components/SplashPage";
@@ -11,8 +11,8 @@ import Auth from "./Auth/Auth";
 import Callback from "./components/Callback";
 import Main from "./components/Main";
 import AddressForm from "./components/AddressForm";
-
-
+import Dashboard from "./components/Dashboard";
+import history from "./history";
 
 class App extends Component {
   render() {
@@ -33,11 +33,8 @@ class App extends Component {
     return (
       <MuiThemeProvider theme={theme}>
         <div className="app">
-        <Main />
-
-       
-          {/* <Router>
-            <Header auth={auth} />
+          <Router history={history}>
+            <Header auth={auth} history={history} />
             <div className="content">
               <Route path="/" exact component={SplashPage} />
               <Route
@@ -53,6 +50,9 @@ class App extends Component {
                   return <Callback {...props} />;
                 }}
               />
+              <Route path="/dashboard" render={props => {
+                return <Dashboard {...props} auth={auth} />
+              }} />
             </div>
           </Router> */}
         </div>

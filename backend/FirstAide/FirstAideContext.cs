@@ -185,49 +185,7 @@ namespace FirstAide
                    AgeGroupId = 0,
                    EmergencyId = 0,
                    Details = "/markdown/Unconcious/UnconciousInfant/rescueBreathingInfant.md"
-               },
-               // new Instructions()
-               // {
-               //     InstructionsId = 16,
-               //     AgeGroupId = 0,
-               //     EmergencyId = 0,
-               //     Details = "/markdown/Choking/ChokingAdult/chokingUnconsciousAdult.md"
-               // },
-               //new Instructions()
-               //{
-               //    InstructionsId = 17,
-               //    AgeGroupId = 0,
-               //    EmergencyId = 0,
-               //    Details = "/markdown/Choking/ChokingAdult/chokingUnconsciousAdult-2.md"
-               //},
-                new Instructions()
-                {
-                    InstructionsId = 18,
-                    AgeGroupId = 0,
-                    EmergencyId = 0,
-                    Details = "/markdown/Choking/ChokingChild/chokingUnconsciousChild.md"
-                },
-               new Instructions()
-               {
-                   InstructionsId = 19,
-                   AgeGroupId = 0,
-                   EmergencyId = 0,
-                   Details = "/markdown/Choking/ChokingChild/chokingUnconsciousChild-2.md"
-               },
-                new Instructions()
-                {
-                    InstructionsId = 20,
-                    AgeGroupId = 0,
-                    EmergencyId = 0,
-                    Details = "/markdown/Choking/ChokingInfant/chokingUnconsciousInfant.md"
-                },
-               new Instructions()
-               {
-                   InstructionsId = 21,
-                   AgeGroupId = 0,
-                   EmergencyId = 0,
-                   Details = "/markdown/Choking/ChokingInfant/chokingUnconsciousInfant-2.md"
-               },
+               },            
 
                 new Instructions()
                 {
@@ -257,12 +215,13 @@ namespace FirstAide
                 {
                     UserId = 1,
                     Name = "Sabrina Andrew",
-                    Dob = "December 17, 1979",
-                    Height = "66 inches",
-                    Weight = "130 pounds",
-                    BloodPressure = "130/70",
-                    ChifComplaint = "Insomnia",
-                    Allergies = "None"
+                    Email = "email@email.com"
+                    //Dob = "December 17, 1979",
+                    //Height = "66 inches",
+                    //Weight = "130 pounds",
+                    //BloodPressure = "130/70",
+                    //ChifComplaint = "Insomnia",
+                    //Allergies = "None"
                 });
 
             modelBuilder.Entity<Medication>().HasData(
