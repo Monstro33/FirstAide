@@ -122,4 +122,4 @@ Continue cycles of CPR. Do not stop CPR except in one of these situations:
 
 <h2>If person regains consciousness and breathing adequately</h2>
 
-[Go to Recovery](/instructions/0/0/11)
+[Go to Recovery Position](/instructions/0/0/11)

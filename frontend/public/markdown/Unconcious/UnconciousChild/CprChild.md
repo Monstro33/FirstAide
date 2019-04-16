@@ -62,7 +62,7 @@
 - IF NO PULSE, CONTINUE WITH STEPS.
 - If the child HAS A PULSE but is not breathing or not breathing adequately, GO TO
 
-[Go to CPR](/instructions/0/0/13)
+[Go to Rescue Breathing](/instructions/0/0/13)
 
 <h2>INTERLACE FINGERS WITH ONE HAND ON TOP OF THE OTHER</h2>
 
@@ -121,4 +121,4 @@ Continue cycles of CPR. Do not stop CPR unless:
 - A pulse is present.
 - The child regains consciousness and is breathing adequately, GO TO
 
-[Go to Recovery](/instructions/0/0/12)
+[Go to Recovery Position](/instructions/0/0/12)

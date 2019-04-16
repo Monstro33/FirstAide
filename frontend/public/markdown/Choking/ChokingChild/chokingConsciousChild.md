@@ -39,7 +39,7 @@ abdominal thrusts until the:
 - Assess the childs breathing and pulse.
 - If the child is not breathing or not breathing adequately, GO TO
 
-[Go to CPR](/instructions/0/0/13)
+[Go to Rescue Breathing](/instructions/0/0/13)
 
 - If the child does not have a pulse, GO TO
 

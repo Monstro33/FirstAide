@@ -14,7 +14,7 @@
 - If the person is breathing and unconscious or semi-conscious, you can place them in the recovery position.
 - If the person stops breathing or is not breathing adequately, GO TO
 
-[Go to CPR](/instructions/0/0/10)
+[Go to Rescue Breathing](/instructions/0/0/10)
 
 <h2>CHECK FOR PULSE</h2>
 
