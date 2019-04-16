@@ -120,8 +120,6 @@ namespace FirstAide.Migrations
 
                     b.HasKey("MedicationId");
 
-                    b.HasIndex("UserId");
-
                     b.ToTable("Medications");
 
                     b.HasData(
@@ -135,35 +133,17 @@ namespace FirstAide.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Allergies");
-
-                    b.Property<string>("BloodPressure");
-
-                    b.Property<string>("ChifComplaint");
-
-                    b.Property<string>("Dob");
-
-                    b.Property<string>("Height");
+                    b.Property<string>("Email");
 
                     b.Property<string>("Name");
-
-                    b.Property<string>("Weight");
 
                     b.HasKey("UserId");
 
                     b.ToTable("Users");
 
                     b.HasData(
-                        new { UserId = 1, Allergies = "None", BloodPressure = "130/70", ChifComplaint = "Insomnia", Dob = "December 17, 1979", Height = "66 inches", Name = "Sabrina Andrew", Weight = "130 pounds" }
+                        new { UserId = 1, Email = "email@email.com", Name = "Sabrina Andrew" }
                     );
-                });
-
-            modelBuilder.Entity("FirstAide.Models.Medication", b =>
-                {
-                    b.HasOne("FirstAide.Models.User")
-                        .WithMany("Medication")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
         }

@@ -13,27 +13,29 @@ namespace FirstAide.Controllers
 
     public class MedicationController : ControllerBase
     {
-       IMedicationRepository repo;
+        IMedicationRepository repo;
 
         public MedicationController(IMedicationRepository repo)
-            {
-                this.repo = repo;
-            }
+        {
+            this.repo = repo;
+        }
 
-            [HttpGet]
-            public ActionResult<IEnumerable<Medication>> Get()
-            {
-                return repo.GetAll().ToArray();
-            }
+        [HttpGet]
+        public ActionResult<List<Medication>> Get()
+        {
+            return repo.GetAll();
+        }
 
-            [HttpPost]
-            public void Post([FromBody] Medication medication)
-            {
-                repo.Create(medication);
-            }
+        [HttpPost]
+        public bool Post([FromBody] Medication medication)
+        {
+            repo.Create(medication);
 
-        
+            return true;
+        }
+
+
 
 
     }
-    }
+}

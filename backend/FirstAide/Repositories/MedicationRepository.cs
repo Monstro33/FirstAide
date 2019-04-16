@@ -15,13 +15,15 @@ namespace FirstAide.Repositories
             this.db = db;
         }
 
-        public void Create(Medication medication)
+        public bool Create(Medication medication)
         {
             db.Medications.Add(medication);
             db.SaveChanges();
+
+            return true;
         }
 
-        public IEnumerable<Medication> GetAll()
+        public List<Medication> GetAll()
         {
             return db.Medications.ToList();
         }

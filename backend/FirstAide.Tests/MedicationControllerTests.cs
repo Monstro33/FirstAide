@@ -34,12 +34,12 @@ namespace FirstAide.Tests
 
         public void Post_Creates_New_Medication()
         {
-            var repo = Substitute.For<IMedicationRepository>();
-            var underTest = new MedicationController(repo);
             var medication = new Medication();
-            underTest.Post(medication);
+            repo.Create(medication).Returns(true);
 
-            repo.Received().Create(medication);
+            var result = underTest.Post(medication);
+
+            Assert.True(result);
 
         }
     }

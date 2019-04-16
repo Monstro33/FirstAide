@@ -8,7 +8,7 @@ namespace FirstAide.Repositories
 {
     public interface IMedicationRepository
     {
-        void Create(Medication medication);
-        IEnumerable<Medication> GetAll();
+        bool Create(Medication medication);
+        List<Medication> GetAll();
     }
 }
