@@ -1,0 +1,17 @@
+#MedicationsPage {
+  display: flex;
+  flex-direction: column;
+}
+
+#MedicationsTitle {
+  padding: 2rem;
+  color: red;
+}
+
+#MedicationsTable {
+  padding: 2rem;
+}
+
+#MedicationsForm {
+  padding: 2rem;
+}

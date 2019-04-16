@@ -81,51 +81,56 @@ class MedicationsView extends Component {
     console.log(real);
 
     return (
-      <div>
-        <Typography
-          variant="h2"
-          color="inherit"
-          align="center"
-          //padding="20px"
-          //className={classes.grow}
-        >
-          Your Medications
-        </Typography>
-
-        <Paper className="paper">
-          <Table>
-            <TableHead>
-              <TableRow>
-                <TableCell>
-                  <h2>Medication</h2>
-                </TableCell>
-                <TableCell align="left">
-                  <h2>Concentration</h2>
-                </TableCell>
-                <TableCell align="left">
-                  <h2>Dosage</h2>
-                </TableCell>
-                <TableCell align="left">
-                  <h2>Purpose</h2>
-                </TableCell>
-                <TableCell align="left">
-                  <h2>Notes</h2>
-                </TableCell>
-              </TableRow>
-            </TableHead>
-            <TableBody>{real}</TableBody>
-          </Table>
-        </Paper>
-        {
-          <MedicationsForm
-            setName={this.props.setName}
-            setConcentration={this.props.setConcentration}
-            setDosage={this.props.setDosage}
-            setPurpose={this.props.setPurpose}
-            setNotes={this.props.setNotes}
-            addMedication={this.props.addMedication}
-          />
-        }
+      <div id="MedicationsPage">
+        <div id="MedicationsTitle">
+          <Typography
+            variant="h2"
+            color="inherit"
+            align="center"
+            //padding="20px"
+            //className={classes.grow}
+          >
+            Your Medications
+          </Typography>
+        </div>
+        <div id="MedicationsTable">
+          <Paper className="paper">
+            <Table>
+              <TableHead>
+                <TableRow>
+                  <TableCell>
+                    <h2>Medication</h2>
+                  </TableCell>
+                  <TableCell align="left">
+                    <h2>Concentration</h2>
+                  </TableCell>
+                  <TableCell align="left">
+                    <h2>Dosage</h2>
+                  </TableCell>
+                  <TableCell align="left">
+                    <h2>Purpose</h2>
+                  </TableCell>
+                  <TableCell align="left">
+                    <h2>Notes</h2>
+                  </TableCell>
+                </TableRow>
+              </TableHead>
+              <TableBody>{real}</TableBody>
+            </Table>
+          </Paper>
+        </div>
+        <div id="MedicationsForm">
+          {
+            <MedicationsForm
+              setName={this.props.setName}
+              setConcentration={this.props.setConcentration}
+              setDosage={this.props.setDosage}
+              setPurpose={this.props.setPurpose}
+              setNotes={this.props.setNotes}
+              addMedication={this.props.addMedication}
+            />
+          }
+        </div>
       </div>
     );
   }
