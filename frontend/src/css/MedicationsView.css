@@ -1,6 +1,7 @@
 #MedicationsPage {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 #MedicationsTitle {
@@ -10,10 +11,12 @@
 
 #MedicationsTable {
   padding: 2rem;
+  max-width: 100vh;
 }
 
 #MedicationsForm {
   padding: 2rem;
+  max-width: 100vh;
 }
 
 #MedicationsButton {

@@ -14,6 +14,7 @@ import Main from "./components/Main";
 import AddressForm from "./components/AddressForm";
 import Dashboard from "./components/Dashboard";
 import history from "./history";
+import HealthLog from "./components/HealthLog.js";
 
 class App extends Component {
   constructor() {
@@ -43,10 +44,6 @@ class App extends Component {
 
   setPurpose = text => {
     this.setState({ medicationPurpose: text });
-  };
-
-  setNotes = text => {
-    this.setState({ medicationNotes: text });
   };
 
   addMedication = () => {
@@ -101,35 +98,36 @@ class App extends Component {
     // />
 
     return (
-      <MuiThemeProvider theme={theme}>
-        <div className="app">
-          <Router history={history}>
-            <Header auth={auth} history={history} />
-            <div className="content">
-              <Route path="/" exact component={SplashPage} />
-              <Route
-                path="/instructions/:emergencyId/:ageGroupId/:instructionsId"
-                component={Instructions}
-              />
-              <Route path="/prompts" exact component={Prompts} />
-              <Route
-                path="/callback"
-                exact
-                render={props => {
-                  handleAuthentication(props);
-                  return <Callback {...props} />;
-                }}
-              />
-              <Route
-                path="/dashboard"
-                render={props => {
-                  return <Dashboard {...props} auth={auth} />;
-                }}
-              />
-            </div>
-          </Router> */}
-        </div>
-      </MuiThemeProvider>
+      // <MuiThemeProvider theme={theme}>
+      //   <div className="app">
+      //     <Router history={history}>
+      //       <Header auth={auth} history={history} />
+      //       <div className="content">
+      //         <Route path="/" exact component={SplashPage} />
+      //         <Route
+      //           path="/instructions/:emergencyId/:ageGroupId/:instructionsId"
+      //           component={Instructions}
+      //         />
+      //         <Route path="/prompts" exact component={Prompts} />
+      //         <Route
+      //           path="/callback"
+      //           exact
+      //           render={props => {
+      //             handleAuthentication(props);
+      //             return <Callback {...props} />;
+      //           }}
+      //         />
+      //         <Route
+      //           path="/dashboard"
+      //           render={props => {
+      //             return <Dashboard {...props} auth={auth} />;
+      //           }}
+      //         />
+      //       </div>
+      //     </Router>
+      //   </div>
+      // </MuiThemeProvider>
+      <HealthLog />
     );
   }
 }

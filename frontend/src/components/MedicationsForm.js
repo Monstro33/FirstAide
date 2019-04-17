@@ -68,6 +68,7 @@ class MedicationsForm extends Component {
           onChange={this.onNameChange}
           value={medicationName}
           type="text"
+          variant="outlined"
         />
 
         <TextField
@@ -79,6 +80,7 @@ class MedicationsForm extends Component {
           onChange={this.onConcentrationChange}
           value={medicationConcentration}
           type="text"
+          variant="outlined"
         />
 
         <TextField
@@ -90,6 +92,7 @@ class MedicationsForm extends Component {
           onChange={this.onDosageChange}
           value={medicationDosage}
           type="text"
+          variant="outlined"
         />
 
         <TextField
@@ -101,6 +104,7 @@ class MedicationsForm extends Component {
           onChange={this.onPurposeChange}
           value={medicationPurpose}
           type="text"
+          variant="outlined"
         />
 
         <TextField
@@ -112,6 +116,7 @@ class MedicationsForm extends Component {
           onChange={this.onNotesChange}
           value={medicationNotes}
           type="text"
+          variant="outlined"
         />
       </form>
     );
