@@ -1,159 +1,325 @@
-import React, { Component } from "react";
-import withStyles from "@material-ui/core/styles/withStyles";
-import InputLabel from "@material-ui/core/InputLabel";
-import GridItem from "./components/GridItem.js";
-import GridContainer from "./components/GridContainer.js";
-import CustomInput from "./components/CustomInput.js";
-// import Button from "./components/Button.js";
-// import Card from "./components/Card.js";
-// import CardHeader from "./components/CardHeader.js";
-// // import CardAvatar from "components/Card/CardAvatar.jsx";
-// import CardBody from "./components/CardBody.js";
-// import CardFooter from "./components/CardFooter.js";
+// import React from 'react';
+// import PropTypes from 'prop-types';
+// import Paper from '@material-ui/core/Paper';
+// import { withStyles } from '@material-ui/core/styles';
+// import Grid from '@material-ui/core/Grid';
+// import Avatar from '@material-ui/core/Avatar';
+// import Typography from '@material-ui/core/Typography';
+//  import TextField from '@material-ui/core/TextField';
+//  import Divider from "@material-ui/core/Divider";
+// import ButtonBar from "./ButtonBar";
+// import Icon from "@material-ui/core/Icon";
 
-// import avatar from "assets/img/faces/marc.jpg";
+// import { blue } from '@material-ui/core/colors';
 
-// const styles = {
-//   cardCategoryWhite: {
-//     color: "rgba(255,255,255,.62)",
-//     margin: "0",
-//     fontSize: "14px",
-//     marginTop: "0",
-//     marginBottom: "0"
+// const styles = theme => ({
+//   root: {
+//     flexGrow: 1,
+//     margin: theme.spacing.unit * 10,
+//     justifyContent: 'center',
 //   },
-//   cardTitleWhite: {
-//     color: "#FFFFFF",
-//     marginTop: "0px",
-//     minHeight: "auto",
-//     fontWeight: "300",
-//     fontFamily: "'Roboto', 'Helvetica', 'Arial', sans-serif",
-//     marginBottom: "3px",
-//     textDecoration: "none"
-//   }
+//   paper: {
+//     height: 170,
+//     maxWidth: 560,
+//     margin: theme.spacing.unit * 1,
+//     padding: theme.spacing.unit * 2,
+//   },
+//   card: {
+//     maxWidth: 550,
+//     height: 40,
+//     textAlign:'center',
+//   },
+//   icon: {
+
+
+//   },
+//   textField: {
+//     fontSize: 50, 
+//  },
+//   itemContainer: {
+//     display: 'flex',
+//     alignItems: 'center',
+//     justifyContent: 'flex-start',
+//     marginLeft: 20,
+//     [theme.breakpoints.down('sm')]: {
+//       display: 'flex',
+//       flexDirection: 'row',
+//       justifyContent: 'center'
+//     }
+//   },
+//   inline: {
+//     display: 'flex',
+//     marginRight: 25,
+//     alignSelf: 'flex-start', 
+//   },
+//   inlineRight: {
+//     width: '25%',
+//     textAlign: 'right',
+//     marginLeft: 50,
+//     alignSelf: 'flex-end',
+//     [theme.breakpoints.down('sm')]: {
+//       width: '100%',
+//       margin: 0,
+//       textAlign: 'center'
+//     }
+//   },
+//   divider: {
+//     margin: theme.spacing.unit * 1,
+//   },
+//   expand: {
+//     transform: 'rotate(0deg)',
+//     marginLeft: 'auto',
+//     transition: theme.transitions.create('transform', {
+//       duration: theme.transitions.duration.shortest,
+//     }),
+//   },
+//   expandOpen: {
+//     transform: 'rotate(180deg)',
+//   },
+// });
+
+// function AutoGridNoWrap(props) {
+//   const { classes } = props;
+
+//   // state = { expanded: false };
+
+//   // handleExpandClick = () => {
+//   //   this.setState(state => ({ expanded: !state.expanded }));
+//   // };
+
+//   return (
+//     <div className={classes.root}>
+//   <div className={classes.card}>
+//    <Paper  elevation={3} >
+
+//         <Typography style={{ textTransform: 'uppercase' }} variant="h2"  >
+//           Edit / Create Profile
+//         </Typography>
+//          </Paper> 
+//          </div>
+//          <Paper className={classes.paper}>
+//         <Grid container wrap="nowrap" spacing={16}>
+//           <Grid item>
+//           <Icon className={classes.icon}>
+//               <img src="/Icons/weight.png"  />
+//             </Icon>
+//           </Grid>
+//           <Grid item xs>
+//           <div className={classes.itemContainer}>
+//           <div className={classes.inline}>
+
+//           <TextField
+//           onKeyDown={props.onKeyDown}
+//           id="standard-with-placeholder"
+//           inputStyle={styles.textField}
+//           label="placeholder"
+//           placeholder="Placeholder"
+//           className={classes.textField}
+//           margin="normal"
+//           variant= "outlined"         
+//         />
+// <div className={classes.inlineRight}>
+//               <Typography style={{ textTransform: 'none' }} color='textSecondary' gutterBottom>
+//                 lbs
+//               </Typography>
+//               <Typography variant="h4" color='textSecondary' gutterBottom >
+//                 Weight
+//               </Typography>
+//             </div>
+//             </div> 
+//               </div>
+//               <Divider className={classes.divider} light/>
+//               <ButtonBar />
+//           </Grid>         
+//         </Grid>
+//       </Paper>
+//       <Paper className={classes.paper}>
+//         <Grid container wrap="nowrap" spacing={16}>
+//           <Grid item>
+//             <Icon className={classes.icon}>
+//               <img src="/Icons/blood-pressure.png"  />
+//             </Icon>
+//           </Grid>
+//           <Grid item xs>
+//           <div className={classes.itemContainer}>
+//           <div className={classes.inline}>
+
+//           <TextField
+//           onKeyDown={props.onKeyDown}
+//           id="standard-with-placeholder"
+//           inputStyle={styles.textField}
+//           label="placeholder"
+//           placeholder="Placeholder"
+//           className={classes.textField}
+//           margin="normal"
+//           variant= "outlined"         
+//         />
+// <div className={classes.inlineRight}>
+//               <Typography style={{ textTransform: 'none' }} color='textSecondary' gutterBottom>
+//                 mmHg
+//               </Typography>
+//               <Typography variant="h4" color='textSecondary' gutterBottom >
+//                 Blood Pressure
+//               </Typography>
+//             </div>
+//             </div> 
+//               </div>
+//               <Divider className={classes.divider} light/>
+//               <ButtonBar />
+//           </Grid>         
+//         </Grid>
+//       </Paper>
+//       <Paper className={classes.paper}>
+//         <Grid container wrap="nowrap" spacing={16}>
+//         <Grid item>
+//         <Icon className={classes.icon}>
+//               <img src="/Icons/height.png"  />
+//             </Icon>
+//             </Grid>
+//           <Grid item xs>
+//           <div className={classes.itemContainer}>
+//           <div className={classes.inline}>
+
+//           <TextField
+//           onKeyDown={props.onKeyDown}
+//           id="standard-with-placeholder"
+//           inputStyle={styles.textField}
+//           label="placeholder"
+//           placeholder="Placeholder"
+//           className={classes.textField}
+//           margin="normal"
+//           variant= "outlined"         
+//         />
+// <div className={classes.inlineRight}>
+//               <Typography style={{ textTransform: 'none' }} color='textSecondary' gutterBottom>
+//                 inches
+//               </Typography>
+//               <Typography variant="h4" color='textSecondary' gutterBottom >
+//                 Height
+//               </Typography>
+//             </div>
+//             </div> 
+//               </div>
+//               <Divider className={classes.divider} light/>
+//               <ButtonBar />
+//           </Grid>         
+//         </Grid>
+//       </Paper>
+//       <Paper className={classes.paper}>
+//         <Grid container wrap="nowrap" spacing={16}>
+//           <Grid item>
+//           <Icon className={classes.icon}>
+//               <img src="/Icons/allergies (1).png"  />
+//             </Icon>
+//           </Grid>
+//           <Grid item xs>
+//           <div className={classes.itemContainer}>
+//           <div className={classes.inline}>
+
+//           <TextField
+//           onKeyDown={props.onKeyDown}
+//           id="standard-with-placeholder"
+//           inputStyle={styles.textField}
+//           label="placeholder"
+//           placeholder="Placeholder"
+//           className={classes.textField}
+//           margin="normal"
+//           variant= "outlined"         
+//         />
+// <div className={classes.inlineRight}>
+//               <Typography style={{ textTransform: 'none' }} color='textSecondary' gutterBottom>
+                
+//               </Typography>
+//               <Typography variant="h4" color='textSecondary' gutterBottom >
+//                 Allergies
+//               </Typography>
+//             </div>
+//             </div> 
+//               </div>
+//               <Divider className={classes.divider} light/>
+//               <ButtonBar />
+//           </Grid>         
+//         </Grid>
+//       </Paper>
+//       <Paper className={classes.paper}>
+//         <Grid container wrap="nowrap" spacing={16}>
+//         <Grid item>
+//         <Icon className={classes.icon}>
+//               <img src="/Icons/report.png"  />
+//             </Icon>
+//             </Grid>
+//           <Grid item xs>
+//           <div className={classes.itemContainer}>
+//           <div className={classes.inline}>
+
+//           <TextField
+//           onKeyDown={props.onKeyDown}
+//           id="standard-with-placeholder"
+//           inputStyle={styles.textField}
+//           label="With placeholder"
+//           placeholder="Placeholder"
+//           className={classes.textField}
+//           margin="normal"
+//           variant= "outlined"         
+//         />
+// <div className={classes.inlineRight}>
+//               <Typography style={{ textTransform: 'none' }} color='textSecondary' gutterBottom>
+              
+//               </Typography>
+//               <Typography variant="h4" color='textSecondary' gutterBottom >
+//                 Medical History
+//               </Typography>
+//             </div>
+//             </div> 
+//               </div>
+//               <Divider className={classes.divider} light/>
+//               <ButtonBar />
+//           </Grid>         
+//         </Grid>
+//       </Paper>
+//       <Paper className={classes.paper}>
+//         <Grid container wrap="nowrap" spacing={16}>
+//         <Grid item>
+//         <Icon className={classes.icon}>
+//               <img src="/Icons/medicine.png"  />
+//             </Icon>
+//             </Grid>
+//           <Grid item xs>
+//           <div className={classes.itemContainer}>
+//           <div className={classes.inline}>
+
+//           <TextField
+//           onKeyDown={props.onKeyDown}
+//           id="standard-with-placeholder"
+//           inputStyle={styles.textField}
+//           label="With placeholder"
+//           placeholder="Placeholder"
+//           className={classes.textField}
+//           margin="normal"
+//           variant= "outlined"         
+//         />
+// <div className={classes.inlineRight}>
+//               <Typography style={{ textTransform: 'none' }} color='textSecondary' gutterBottom>
+              
+//               </Typography>
+//               <Typography variant="h4" color='textSecondary' gutterBottom >
+//                 Current Ailment
+//               </Typography>
+//             </div>
+//             </div> 
+//               </div>
+//               <Divider className={classes.divider} light/>
+//               <ButtonBar />
+//           </Grid>         
+//         </Grid>
+//       </Paper>
+
+//     </div>
+//   );
+// }
+
+// AutoGridNoWrap.propTypes = {
+//   classes: PropTypes.object.isRequired,
 // };
 
-function UserProfile(props) {
-  const { classes } = props;
-  return (
-    <div>
-      <GridContainer>
-        <GridItem xs={12} sm={12} md={8}>
-          {/* <Card>
-            <CardHeader color="primary"> */}
-              <h4 className={classes.cardTitleWhite}>Edit Profile</h4>
-              <p className={classes.cardCategoryWhite}>Complete your profile</p>
-            {/* </CardHeader>
-            <CardBody> */}
-              <GridContainer>
-                <GridItem xs={12} sm={12} md={5}>
-                  <CustomInput
-                    labelText="Company (disabled)"
-                    id="company-disabled"
-                    formControlProps={{
-                      fullWidth: true
-                    }}
-                    inputProps={{
-                      disabled: true
-                    }}
-                  />
-                </GridItem>
-                <GridItem xs={12} sm={12} md={3}>
-                  <CustomInput
-                    labelText="Username"
-                    id="username"
-                    formControlProps={{
-                      fullWidth: true
-                    }}
-                  />
-                </GridItem>
-                <GridItem xs={12} sm={12} md={4}>
-                  <CustomInput
-                    labelText="Email address"
-                    id="email-address"
-                    formControlProps={{
-                      fullWidth: true
-                    }}
-                  />
-                </GridItem>
-              </GridContainer>
-              <GridContainer>
-                <GridItem xs={12} sm={12} md={6}>
-                  <CustomInput
-                    labelText="First Name"
-                    id="first-name"
-                    formControlProps={{
-                      fullWidth: true
-                    }}
-                  />
-                </GridItem>
-                <GridItem xs={12} sm={12} md={6}>
-                  <CustomInput
-                    labelText="Last Name"
-                    id="last-name"
-                    formControlProps={{
-                      fullWidth: true
-                    }}
-                  />
-                </GridItem>
-              </GridContainer>
-              <GridContainer>
-                <GridItem xs={12} sm={12} md={4}>
-                  <CustomInput
-                    labelText="City"
-                    id="city"
-                    formControlProps={{
-                      fullWidth: true
-                    }}
-                  />
-                </GridItem>
-                <GridItem xs={12} sm={12} md={4}>
-                  <CustomInput
-                    labelText="Country"
-                    id="country"
-                    formControlProps={{
-                      fullWidth: true
-                    }}
-                  />
-                </GridItem>
-                <GridItem xs={12} sm={12} md={4}>
-                  <CustomInput
-                    labelText="Postal Code"
-                    id="postal-code"
-                    formControlProps={{
-                      fullWidth: true
-                    }}
-                  />
-                </GridItem>
-              </GridContainer>
-              <GridContainer>
-                <GridItem xs={12} sm={12} md={12}>
-                  <InputLabel style={{ color: "#AAAAAA" }}>About me</InputLabel>
-                  <CustomInput
-                    labelText="Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo."
-                    id="about-me"
-                    formControlProps={{
-                      fullWidth: true
-                    }}
-                    inputProps={{
-                      multiline: true,
-                      rows: 5
-                    }}
-                  />
-                </GridItem>
-              </GridContainer>
-            {/* </CardBody>
-            <CardFooter>
-              <Button color="primary">Update Profile</Button>
-            </CardFooter>
-          </Card> */}
-        </GridItem>
-        <GridItem xs={12} sm={12} md={4}>
-         
-          
-        </GridItem>
-      </GridContainer>
-    </div>
-  );
-}
-
-export default UserProfile;
+// export default withStyles(styles)(AutoGridNoWrap);

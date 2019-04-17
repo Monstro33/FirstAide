@@ -11,6 +11,8 @@ import Auth from "./Auth/Auth";
 import Callback from "./components/Callback";
 import Main from "./components/Main";
 import AddressForm from "./components/AddressForm";
+import UserProfile2 from "./components/UserProfile2";
+
 
 
 
@@ -33,7 +35,7 @@ class App extends Component {
     return (
       <MuiThemeProvider theme={theme}>
         <div className="app">
-        <Main />
+        <UserProfile2 />
 
        
           {/* <Router>

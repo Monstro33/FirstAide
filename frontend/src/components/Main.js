@@ -17,9 +17,9 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import Accessibility from "@material-ui/icons/Accessibility";
-import { blue } from '@material-ui/core/colors';// import SwipeDialog from "./components/SwipeDialog";
+import { blue } from '@material-ui/core/colors';
 import "../css/Main.css";
-// import InstructionDialog from "./components/InstructionDialog";
+
 
 const styles = theme => ({
   root: {
