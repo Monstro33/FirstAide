@@ -26,7 +26,7 @@
 
 - Check for breathing by placing your cheek near the nose and mouth of the person to feel his breath.
 - Observe the infant's chest to see if it rises and falls.
-- If the infant is not breathing or not breathing adequately, GO TO
+- If the infant is not breathing or not breathing adequately:
 
 [Go to Rescue Breathing](/instructions/0/0/15)
 
@@ -37,7 +37,7 @@
 - Put your point and middle finger on the infant’s inner bend of the upper arm at the back of the elbow.
 - Press your fingers firmly but gently against the baby’s skin to try to feel the pulse.
 - Place the flat part of your finger to get the most accurate reading. Avoid using your fingertips or your thumb.
-- If the infant does not have a pulse, GO TO
+- If the infant does not have a pulse:
 
 [Go to CPR](/instructions/3/1/7)
 
@@ -68,10 +68,10 @@
 
 - Cover the infant with a blanket or coat to keep them warm.
 - Continue to monitor the pulse and breathing while you wait for help to arrive.
-- If the infant loses consciousness and is not breathing or not breathing adequately, GO TO
+- If the infant loses consciousness and is not breathing or not breathing adequately:
 
 [Go to Rescue Breathing](/instructions/0/0/15)
 
-- If the infant loses consciousness and does not have a pulse, GO TO
+- If the infant loses consciousness and does not have a pulse:
 
 [Go to CPR](/instructions/3/1/7)

@@ -143,21 +143,33 @@ class Header extends Component {
             onClick={this.toggleDrawer("left", false)}
             onKeyDown={this.toggleDrawer("left", false)}
           >
-          <ListItem button onClick={() => this.goTo("dashboard")}>
-            <ListItemIcon>
-              <img src="/Icons/healthLog.png" className="icon" alt="dashboard" />
-            </ListItemIcon>
-            <ListItemText primary="Dashboard" />
-          </ListItem>
-          <ListItem button>
-            <ListItemIcon>
-              <img src="/Icons/pills.png" className="icon" alt="medications" />
-            </ListItemIcon>
-            <ListItemText primary="Current Medications" />
-          </ListItem>
+            <ListItem button onClick={() => this.goTo("dashboard")}>
+              <ListItemIcon>
+                <img
+                  src="/Icons/healthLog.png"
+                  className="icon"
+                  alt="dashboard"
+                />
+              </ListItemIcon>
+              <ListItemText primary="Dashboard" />
+            </ListItem>
+            <ListItem button onClick={() => this.goTo("medications")}>
+              <ListItemIcon>
+                <img
+                  src="/Icons/pills.png"
+                  className="icon"
+                  alt="medications"
+                />
+              </ListItemIcon>
+              <ListItemText primary="Current Medications" />
+            </ListItem>
             <ListItem button onClick={() => this.goTo("prompts")}>
               <ListItemIcon>
-                <img src="/Icons/emergency.png" className="icon" alt="emergency" />
+                <img
+                  src="/Icons/emergency.png"
+                  className="icon"
+                  alt="emergency"
+                />
               </ListItemIcon>
               <ListItemText primary="Emergency" />
             </ListItem>

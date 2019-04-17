@@ -1,10 +1,8 @@
-<h2>CALL 9-1-1</h2>
-
 <video controls="controls">
     <source src="/Videos\shockAllAges.mp4" type="video/mp4" />
 </video>
 
-## CALL 9-1-1
+<h2>CALL 9-1-1</h2>
 
 ![Alt text](/Images/AdultShock/adultshock8.jpg)
 
@@ -20,9 +18,9 @@
 - Talk to the child to assess if they are responsive.
 - Check for breathing by placing your cheek near the nose and mouth of the child to feel their breath for 5 to 10 seconds.
 - Continue to monitor the child’s respiration rate at least every 5 minutes,even if they are breathing on their own.
-- If the child stops breathing or is not breathing adequately, GO TO
+- If the child stops breathing or is not breathing adequately:
 
-[Go to CPR](/instructions/0/0/10)
+[Go to Rescue Breathing](/instructions/0/0/13)
 
 <h2>CHECK FOR PULSE</h2>
 
@@ -33,7 +31,7 @@
 - If you’re measuring on the wrist, set two fingers between the bone and tendon over the radial artery.
 - Find the radial artery by drawing a line with your finger from below the thumb to the wrist. Then feel for the spot between the wrist bone and tendon for a slight pumping motion.
 - Place the flat part of your finger on the wrist or neck to get the most accurate reading. Avoid using your fingertips or your thumb.
-- If the child loses consciousness and does not have a pulse, GO TO
+- If the child loses consciousness and does not have a pulse:
 
 [Go to CPR](/instructions/3/2/8)
 
@@ -75,10 +73,10 @@
 - Talk to the child calmly. If the person is conscious, talking to them can help you to continue to evaluate their condition.
 - Check and maintain a clear airway, monitor their breathing, and keep check on their circulation by checking the pulse.
 - If the child vomits or is bleeding from the mouth, and there is no suspicion of spinal injury, turn the person onto their side to keep the airway clear and prevent choking.
-- If the child loses consciousness and is not breathing or not breathing adequately, GO TO
+- If the child loses consciousness and is not breathing or not breathing adequately but has a pulse:
 
-[Go to CPR](/instructions/0/0/13)
+[Go to Rescue Breathing](/instructions/0/0/13)
 
-- If the child loses consciousness and does not have a pulse, GO TO
+- If the child loses consciousness and does not have a pulse:
 
 [Go to CPR](/instructions/3/2/8)

@@ -1,5 +1,5 @@
 .splash-page {
-  position: absolute;
+  position: fixed;
   top: 0;
   display: flex;
   flex-direction: column;
@@ -15,29 +15,31 @@
   z-index: 3000;
 }
 
-.splash-page h1 {
-  text-align: center;
-}
-
-.splash-buttons {
-  margin: auto;
+.splash-page a,
+.splash-page a:visited,
+.splash-page a:hover {
+  text-decoration: none;
   color: white;
 }
 
-.yes,
-.no {
+.splash-page h1 {
+  text-align: center;
+  font-size: 7rem;
+}
+
+.splash-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  color: white;
+  line-height: 30px;
+}
+
+.splash-page button {
   padding: 1.5rem 6rem;
   margin: 5rem;
-  border-radius: 15px;
   font-size: 3rem;
   text-align: center;
   cursor: pointer;
-}
-
-.yes {
-  background: #cf1124;
-}
-
-.no {
-  background: #52606d;
 }

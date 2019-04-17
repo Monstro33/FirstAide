@@ -19,59 +19,8 @@ import HealthLog from "./components/HealthLog.js";
 class App extends Component {
   constructor() {
     super();
-    this.state = {
-      medicationName: "",
-      medicationConcentration: "",
-      medicationDosage: "",
-      medicationPurpose: "",
-      medicationNotes: "",
-
-      medications: []
-    };
+    this.state = {};
   }
-
-  setName = text => {
-    this.setState({ medicationName: text });
-  };
-
-  setConcentration = text => {
-    this.setState({ medicationConcentration: text });
-  };
-
-  setDosage = text => {
-    this.setState({ medicationDosage: text });
-  };
-
-  setPurpose = text => {
-    this.setState({ medicationPurpose: text });
-  };
-
-  addMedication = () => {
-    const newMedication = {
-      medicationName: this.state.medicationName,
-      medicationConcentration: this.state.medicationConcentration,
-      medicationDosage: this.state.medicationDosage,
-      medicationPurpose: this.state.medicationPurpose,
-      medicationNotes: this.state.medicationNotes
-    };
-
-    fetch("https://localhost:44321/api/medication", {
-      method: "POST",
-      body: JSON.stringify(newMedication),
-      headers: {
-        "Content-Type": "application/json"
-      }
-    })
-      .then(res => {
-        if (res.ok) {
-          const allMedications = [...this.state.medications, newMedication];
-          this.setState({ medications: allMedications });
-        }
-      })
-      .catch(err => {
-        console.error(err);
-      });
-  };
 
   render() {
     const auth = new Auth();
@@ -88,46 +37,42 @@ class App extends Component {
       }
     });
 
-    //   <MedicationsView
-    //   setName={this.setName}
-    //   setConcentration={this.setConcentration}
-    //   setDosage={this.setDosage}
-    //   setPurpose={this.setPurpose}
-    //   setNotes={this.setNotes}
-    //   addMedication={this.addMedication}
-    // />
-
     return (
-      // <MuiThemeProvider theme={theme}>
-      //   <div className="app">
-      //     <Router history={history}>
-      //       <Header auth={auth} history={history} />
-      //       <div className="content">
-      //         <Route path="/" exact component={SplashPage} />
-      //         <Route
-      //           path="/instructions/:emergencyId/:ageGroupId/:instructionsId"
-      //           component={Instructions}
-      //         />
-      //         <Route path="/prompts" exact component={Prompts} />
-      //         <Route
-      //           path="/callback"
-      //           exact
-      //           render={props => {
-      //             handleAuthentication(props);
-      //             return <Callback {...props} />;
-      //           }}
-      //         />
-      //         <Route
-      //           path="/dashboard"
-      //           render={props => {
-      //             return <Dashboard {...props} auth={auth} />;
-      //           }}
-      //         />
-      //       </div>
-      //     </Router>
-      //   </div>
-      // </MuiThemeProvider>
-      <HealthLog />
+      <MuiThemeProvider theme={theme}>
+        <div className="app">
+          <Router history={history}>
+            <Header auth={auth} history={history} />
+            <div className="content">
+              <Route path="/" exact component={SplashPage} />
+              <Route
+                path="/instructions/:emergencyId/:ageGroupId/:instructionsId"
+                component={Instructions}
+              />
+              <Route path="/prompts" exact component={Prompts} />
+              <Route
+                path="/callback"
+                exact
+                render={props => {
+                  handleAuthentication(props);
+                  return <Callback {...props} />;
+                }}
+              />
+              <Route
+                path="/dashboard"
+                render={props => {
+                  return <Dashboard {...props} auth={auth} />;
+                }}
+              />
+              <Route
+                path="/medications"
+                render={props => {
+                  return <MedicationsView {...props} auth={auth} />;
+                }}
+              />
+            </div>
+          </Router>
+        </div>
+      </MuiThemeProvider>
     );
   }
 }

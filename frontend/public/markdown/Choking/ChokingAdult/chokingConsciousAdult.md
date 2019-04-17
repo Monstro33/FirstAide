@@ -33,6 +33,6 @@ Continue sets of 5 back blows and
 
 <h2>WHAT TO DO NEXT</h2>
 
-- IF THE PERSON BECOMES unconscious, call 9-1-1, if not already done, and GO TO
+- IF THE PERSON BECOMES unconscious, call 9-1-1, if not already done and:
 
 [Go to Rescue Breathing](/instructions/0/0/10)

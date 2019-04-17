@@ -19,27 +19,70 @@ const styles = {
   }
 };
 
-// const rows = [
-//   this.state.medications.map(med =>
-//     this.createData(
-//       med.MedicationName,
-//       med.Concentration,
-//       med.Dosage,
-//       med.Purpose,
-//       med.Notes
-//     )
-//   )
-// ];
-
-let id = 0;
-
 class MedicationsView extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
-      medications: []
+      medications: [],
+      medicationName: "",
+      medicationConcentration: "",
+      medicationDosage: "",
+      medicationPurpose: "",
+      medicationNotes: ""
     };
   }
+
+  setName = text => {
+    this.setState({ medicationName: text });
+  };
+
+  setConcentration = text => {
+    this.setState({ medicationConcentration: text });
+  };
+
+  setDosage = text => {
+    this.setState({ medicationDosage: text });
+  };
+
+  setPurpose = text => {
+    this.setState({ medicationPurpose: text });
+  };
+
+  setNotes = text => {
+    this.setState({ medicationNotes: text });
+  };
+
+  addMedication = id => {
+    const newMedication = {
+      userId: id,
+      medicationName: this.state.medicationName,
+      concentration: this.state.medicationConcentration,
+      dosage: this.state.medicationDosage,
+      purpose: this.state.medicationPurpose,
+      notes: this.state.medicationNotes
+    };
+    fetch("https://localhost:44321/api/medication", {
+      method: "POST",
+      body: JSON.stringify(newMedication),
+      headers: {
+        "Content-Type": "application/json"
+      }
+    })
+      .then(res => {
+        if (res.ok) {
+          const allMedications = [...this.state.medications, newMedication];
+          this.setState({ medications: allMedications });
+        }
+      })
+      .catch(err => {
+        console.error(err);
+      });
+  };
+
+  onAdd = () => {
+    const userId = this.props.auth.currentUser.userId;
+    this.addMedication(userId);
+  };
 
   componentDidMount() {
     fetch("https://localhost:44321/api/medication")
@@ -47,38 +90,23 @@ class MedicationsView extends Component {
       .then(json => this.setState({ medications: json }));
   }
 
-  createData(medication, dosage, purpose, concentration, notes) {
-    id += 1;
-    return { id, medication, dosage, purpose, concentration, notes };
-  }
-
   render() {
-    //   const rows = [
-    //     this.state.medications.map(med =>
-    //       this.createData(
-    //         med.MedicationName,
-    //         med.Concentration,
-    //         med.Dosage,
-    //         med.Purpose,
-    //         med.Notes
-    //       )
-    //     )
-    //   ];
-
-    const { classes, addMedication } = this.props;
-    const real = this.state.medications.map(med => (
-      <TableRow key={med.id}>
-        <TableCell component="th" scope="row">
-          {med.medicationName}
-        </TableCell>
-        <TableCell align="left">{med.concentration}</TableCell>
-        <TableCell align="left">{med.dosage}</TableCell>
-        <TableCell align="left">{med.purpose}</TableCell>
-        <TableCell align="left">{med.notes}</TableCell>
-      </TableRow>
-    ));
-    console.log(this.state.medications);
-    console.log(real);
+    const userId = this.props.auth.currentUser.userId;
+    const real = this.state.medications.map(function(med) {
+      if (med.userId == userId) {
+        return (
+          <TableRow key={med.id}>
+            <TableCell component="th" scope="row">
+              {med.medicationName}
+            </TableCell>
+            <TableCell align="left">{med.concentration}</TableCell>
+            <TableCell align="left">{med.dosage}</TableCell>
+            <TableCell align="left">{med.purpose}</TableCell>
+            <TableCell align="left">{med.notes}</TableCell>
+          </TableRow>
+        );
+      }
+    });
 
     return (
       <div id="MedicationsPage">
@@ -122,16 +150,16 @@ class MedicationsView extends Component {
         <div id="MedicationsForm">
           {
             <MedicationsForm
-              setName={this.props.setName}
-              setConcentration={this.props.setConcentration}
-              setDosage={this.props.setDosage}
-              setPurpose={this.props.setPurpose}
-              setNotes={this.props.setNotes}
-              addMedication={this.props.addMedication}
+              setName={this.setName}
+              setConcentration={this.setConcentration}
+              setDosage={this.setDosage}
+              setPurpose={this.setPurpose}
+              setNotes={this.setNotes}
+              addMedication={this.addMedication}
             />
           }
         </div>
-        <button id="MedicationsButton" onClick={addMedication}>
+        <button id="MedicationsButton" onClick={this.onAdd}>
           Add Medication
         </button>
       </div>
