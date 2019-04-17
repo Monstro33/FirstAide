@@ -37,10 +37,10 @@ abdominal thrusts until the:
 
 - If the child becomes unconcious, call 9-1-1. Carefully lower the child to the ground.
 - Assess the childs breathing and pulse.
-- If the child is not breathing or not breathing adequately, GO TO
+- If the child is not breathing or not breathing adequately:
 
-[Go to CPR](/instructions/0/0/13)
+[Go to Rescue Breathing](/instructions/0/0/13)
 
-- If the child does not have a pulse, GO TO
+- If the child does not have a pulse:
 
 [Go to CPR](/instructions/3/2/8)

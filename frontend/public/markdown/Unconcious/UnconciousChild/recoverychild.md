@@ -30,10 +30,10 @@
 
 - Cover the child with a blanket or coat to keep them warm.
 - Continue to monitor the pulse and breathing while you wait for help to arrive.
-- If the child loses consciousness and is not breathing or not breathing adequately, GO TO
+- If the child loses consciousness and is not breathing or not breathing adequately: 
 
 [Go to CPR](/instructions/0/0/13)
 
-- If the child loses consciousness and does not have a pulse, GO TO
+- If the child loses consciousness and does not have a pulse:
 
 [Go to Rescue Breathing](/instructions/3/2/8)

@@ -30,10 +30,10 @@
 
 - Cover them with a blanket or coat to keep them warm.
 - Continue to monitor the pulse and breathing while you wait for help to arrive.
-- If the person does not have a pulse, GO TO
+- If the person does not have a pulse:
 
 [Go to CPR](/instructions/3/3/9)
 
-- If the person stops breathing or is not breathing adequately, GO TO
+- If the person stops breathing or is not breathing adequately:
 
 [Go to Rescue Breathing](/instructions/0/0/10)

@@ -1,9 +1,8 @@
-<h2>RECOGNIZE ANAPHYLAXIS</h2>
-
 <video controls="controls">
     <source src="/Videos/anaphylaxisAllAges.mp4" type="video/mp4" />
 </video>
 
+<h2>RECOGNIZE ANAPHYLAXIS</h2>
 
 ![Alt text](/Images/InfantAllergicReaction/infantAllergicReaction2.jpg)
 
@@ -25,9 +24,9 @@
 
 - Ask the parent if an epinephrine autoinjector (EpiPen, Auvi-Q, others) to treat an allergic attack.
 - If an epinephrine autoinjector is on-hand, ask whether you should help inject the medication.
-- If they do not have their own injector, send people to find one by asking all bystanders, going into a place of business and ask for the first aid kit, or go to the closest pharmacy. GO TO
+- If they do not have their own injector, send people to find one by asking all bystanders, going into a place of business and ask for the first aid kit, or go to the closest pharmacy:
 
-[Go to Recover Infant](/instructions/0/0/14)
+[Go to Infant Shock](/instructions/0/0/24)
 
 <h2>PREPARE EPINEPNRINE AUTO-INJECTOR</h2>
 
@@ -66,11 +65,11 @@
 - The epinephrine only temporarily relieves the symptoms. A secondary reaction is possible.
 - It is critical to get to a hospital, ambulance, or qualified medical personnel as soon as possible.
 - If professional medical care is not available it is important to have a second auto-injector available in case of a secondary reaction.
-- If the infant loses consciousness and is not breathing or not breathing adequately, GO TO
+- If the infant loses consciousness and is not breathing or not breathing adequately:
 
 [Go to Rescue Breathing](/instructions/0/0/15)
 
-- If the infant loses consciousness and does not have a pulse, GO TO
+- If the infant loses consciousness and does not have a pulse:
 
 [Go to CPR](/instructions/3/1/7)
 
