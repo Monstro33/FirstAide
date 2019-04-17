@@ -14,6 +14,7 @@ namespace FirstAide
         public DbSet<Emergency> Emergency { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Medication> Medications { get; set; }
+        public DbSet<Note> Notes { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -236,6 +237,16 @@ namespace FirstAide
                    Dosage = "Every Night",
                    Notes = "Take 30 minutes prior to sleep",
                });
+
+            modelBuilder.Entity<Note>().HasData(
+
+                new Note()
+                {
+                    UserId = 1,
+                    NoteId = 1,
+                    NoteInput = "Frequent headaches"
+                }
+        );
 
             base.OnModelCreating(modelBuilder);
         }
