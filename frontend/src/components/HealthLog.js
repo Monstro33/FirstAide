@@ -3,13 +3,14 @@ import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
-import Notes from "./Notes.js";
+import Notes from "./Notes";
 
 class HealthLog extends Component {
   constructor() {
     super();
     this.state = {
-      notes: []
+      notes: [],
+      noteInput: ""
     };
   }
 
@@ -19,7 +20,7 @@ class HealthLog extends Component {
 
   addNote = () => {
     const newNote = {
-      userNote: this.state.Notes
+      noteInput: this.state.NoteInput
     };
 
     fetch("https://localhost:44321/api/note", {
@@ -43,16 +44,19 @@ class HealthLog extends Component {
   componentDidMount() {
     fetch("https://localhost:44321/api/note")
       .then(res => res.json())
-      .then(json => this.setState({ note: json }));
+      .then(json => this.setState({ notes: json }));
   }
 
   render() {
     const { addNote } = this.props;
-    const noteList = this.state.notes.map(listNote => <li key={listNote.id} />);
+    const noteList = this.state.notes.map(listNote => (
+      <li key={listNote.id}>{listNote.noteInput}</li>
+    ));
 
     return (
       <div id="healthLogPage">
         <ul id="notes">{noteList}</ul>
+        <Notes />
         <button id="NotesButton" onClick={addNote}>
           Add Note
         </button>

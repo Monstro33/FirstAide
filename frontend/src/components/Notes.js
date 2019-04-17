@@ -14,7 +14,7 @@ class Notes extends Component {
   };
 
   render() {
-    const { userNote, classes } = this.props;
+    const { userNote } = this.props;
 
     return (
       <card>
@@ -30,7 +30,7 @@ class Notes extends Component {
                   id="UserNote"
                   label="Note"
                   defaultValue="Note?"
-                  className={classes.textField}
+                  // className={classes.textField}
                   margin="normal"
                   onChange={this.onNoteChange}
                   value={userNote}

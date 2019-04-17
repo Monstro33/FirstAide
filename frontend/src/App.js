@@ -49,6 +49,7 @@ class App extends Component {
                 component={Instructions}
               />
               <Route path="/prompts" exact component={Prompts} />
+              <Route path="/healthLog" exact component={HealthLog} />
               <Route
                 path="/callback"
                 exact
