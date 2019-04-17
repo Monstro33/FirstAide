@@ -1,9 +1,15 @@
 import React, { Component } from "react";
-import "material-dashboard/assets/css/material-dashboard.min.css";
-import FileCopyOutlined from "@material-ui/icons/FileCopyOutlined"; 
+import "material-dashboard/assets/css/material-dashboard.css";
+import FileCopyOutlined from "@material-ui/icons/FileCopyOutlined";
+import ChartistGraph from "react-chartist";
 
 class Dashboard extends Component {
   render() {
+    const Data = {
+      labels: ["M", "T", "W", "T", "F", "S", "S"],
+      series: [[12, 9, 7, 8, 5, 1, 15]]
+    };
+
     return (
       <div className="dashboard">
         <div class="container-fluid">
@@ -33,9 +39,7 @@ class Dashboard extends Component {
                     <FileCopyOutlined />
                   </div>
                   <p class="card-category">Current Blood Pressure</p>
-                  <h3 class="card-title">
-                    120/60
-                  </h3>
+                  <h3 class="card-title">120/60</h3>
                 </div>
                 <div class="card-footer">
                   <div class="stats">
@@ -63,19 +67,26 @@ class Dashboard extends Component {
                 </div>
               </div>
               <div class="card">
-        <div class="card-header card-chart card-header-warning">
-          <div class="ct-chart" id="dailySalesChart"></div>
-        </div>
-        <div class="card-body">
-          <h4 class="card-title">Daily Sales</h4>
-          <p class="card-category"><span class="text-success"><i class="fa fa-long-arrow-up"></i> 55%  </span> increase in today sales.</p>
-        </div>
-        <div class="card-footer">
-          <div class="stats">
-            <i class="material-icons">access_time</i> updated 4 minutes ago
-          </div>
-        </div>
-      </div>
+                <div class="card-header card-chart card-header-warning">
+                  <div  className="ct-chart" id="dailySalesChart">
+                  <ChartistGraph data={Data} type={'Line'} /></div>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Daily Sales</h4>
+                  <p class="card-category">
+                    <span class="text-success">
+                      <i class="fa fa-long-arrow-up" /> 55%{" "}
+                    </span>{" "}
+                    increase in today sales.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <div class="stats">
+                    <i class="material-icons">access_time</i> updated 4 minutes
+                    ago
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
