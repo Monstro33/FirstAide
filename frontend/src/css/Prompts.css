@@ -27,26 +27,22 @@
   font-size: 7rem;
 }
 
-.emergency-buttons {
-  margin: auto;
-  color: white;
-}
-
-.prompt-button {
-  padding: 1.5rem 6rem;
-  margin: 5rem;
-  border-radius: 15px;
-  font-size: 3rem;
-  line-height: 30px;
-  text-align: center;
-  cursor: pointer;
-  background: #cf1124;
-}
-
 .emergency {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .age-group {
   display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prompts button {
+  padding: 1.5rem 3rem;
+  margin: 5rem;
+  font-size: 3rem;
+  text-align: center;
+  cursor: pointer;
 }

@@ -17,6 +17,7 @@
 .instructions h2 {
   margin-top: 5rem;
   margin-bottom: 2rem;
+  font-size: 3rem;
   text-align: center;
 }
 
@@ -25,8 +26,8 @@
   content: "1";
   /* border-radius: 50%; */
   border: solid 2px black;
-  height: 1.3em;
-  width: 1.3em;
+  height: 1.5em;
+  width: 1.5em;
   margin-right: 2rem;
 }
 
@@ -88,7 +89,6 @@
 
 .instructions li {
   margin: 2rem;
-  font-size: 5.5vw;
   list-style: inside;
 }
 
@@ -100,8 +100,15 @@
   padding: 1rem 4rem;
   margin: 5rem;
   border-radius: 15px;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   cursor: pointer;
   background: #cf1124;
+}
+
+.instructions a,
+.instructions a:visited,
+.instructions a:hover {
+  text-decoration: none;
+  color: white;
 }

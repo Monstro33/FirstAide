@@ -31,30 +31,33 @@ class Prompts extends Component {
       item.style.display = "none";
     });
     ageGroupElements.forEach(function(item) {
-      item.style.display = "block";
+      item.style.display = "flex";
     });
   };
 
   render() {
     const emergencyItems = this.state.emergencies.map(item => (
-      <div
-        className="prompt-button"
+      <button
+        type="button"
+        class="btn btn-danger"
         onClick={() => this.emergencyClick(item.emergencyId)}
         key={item.emergencyId}
       >
         {item.name}
-      </div>
+      </button>
     ));
 
     const ageGroupItems = this.state.ageGroups.map(item => (
-      <div className="prompt-button">
-        <Link
-          to={`/instructions/${this.state.emergencyId}/${item.ageGroupId}/${item.instructionsId}`}
-          key={item.ageGroupId}
-        >
+      <Link
+        to={`/instructions/${this.state.emergencyId}/${item.ageGroupId}/${
+          item.instructionsId
+        }`}
+        key={item.ageGroupId}
+      >
+        <button type="button" class="btn btn-danger">
           {item.name}
-        </Link>
-      </div>
+        </button>
+      </Link>
     ));
 
     return (
