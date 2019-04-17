@@ -2,7 +2,7 @@
     <source src="/Videos/adultChoking.mp4" type="video/mp4" />
 </video>
 
-## GIVE 5 BACK BLOWS
+<h2>GIVE 5 BACK BLOWS</h2>
 
 ![Alt text](/Images/AdultChoking/adultChoking10.jpg)
 
@@ -10,7 +10,7 @@
   give 5 back blows between the shoulder
   blades with the heel of one hand.
 
-## GIVE 5 ABDOMINAL THRUSTS
+<h2>GIVE 5 ABDOMINAL THRUSTS</h2>
 
 ![Alt text](/Images/AdultChoking/adultChoking4.jpg)
 
@@ -20,7 +20,7 @@
 - Cover your fist with your other hand.
 - Give 5 quick, upward abdominal thrusts.
 
-## CONTINUE CARE
+<h2>CONTINUE CARE</h2>
 
 ![Alt text](/Images/AdultChoking/adultChoking10.jpg)
 
@@ -31,8 +31,8 @@ Continue sets of 5 back blows and
 - Person can cough forcefully or breathe.
 - Person becomes unconscious.
 
-## WHAT TO DO NEXT
+<h2>WHAT TO DO NEXT</h2>
 
-- IF THE PERSON BECOMES unconscious, call 9-1-1, if not already done, and GO TO
+- IF THE PERSON BECOMES unconscious, call 9-1-1, if not already done and:
 
 [Go to Rescue Breathing](/instructions/0/0/10)

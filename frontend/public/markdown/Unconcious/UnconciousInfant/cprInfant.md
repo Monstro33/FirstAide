@@ -2,7 +2,7 @@
     <source src="/Videos/infantCPR.mp4" type="video/mp4" />
 </video>
         
-## CHECK FOR RESPONSIVENESS
+<h2>CHECK FOR RESPONSIVENESS</h2>
 
 ![Alt text](/Images/InfantCPR/infantCPR15.jpg)
 
@@ -12,7 +12,7 @@
 - Also tap their shoulder or arm while you do it to see if that will help as well.
 - If this doesn't work, try yelling once or twice at them to see if that will rouse them.
 
-## VERIFY THEY ARE UNRESPONSIVE
+<h2>VERIFY THEY ARE UNRESPONSIVE</h2>
 
 ![Alt text](/Images/AdultCPR/adultCPR23.jpg)
 
@@ -22,14 +22,14 @@
 - You can also grasp the muscles of the shoulder with your thumb and fingers and light to moderately squeeze into the hollow of the collarbone.
 - Bend low as you do this and listen for sounds or signs of breathing.
 
-## OPEN THE AIRWAY
+<h2>OPEN THE AIRWAY</h2>
 
 ![Alt text](/Images/InfantCPR/infantCPR6.jpg)
 
 - Place one hand behind their head and one hand under his chin. Tilt the head slightly backward toward the sky.
 - The chin should end in a slightly lifted position, as if they are sniffing the air.
 
-## REMOVE FOREIGN OBJECTS FROM THE AIRWAY
+<h2>REMOVE FOREIGN OBJECTS FROM THE AIRWAY</h2>
 
 ![Alt text](/Images/AdultCPR/adultCPR26.jpg)
 
@@ -37,7 +37,7 @@
 - You can quickly turn the victim’s head to one side to assist in the removal.
 - Use sweeping motions rather than digging ones.
 
-## CHECK FOR BREATHING
+<h2>CHECK FOR BREATHING</h2>
 
 ![Alt text](/Images/InfantCPR/infantCPR12.jpg)
 
@@ -48,7 +48,7 @@
 - Place your hand near her nose and mouth to see if you feel any breath.
 - If you don't, lean your head down close to the infant’s mouth and feel for breath on your cheek and listen for any inhales or exhales.
 
-## CHECK FOR PULSE
+<h2>CHECK FOR PULSE</h2>
 
 ![Alt text](/Images/InfantCPR/infantCPR3.jpg)
 
@@ -58,14 +58,14 @@
 - Infants generally have higher pulse rates than adults.
 - They’re heart rates generally fall between 140 and 160 beats per minute, even at rest
 
-## DETERMINE IF CPR IS NECESASARY
+<h2>DETERMINE IF CPR IS NECESASARY</h2>
 
 - IF NO PULSE, CONTINUE WITH STEPS.
-- If the infant HAS A PULSE but is not breathing or not breathing adequately, GO TO
+- If the infant HAS A PULSE but is not breathing or not breathing adequately:
 
 [Go to Rescue Breathing](/instructions/0/0/15)
 
-## POSITION YOUR FINGERS IN THE CENTER OF THE CHEST
+<h2>POSITION YOUR FINGERS IN THE CENTER OF THE CHEST</h2>
 
 ![Alt text](/Images/InfantCPR/infantCPR22.jpg)
 
@@ -73,7 +73,7 @@
 - Position the tips of two or three fingers in the center of the baby's chest.
 - The fingers should be placed in between the baby's nipples at the center of his chest.
 
-## GIVE 30 CHEST COMPRESSIONS
+<h2>GIVE 30 CHEST COMPRESSIONS</h2>
 
 ![Alt text](/Images/InfantCPR/infantCPR23.jpg)
 
@@ -88,7 +88,7 @@
 - Allow complete chest recoil after each compression.
 - If there are two rescuers, each should complete a round of 15 compressions.
 
-## PROCEED TO OPEN THE AIRWAY
+<h2>PROCEED TO OPEN THE AIRWAY</h2>
 
 ![Alt text](/Images/InfantCPR/infantCPR11.jpg)
 
@@ -96,7 +96,7 @@
 - Then with your other hand, gently lift the chin forward to open up their airway.
 - If you suspect a neck/head/spine injury, sit above the infant's head. Place one hand on each side of the infant's jaw and lift the jaw so that it is jutting forward,as though the infant has an underbite.
 
-## GIVE 2 RESCUE BREATHS
+<h2>GIVE 2 RESCUE BREATHS</h2>
 
 ![Alt text](/Images/InfantCPR/infantCPR20.jpg)
 
@@ -106,14 +106,14 @@
 - Give rescue breaths, one after the other.
 - If chest does not rise with rescue breaths, retilt the head and give another rescue breath.
 
-## CALL 9-1-1
+<h2>CALL 9-1-1</h2>
 
 ![Alt text](/Images/InfantCPR/infantCPR16.jpg)
 
 - After performing five cycles of chest compressions and rescue breathing or CPR for at least 2 minutes of CPR, call Emergency Services if you are the only person available.
 - If two or more people are available, one person should dial for help while the other continues with CPR.
 
-## DO NOT STOP
+<h2>DO NOT STOP</h2>
 
 ![Alt text](/Images/InfantCPR/infantCPR21.jpg)
 
@@ -121,6 +121,6 @@ Continue cycles of CPR. Do not stop CPR unless:
 
 - You are too exhausted to continue.
 - The scene becomes unsafe.
-- The infant regains consciousness and is breathing adequately, GO TO
+- The infant regains consciousness and is breathing adequately:
 
 [Go to Rescue Breathing](/instructions/0/0/15)

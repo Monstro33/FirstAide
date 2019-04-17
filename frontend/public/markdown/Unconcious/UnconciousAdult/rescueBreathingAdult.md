@@ -1,10 +1,10 @@
-## ASSESS THE SITUATION
+<h2>ASSESS THE SITUATION</h2>
 
 ![Alt text](/Images/AdultShock/adultShock9.jpg)
 
 - Rescue breathing is used for people who are unconscious and breathing and have a pulse.
 
-## CHECK FOR BREATHING AND CONSCIOUSNESS
+<h2>CHECK FOR BREATHING AND CONSCIOUSNESS</h2>
 
 ![Alt text](/Images/AdultShock/adultShock2.jpg)
 
@@ -12,11 +12,11 @@
 - Talk to the person to assess if they are responsive.
 - Check for breathing by placing your cheek near the nose and mouth of the person to feel their breath for 5 to 10 seconds.
 - If the person is breathing and unconscious or semi-conscious, you can place them in the recovery position.
-- If the person stops breathing or is not breathing adequately, GO TO 
+- If the person stops breathing or is not breathing adequately:
 
-[Go to CPR](/instructions/0/0/10)
+[Go to Rescue Breathing](/instructions/0/0/10)
 
-## CHECK FOR PULSE
+<h2>CHECK FOR PULSE</h2>
 
 ![Alt text](/Images/AdultShock/adultShock7.jpg)
 
@@ -25,18 +25,18 @@
 - If you’re measuring on the wrist, set two fingers between the bone and tendon over your radial artery.
 - Find the radial artery by drawing a line with your finger from below the thumb to the wrist. Then feel for the spot between the wrist bone and tendon for a slight pumping motion.
 - Place the flat part of your finger on the wrist or neck to get the most accurate reading. Avoid using your fingertips or your thumb.
-- If the person does not have a pulse, GO TO 
+- If the person does not have a pulse:
 
 [Go to CPR](/instructions/3/3/9)
 
-## CALL 9-1-1
+<h2>CALL 9-1-1</h2>
 
 ![Alt text](/Images/AdultCPR/adultCPR2.jpg)
 
 - After performing CPR for a full cycle or at least a minute, pause CPR and call 9-1-1 as quick as possible.
 - If two or more people are available, one person should dial for help while the other continues with CPR.
 
-## PROCEED TO OPEN THE AIRWAY
+<h2>PROCEED TO OPEN THE AIRWAY</h2>
 
 ![Alt text](/Images/AdultCPR/adultCPR28.jpg)
 
@@ -44,7 +44,7 @@
 - Then with your other hand, gently lift the chin forward to open up their airway.
 - If you suspect a neck/head/spine injury, sit above the person's head. Place one hand on each side of the person's jaw and lift the jaw so that it is jutting forward,as though the person has an underbite.
 
-## GIVE RESCUE BREATHS
+<h2>GIVE RESCUE BREATHS</h2>
 
 ![Alt text](/Images/AdultCPR/adultCPR29.jpg)
 
@@ -59,7 +59,7 @@
 - After exhaling into the person’s mouth turn your head and watch to see if the chest deflates as it would during natural breathing.
 - If so, this suggests that the breath was effective and the airway is not blocked.
 
-## CLEAR THE AIRWAY IF NECESSARY
+<h2>CLEAR THE AIRWAY IF NECESSARY</h2>
 
 ![Alt text](/Images/AdultCPR/adultCPR26.jpg)
 
@@ -68,7 +68,7 @@
 - Do not poke your fingers or any other object deep into the child’s throat. If you do, you run the risk of pushing an object further in.
 - If you don't see an object, reposition the child's head and try another rescue breath.
 
-## CONTINUE WITH RESCUE BREATHS
+<h2>CONTINUE WITH RESCUE BREATHS</h2>
 
 ![Alt text](/Images/AdultCPR/adultCPR29.jpg)
 
@@ -76,7 +76,6 @@
 - Check for a pulse every two minutes while doing rescue breathing.
 - Continue with rescue breathing until the person begins breathing on their own.
 - You will notice that they are improving if they start coughing or moving.
-- If the person does not have a pulse, GO TO 
+- If the person does not have a pulse:
 
 [Go to CPR](/instructions/3/3/9)
-
