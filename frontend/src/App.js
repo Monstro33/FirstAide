@@ -59,7 +59,7 @@ class App extends Component {
               <Route
                 path="/dashboard"
                 render={props => {
-                  return <Main {...props} auth={auth} />;
+                  return <Dashboard {...props} auth={auth} />;
                 }}
               />
               <Route
