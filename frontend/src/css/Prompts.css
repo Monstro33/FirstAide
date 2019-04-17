@@ -1,5 +1,5 @@
 .prompts {
-  position: absolute;
+  position: fixed;
   top: 0;
   display: flex;
   flex-direction: column;
@@ -15,29 +15,34 @@
   z-index: 3000;
 }
 
-.prompts h1 {
-  text-align: center;
-}
-
-.emergency-buttons {
-  margin: auto;
+.prompts a,
+.prompts a:visited,
+.prompts a:hover {
+  text-decoration: none;
   color: white;
 }
 
-.prompt-button {
-  padding: 1.5rem 6rem;
-  margin: 5rem;
-  border-radius: 15px;
-  font-size: 3rem;
+.prompts h1 {
   text-align: center;
-  cursor: pointer;
-  background: #cf1124;
+  font-size: 7rem;
 }
 
 .emergency {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .age-group {
   display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prompts button {
+  padding: 1.5rem 3rem;
+  margin: 5rem;
+  font-size: 3rem;
+  text-align: center;
+  cursor: pointer;
 }

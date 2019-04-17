@@ -68,6 +68,7 @@ class MedicationsForm extends Component {
           onChange={this.onNameChange}
           value={medicationName}
           type="text"
+          variant="filled"
         />
 
         <TextField

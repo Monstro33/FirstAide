@@ -134,8 +134,7 @@ class Main extends Component {
                     <Typography variant="headline" gutterBottom>
                     <div className={classes.heading}>
                     <List style={{textTransform: 'none'}}  variant="headline" gutterBottom>    
-                      <ListItem>test</ListItem>
-                      <ListItem>This is a test</ListItem>
+
                     </List>
                     </div>
                     </Typography>
