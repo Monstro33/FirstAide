@@ -218,7 +218,14 @@ namespace FirstAide
                 UserId = 1,
                 Name = "anegroncsu",
                 Email = "anegroncsu@gmail.com"
-            });
+            },
+            new User()
+            {
+                UserId = 2,
+                Name = "Test Account",
+                Email = "wccitest@gmail.com"
+            }
+            );
 
             modelBuilder.Entity<Medication>().HasData(
 
@@ -230,8 +237,28 @@ namespace FirstAide
                    Concentration = "10mg",
                    Purpose = "For sleep",
                    Dosage = "Every Night",
-                   Notes = "Take 30 minutes prior to sleep",
-               });
+                   Notes = "Take prior to sleep.",
+               },
+                new Medication()
+                {
+                    UserId = 1,
+                    MedicationId = 2,
+                    MedicationName = "Hydrocodone",
+                    Concentration = "20mg",
+                    Purpose = "For pain",
+                    Dosage = "Every Night",
+                    Notes = "Take with lunch.",
+                },
+                new Medication()
+                {
+                    UserId = 2,
+                    MedicationId = 3,
+                    MedicationName = "Lisinopril",
+                    Concentration = "30mg",
+                    Purpose = "For blood pressure.",
+                    Dosage = "Every other day",
+                    Notes = "NA",
+                });
 
             modelBuilder.Entity<Note>().HasData(
 
@@ -252,6 +279,16 @@ namespace FirstAide
                     EntryThree = 229,
                     EntryFour = 225,
                     EntryFive = 215
+                },
+                new UserWeight()
+                {
+                    UserWeightId = 2,
+                    UserId = 2,
+                    EntryOne = 180,
+                    EntryTwo = 176,
+                    EntryThree = 179,
+                    EntryFour = 174,
+                    EntryFive = 172
                 });
 
             base.OnModelCreating(modelBuilder);
