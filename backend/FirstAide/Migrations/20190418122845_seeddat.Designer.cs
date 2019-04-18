@@ -3,14 +3,16 @@ using FirstAide;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace FirstAide.Migrations
 {
     [DbContext(typeof(FirstAideContext))]
-    partial class FirstAideContextModelSnapshot : ModelSnapshot
+    [Migration("20190418122845_seeddat")]
+    partial class seeddat
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -160,7 +162,7 @@ namespace FirstAide.Migrations
 
                     b.HasData(
                         new { UserId = 1, Email = "anegroncsu@gmail.com", Name = "anegroncsu" },
-                        new { UserId = 2, Email = "wccitest@gmail.com", Name = "TestAccount" }
+                        new { UserId = 2, Email = "wccitest@gmail.com", Name = "Test Account" }
                     );
                 });
 

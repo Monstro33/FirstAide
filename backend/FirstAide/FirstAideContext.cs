@@ -13,6 +13,7 @@ namespace FirstAide
         public DbSet<Instructions> Instructions { get; set; }
         public DbSet<Emergency> Emergency { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<UserWeight> UserWeights { get; set; }
         public DbSet<Medication> Medications { get; set; }
         public DbSet<Note> Notes { get; set; }
 
@@ -27,9 +28,9 @@ namespace FirstAide
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            
+
             modelBuilder.Entity<AgeGroup>().HasData(
-                
+
                 new AgeGroup()
                 {
                     AgeGroupId = 1,
@@ -186,7 +187,7 @@ namespace FirstAide
                    AgeGroupId = 0,
                    EmergencyId = 0,
                    Details = "/markdown/Unconcious/UnconciousInfant/rescueBreathingInfant.md"
-               },            
+               },
 
                 new Instructions()
                 {
@@ -210,20 +211,21 @@ namespace FirstAide
                     Details = "/markdown/AllergicReaction/AllergicReactionInfant/shockInfant.md"
                 });
 
-                modelBuilder.Entity<User>().HasData(
+            modelBuilder.Entity<User>().HasData(
 
-                new User()
-                {
-                    UserId = 1,
-                    Name = "Sabrina Andrew",
-                    Email = "email@email.com"
-                    //Dob = "December 17, 1979",
-                    //Height = "66 inches",
-                    //Weight = "130 pounds",
-                    //BloodPressure = "130/70",
-                    //ChifComplaint = "Insomnia",
-                    //Allergies = "None"
-                });
+            new User()
+            {
+                UserId = 1,
+                Name = "anegroncsu",
+                Email = "anegroncsu@gmail.com"
+            },
+            new User()
+            {
+                UserId = 2,
+                Name = "TestAccount",
+                Email = "wccitest@gmail.com"
+            }
+            );
 
             modelBuilder.Entity<Medication>().HasData(
 
@@ -235,8 +237,28 @@ namespace FirstAide
                    Concentration = "10mg",
                    Purpose = "For sleep",
                    Dosage = "Every Night",
-                   Notes = "Take 30 minutes prior to sleep",
-               });
+                   Notes = "Take prior to sleep.",
+               },
+                new Medication()
+                {
+                    UserId = 1,
+                    MedicationId = 2,
+                    MedicationName = "Hydrocodone",
+                    Concentration = "20mg",
+                    Purpose = "For pain",
+                    Dosage = "Every Night",
+                    Notes = "Take with lunch.",
+                },
+                new Medication()
+                {
+                    UserId = 2,
+                    MedicationId = 3,
+                    MedicationName = "Lisinopril",
+                    Concentration = "30mg",
+                    Purpose = "For blood pressure.",
+                    Dosage = "Every other day",
+                    Notes = "NA",
+                });
 
             modelBuilder.Entity<Note>().HasData(
 
@@ -245,8 +267,29 @@ namespace FirstAide
                     UserId = 1,
                     NoteId = 1,
                     NoteInput = "Frequent headaches"
-                }
-        );
+                });
+
+            modelBuilder.Entity<UserWeight>().HasData(
+                new UserWeight()
+                {
+                    UserWeightId = 1,
+                    UserId = 1,
+                    EntryOne = 220,
+                    EntryTwo = 225,
+                    EntryThree = 229,
+                    EntryFour = 225,
+                    EntryFive = 215
+                },
+                new UserWeight()
+                {
+                    UserWeightId = 2,
+                    UserId = 2,
+                    EntryOne = 180,
+                    EntryTwo = 176,
+                    EntryThree = 179,
+                    EntryFour = 174,
+                    EntryFive = 172
+                });
 
             base.OnModelCreating(modelBuilder);
         }

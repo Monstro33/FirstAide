@@ -3,14 +3,16 @@ using FirstAide;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace FirstAide.Migrations
 {
     [DbContext(typeof(FirstAideContext))]
-    partial class FirstAideContextModelSnapshot : ModelSnapshot
+    [Migration("20190418010825_userWeight")]
+    partial class userWeight
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -119,9 +121,7 @@ namespace FirstAide.Migrations
                     b.ToTable("Medications");
 
                     b.HasData(
-                        new { MedicationId = 1, Concentration = "10mg", Dosage = "Every Night", MedicationName = "Lunesta", Notes = "Take prior to sleep.", Purpose = "For sleep", UserId = 1 },
-                        new { MedicationId = 2, Concentration = "20mg", Dosage = "Every Night", MedicationName = "Hydrocodone", Notes = "Take with lunch.", Purpose = "For pain", UserId = 1 },
-                        new { MedicationId = 3, Concentration = "30mg", Dosage = "Every other day", MedicationName = "Lisinopril", Notes = "NA", Purpose = "For blood pressure.", UserId = 2 }
+                        new { MedicationId = 1, Concentration = "10mg", Dosage = "Every Night", MedicationName = "Lunesta", Notes = "Take 30 minutes prior to sleep", Purpose = "For sleep", UserId = 1 }
                     );
                 });
 
@@ -159,8 +159,7 @@ namespace FirstAide.Migrations
                     b.ToTable("Users");
 
                     b.HasData(
-                        new { UserId = 1, Email = "anegroncsu@gmail.com", Name = "anegroncsu" },
-                        new { UserId = 2, Email = "wccitest@gmail.com", Name = "TestAccount" }
+                        new { UserId = 1, Email = "anegroncsu@gmail.com", Name = "anegroncsu" }
                     );
                 });
 
@@ -187,8 +186,7 @@ namespace FirstAide.Migrations
                     b.ToTable("UserWeights");
 
                     b.HasData(
-                        new { UserWeightId = 1, EntryFive = 215, EntryFour = 225, EntryOne = 220, EntryThree = 229, EntryTwo = 225, UserId = 1 },
-                        new { UserWeightId = 2, EntryFive = 172, EntryFour = 174, EntryOne = 180, EntryThree = 179, EntryTwo = 176, UserId = 2 }
+                        new { UserWeightId = 1, EntryFive = 215, EntryFour = 225, EntryOne = 220, EntryThree = 229, EntryTwo = 225, UserId = 1 }
                     );
                 });
 #pragma warning restore 612, 618

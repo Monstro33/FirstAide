@@ -7,7 +7,7 @@ export default class Auth {
   idToken;
   expiresAt;
   users;
-  currentUser;
+  currentUser = { userId: 1 };
 
   auth0 = new auth0.WebAuth({
     domain: "first-aide.auth0.com",
@@ -109,7 +109,7 @@ export default class Auth {
     this.expiresAt = expiresAt;
 
     // navigate to the home route
-    history.replace("/dashboard");
+    history.replace("/success");
   }
 
   renewSession() {
