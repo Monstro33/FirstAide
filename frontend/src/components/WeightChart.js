@@ -67,7 +67,7 @@ class WeightChart extends Component {
           </div>
         </div>
         <div class="card">
-          <div class="card-header card-chart card-header-warning">
+          <div class="card-header card-chart card-header-danger" style={{marginTop: "25px"}}>
             <div className="ct-chart" id="dailySalesChart">
               <ChartistGraph data={Data} type={"Line"} />
             </div>
