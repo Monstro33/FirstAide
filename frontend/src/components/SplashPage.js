@@ -17,11 +17,9 @@ class SplashPage extends Component {
               YES
             </button>
           </Link>
-          <Link to="/dashboard">
-            <button type="button" class="btn btn-default">
+            <button type="button" class="btn btn-default" onClick={this.props.auth.login}>
               No
             </button>
-          </Link>
         </div>
       </div>
     );

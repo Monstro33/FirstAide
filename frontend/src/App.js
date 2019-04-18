@@ -14,13 +14,9 @@ import Main from "./components/Main";
 import AddressForm from "./components/AddressForm";
 import Dashboard from "./components/Dashboard";
 import history from "./history";
+import Success from "./components/Success";
 
 class App extends Component {
-  constructor() {
-    super();
-    this.state = {};
-  }
-
   render() {
     const auth = new Auth();
 
@@ -42,7 +38,13 @@ class App extends Component {
           <Router history={history}>
             <Header auth={auth} history={history} />
             <div className="content">
-              <Route path="/" exact component={SplashPage} />
+              <Route
+                path="/"
+                exact
+                render={props => {
+                  return <SplashPage {...props} auth={auth} />;
+                }}
+              />
               <Route
                 path="/instructions/:emergencyId/:ageGroupId/:instructionsId"
                 component={Instructions}
@@ -57,15 +59,21 @@ class App extends Component {
                 }}
               />
               <Route
-                path="/dashboard"
+                path="/dashboard/"
                 render={props => {
-                  return <Dashboard {...props} auth={auth} />;
+                  return <Dashboard {...props} auth={auth} redirect="false" />;
                 }}
               />
               <Route
                 path="/medications"
                 render={props => {
                   return <MedicationsView {...props} auth={auth} />;
+                }}
+              />
+              <Route
+                path="/success"
+                render={props => {
+                  return <Success {...props} auth={auth} />;
                 }}
               />
             </div>

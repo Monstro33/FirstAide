@@ -91,6 +91,7 @@ class MedicationsView extends Component {
   }
 
   render() {
+    const { isAuthenticated, login } = this.props.auth;
     const userId = this.props.auth.currentUser.userId;
     const real = this.state.medications.map(function(med) {
       if (med.userId == userId) {
@@ -108,62 +109,67 @@ class MedicationsView extends Component {
       }
     });
 
-    return (
-      <div id="MedicationsPage">
-        <div id="MedicationsTitle">
-          <Typography
-            variant="h2"
-            color="inherit"
-            align="center"
-            //padding="20px"
-            //className={classes.grow}
-          >
-            Your Medications
-          </Typography>
+    if (!isAuthenticated()) {
+      login();
+      return null;
+    } else {
+      return (
+        <div id="MedicationsPage">
+          <div id="MedicationsTitle">
+            <Typography
+              variant="h2"
+              color="inherit"
+              align="center"
+              //padding="20px"
+              //className={classes.grow}
+            >
+              Your Medications
+            </Typography>
+          </div>
+          <div id="MedicationsTable">
+            <Paper className="paper">
+              <Table>
+                <TableHead>
+                  <TableRow>
+                    <TableCell>
+                      <h2>Medication</h2>
+                    </TableCell>
+                    <TableCell align="left">
+                      <h2>Concentration</h2>
+                    </TableCell>
+                    <TableCell align="left">
+                      <h2>Dosage</h2>
+                    </TableCell>
+                    <TableCell align="left">
+                      <h2>Purpose</h2>
+                    </TableCell>
+                    <TableCell align="left">
+                      <h2>Notes</h2>
+                    </TableCell>
+                  </TableRow>
+                </TableHead>
+                <TableBody>{real}</TableBody>
+              </Table>
+            </Paper>
+          </div>
+          <div id="MedicationsForm">
+            {
+              <MedicationsForm
+                setName={this.setName}
+                setConcentration={this.setConcentration}
+                setDosage={this.setDosage}
+                setPurpose={this.setPurpose}
+                setNotes={this.setNotes}
+                addMedication={this.addMedication}
+              />
+            }
+          </div>
+          <button id="MedicationsButton" onClick={this.onAdd}>
+            Add Medication
+          </button>
         </div>
-        <div id="MedicationsTable">
-          <Paper className="paper">
-            <Table>
-              <TableHead>
-                <TableRow>
-                  <TableCell>
-                    <h2>Medication</h2>
-                  </TableCell>
-                  <TableCell align="left">
-                    <h2>Concentration</h2>
-                  </TableCell>
-                  <TableCell align="left">
-                    <h2>Dosage</h2>
-                  </TableCell>
-                  <TableCell align="left">
-                    <h2>Purpose</h2>
-                  </TableCell>
-                  <TableCell align="left">
-                    <h2>Notes</h2>
-                  </TableCell>
-                </TableRow>
-              </TableHead>
-              <TableBody>{real}</TableBody>
-            </Table>
-          </Paper>
-        </div>
-        <div id="MedicationsForm">
-          {
-            <MedicationsForm
-              setName={this.setName}
-              setConcentration={this.setConcentration}
-              setDosage={this.setDosage}
-              setPurpose={this.setPurpose}
-              setNotes={this.setNotes}
-              addMedication={this.addMedication}
-            />
-          }
-        </div>
-        <button id="MedicationsButton" onClick={this.onAdd}>
-          Add Medication
-        </button>
-      </div>
-    );
+      );
+    }
   }
 }
 

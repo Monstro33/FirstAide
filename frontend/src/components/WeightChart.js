@@ -41,22 +41,6 @@ class WeightChart extends Component {
   }
 
   render() {
-    // const userId = this.props.userId;
-    // const CurrentUserWeights = this.state.userWeights.map(function(item) {
-    //   if (item.userId === userId) {
-    //     return [
-    //       item.entryOne,
-    //       item.entryTwo,
-    //       item.entryThree,
-    //       item.entryFour,
-    //       item.entryFive
-    //     ];
-    //   }
-    // });
-
-    // const CurrentWeight = CurrentUserWeights[0];
-    // console.log(CurrentWeight);
-
     const Data = {
       labels: ["1", "2", "3", "4", "5"],
       series: this.state.currentUserWeights
