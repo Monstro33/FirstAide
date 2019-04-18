@@ -68,7 +68,6 @@ class MedicationsForm extends Component {
           onChange={this.onNameChange}
           value={medicationName}
           type="text"
-          variant="filled"
         />
 
         <TextField
@@ -114,6 +113,7 @@ class MedicationsForm extends Component {
           value={medicationNotes}
           type="text"
         />
+        
       </form>
     );
   }

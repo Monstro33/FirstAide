@@ -36,10 +36,7 @@ class Dashboard extends Component {
                     <h3 class="card-title">120/60</h3>
                   </div>
                   <div class="card-footer">
-                    <div class="stats">
-                      {/* <i class="material-icons text-danger">warning</i>
-                    <a href="#pablo">Get More Space...</a> */}
-                    </div>
+                    <div class="stats" />
                   </div>
                 </div>
                 <WeightChart userId={this.state.userId} />

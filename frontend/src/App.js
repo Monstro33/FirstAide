@@ -9,7 +9,7 @@ import { createMuiTheme, MuiThemeProvider } from "@material-ui/core/styles";
 import red from "@material-ui/core/colors/red";
 import Auth from "./Auth/Auth";
 import Callback from "./components/Callback";
-import MedicationsView from "./components/MedicationsView";
+import Medications from "./components/Medications";
 import Main from "./components/Main";
 import AddressForm from "./components/AddressForm";
 import Dashboard from "./components/Dashboard";
@@ -67,7 +67,7 @@ class App extends Component {
               <Route
                 path="/medications"
                 render={props => {
-                  return <MedicationsView {...props} auth={auth} />;
+                  return <Medications {...props} auth={auth} />;
                 }}
               />
               <Route
