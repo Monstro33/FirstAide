@@ -41,6 +41,7 @@ namespace FirstAide
             services.AddScoped<IInstructionsRepository, InstructionsRepository>();
             services.AddScoped<IEmergencyRepository, EmergencyRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IUserWeightRepository, UserWeightRepository>();
             services.AddScoped<IMedicationRepository, MedicationRepository>();
             services.AddScoped<INoteRepository, NoteRepository>();
         }
