@@ -9,6 +9,7 @@
     "auth0-js": "^9.10.1",
     "material-dashboard": "^2.1.0",
     "material-ui": "^0.20.2",
+    "material-ui-pickers": "^2.2.4",
     "react": "^16.8.6",
     "react-advanced-form": "^1.6.7",
     "react-dom": "^16.8.6",
