@@ -20,10 +20,9 @@
 - Check to see if the child is unconscious, but breathing, and has no other life-threatening conditions.
 - Talk to the child to assess if they are responsive.
 - Check for breathing by placing your cheek near the nose and mouth of the child to feel their breath.
-- If the child is BREATHING ADEQUATELY and unconscious or semi-conscious, you can place them in the recovery position.
-- If the child HAS A PULSE but is not breathing or not breathing adequately:
+- If the child is BREATHING ADEQUATELY and unconscious or semi-conscious, you can place them in the recovery position:
 
-[Go to Rescue Breathing](/instructions/0/0/13)
+[Go to Recovery Position](/instructions/0/0/12)
 
 <h2>CHECK FOR PULSE</h2>
 
