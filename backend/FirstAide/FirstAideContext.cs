@@ -222,7 +222,7 @@ namespace FirstAide
             new User()
             {
                 UserId = 2,
-                Name = "Test Account",
+                Name = "TestAccount",
                 Email = "wccitest@gmail.com"
             }
             );

@@ -24,20 +24,32 @@ class WeightChart extends Component {
   setCurrentUserWeight() {
     const userId = this.props.userId;
     let CurrentWeight = 0;
-    const CurrentUserWeights = this.state.userWeights.map(function(item) {
+    let CurrentUserWeights = [];
+
+    this.state.userWeights.forEach(function(item) {
       if (item.userId === userId) {
         CurrentWeight = item.entryFive;
-        return [
+        CurrentUserWeights = [[
           item.entryOne,
           item.entryTwo,
           item.entryThree,
           item.entryFour,
           item.entryFive
-        ];
+        ]];
+        // return [
+        //   item.entryOne,
+        //   item.entryTwo,
+        //   item.entryThree,
+        //   item.entryFour,
+        //   item.entryFive
+        // ];
       }
     });
-
-    this.setState({ currentUserWeights: CurrentUserWeights, currentWeight: CurrentWeight });
+    console.log(CurrentUserWeights);
+    this.setState({
+      currentUserWeights: CurrentUserWeights,
+      currentWeight: CurrentWeight
+    });
   }
 
   render() {
@@ -67,7 +79,10 @@ class WeightChart extends Component {
           </div>
         </div>
         <div class="card">
-          <div class="card-header card-chart card-header-danger" style={{marginTop: "25px"}}>
+          <div
+            class="card-header card-chart card-header-danger"
+            style={{ marginTop: "25px" }}
+          >
             <div className="ct-chart" id="dailySalesChart">
               <ChartistGraph data={Data} type={"Line"} />
             </div>
